@@ -92,7 +92,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(717, 85);
+            label6.Location = new Point(555, 73);
             label6.Name = "label6";
             label6.Size = new Size(72, 19);
             label6.TabIndex = 3;
@@ -102,19 +102,20 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(271, 34);
+            pictureBox2.Location = new Point(248, 18);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(52, 85);
+            pictureBox2.Size = new Size(44, 97);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-11, 1);
+            pictureBox1.Location = new Point(9, 7);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(168, 124);
+            pictureBox1.Size = new Size(158, 114);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -123,10 +124,10 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Gadugi", 72F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(135, 8);
+            label4.Font = new Font("Gadugi", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(163, 27);
             label4.Name = "label4";
-            label4.Size = new Size(610, 115);
+            label4.Size = new Size(409, 77);
             label4.TabIndex = 1;
             label4.Text = "Ch  ssBurger";
             // 
@@ -136,7 +137,7 @@
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(Alterar);
             tabControl1.Controls.Add(tabPage3);
-            tabControl1.Font = new Font("Gadugi", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            tabControl1.Font = new Font("Gadugi", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             tabControl1.Location = new Point(12, 187);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -149,10 +150,10 @@
             tabPage1.BackgroundImageLayout = ImageLayout.None;
             tabPage1.Controls.Add(panel3);
             tabPage1.Font = new Font("Segoe UI Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            tabPage1.Location = new Point(4, 30);
+            tabPage1.Location = new Point(4, 31);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(900, 259);
+            tabPage1.Size = new Size(900, 258);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Pedidos";
             // 
@@ -190,7 +191,7 @@
             button1.Font = new Font("Gadugi", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleRight;
-            button1.Location = new Point(26, 94);
+            button1.Location = new Point(14, 94);
             button1.Name = "button1";
             button1.Size = new Size(169, 29);
             button1.TabIndex = 0;
@@ -202,7 +203,7 @@
             // 
             comboBox1.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(216, 55);
+            comboBox1.Location = new Point(216, 58);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(256, 27);
             comboBox1.TabIndex = 4;
@@ -212,7 +213,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Gadugi", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(14, 15);
+            label2.Location = new Point(14, 20);
             label2.Name = "label2";
             label2.Size = new Size(196, 28);
             label2.TabIndex = 2;
@@ -231,7 +232,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Gadugi", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(14, 50);
+            label1.Location = new Point(14, 54);
             label1.Name = "label1";
             label1.Size = new Size(201, 28);
             label1.TabIndex = 1;
@@ -241,10 +242,10 @@
             // 
             tabPage2.BackColor = Color.FromArgb(247, 213, 169);
             tabPage2.Controls.Add(panel4);
-            tabPage2.Location = new Point(4, 30);
+            tabPage2.Location = new Point(4, 31);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(900, 259);
+            tabPage2.Size = new Size(900, 258);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Lanches";
             // 
@@ -265,22 +266,22 @@
             // textBox5
             // 
             textBox5.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox5.Location = new Point(264, 54);
+            textBox5.Location = new Point(216, 54);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(256, 107);
+            textBox5.Size = new Size(281, 26);
             textBox5.TabIndex = 7;
             // 
             // txt_lanches
             // 
             txt_lanches.BackColor = SystemColors.Window;
             txt_lanches.Font = new Font("Gadugi", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txt_lanches.Location = new Point(543, 17);
+            txt_lanches.Location = new Point(516, 17);
             txt_lanches.Multiline = true;
             txt_lanches.Name = "txt_lanches";
             txt_lanches.ReadOnly = true;
             txt_lanches.ScrollBars = ScrollBars.Vertical;
-            txt_lanches.Size = new Size(314, 179);
+            txt_lanches.Size = new Size(341, 179);
             txt_lanches.TabIndex = 6;
             txt_lanches.Text = "Lanches Cadastrados:";
             // 
@@ -291,7 +292,7 @@
             button2.Font = new Font("Gadugi", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.Image = (Image)resources.GetObject("button2.Image");
             button2.ImageAlign = ContentAlignment.MiddleRight;
-            button2.Location = new Point(303, 172);
+            button2.Location = new Point(14, 99);
             button2.Name = "button2";
             button2.Size = new Size(169, 29);
             button2.TabIndex = 0;
@@ -304,18 +305,18 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Gadugi", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(13, 15);
+            label3.Location = new Point(13, 16);
             label3.Name = "label3";
-            label3.Size = new Size(200, 28);
+            label3.Size = new Size(195, 28);
             label3.TabIndex = 2;
-            label3.Text = "Nome do Lanche:";
+            label3.Text = "Nome do lanche:";
             // 
             // textBox4
             // 
             textBox4.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.Location = new Point(216, 17);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(304, 27);
+            textBox4.Size = new Size(281, 27);
             textBox4.TabIndex = 3;
             // 
             // label5
@@ -323,20 +324,20 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Gadugi", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(14, 52);
+            label5.Location = new Point(15, 52);
             label5.Name = "label5";
-            label5.Size = new Size(244, 28);
+            label5.Size = new Size(136, 28);
             label5.TabIndex = 1;
-            label5.Text = "Igredientes utilizados:";
+            label5.Text = "Igredientes:";
             label5.Click += label5_Click;
             // 
             // Alterar
             // 
             Alterar.BackColor = Color.FromArgb(247, 213, 169);
-            Alterar.Location = new Point(4, 30);
+            Alterar.Location = new Point(4, 31);
             Alterar.Name = "Alterar";
             Alterar.Padding = new Padding(3);
-            Alterar.Size = new Size(900, 259);
+            Alterar.Size = new Size(900, 258);
             Alterar.TabIndex = 2;
             Alterar.Text = "Alterar";
             // 
@@ -344,9 +345,9 @@
             // 
             tabPage3.BackColor = Color.FromArgb(247, 213, 169);
             tabPage3.Controls.Add(textBox2);
-            tabPage3.Location = new Point(4, 30);
+            tabPage3.Location = new Point(4, 31);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(900, 259);
+            tabPage3.Size = new Size(900, 258);
             tabPage3.TabIndex = 3;
             tabPage3.Text = "Sobre";
             // 
