@@ -37,6 +37,7 @@
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             panel3 = new Panel();
+            textBox3 = new TextBox();
             button1 = new Button();
             comboBox1 = new ComboBox();
             label2 = new Label();
@@ -80,9 +81,9 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(244, 42);
+            pictureBox2.Location = new Point(271, 34);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(42, 62);
+            pictureBox2.Size = new Size(52, 85);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
@@ -101,10 +102,10 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Gadugi", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(156, 29);
+            label4.Font = new Font("Gadugi", 72F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(135, 8);
             label4.Name = "label4";
-            label4.Size = new Size(409, 77);
+            label4.Size = new Size(610, 115);
             label4.TabIndex = 1;
             label4.Text = "Ch  ssBurger";
             // 
@@ -113,7 +114,7 @@
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(tabPage3);
-            tabControl1.Font = new Font("Gadugi", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            tabControl1.Font = new Font("Gadugi", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             tabControl1.Location = new Point(12, 187);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -126,16 +127,17 @@
             tabPage1.BackgroundImageLayout = ImageLayout.None;
             tabPage1.Controls.Add(panel3);
             tabPage1.Font = new Font("Segoe UI Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            tabPage1.Location = new Point(4, 30);
+            tabPage1.Location = new Point(4, 34);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(900, 259);
+            tabPage1.Size = new Size(900, 255);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Pedidos";
             // 
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(251, 234, 212);
+            panel3.Controls.Add(textBox3);
             panel3.Controls.Add(button1);
             panel3.Controls.Add(comboBox1);
             panel3.Controls.Add(label2);
@@ -146,16 +148,26 @@
             panel3.Size = new Size(877, 213);
             panel3.TabIndex = 5;
             // 
+            // textBox3
+            // 
+            textBox3.Font = new Font("Gadugi", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox3.Location = new Point(491, 20);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
+            textBox3.Size = new Size(366, 176);
+            textBox3.TabIndex = 6;
+            // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(239, 171, 82);
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Gadugi", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Font = new Font("Gadugi", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleRight;
-            button1.Location = new Point(302, 93);
+            button1.Location = new Point(26, 91);
             button1.Name = "button1";
-            button1.Size = new Size(208, 32);
+            button1.Size = new Size(169, 29);
             button1.TabIndex = 0;
             button1.Text = "Cadastrar Pedido";
             button1.TextAlign = ContentAlignment.MiddleLeft;
@@ -163,38 +175,40 @@
             // 
             // comboBox1
             // 
+            comboBox1.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(230, 54);
+            comboBox1.Location = new Point(216, 55);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(365, 23);
+            comboBox1.Size = new Size(256, 27);
             comboBox1.TabIndex = 4;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Gadugi", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Gadugi", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label2.Location = new Point(14, 15);
             label2.Name = "label2";
-            label2.Size = new Size(208, 28);
+            label2.Size = new Size(196, 28);
             label2.TabIndex = 2;
             label2.Text = "Nome do cliente:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(230, 19);
+            textBox1.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(216, 20);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(365, 23);
+            textBox1.Size = new Size(256, 27);
             textBox1.TabIndex = 3;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Gadugi", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Gadugi", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(14, 50);
             label1.Name = "label1";
-            label1.Size = new Size(214, 28);
+            label1.Size = new Size(201, 28);
             label1.TabIndex = 1;
             label1.Text = "Lanche escolhido:";
             // 
@@ -203,10 +217,10 @@
             tabPage2.BackColor = Color.FromArgb(247, 213, 169);
             tabPage2.Controls.Add(textBox2);
             tabPage2.Controls.Add(label3);
-            tabPage2.Location = new Point(4, 30);
+            tabPage2.Location = new Point(4, 34);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(900, 259);
+            tabPage2.Size = new Size(900, 255);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Lanches";
             // 
@@ -214,7 +228,7 @@
             // 
             textBox2.Location = new Point(257, 48);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(365, 33);
+            textBox2.Size = new Size(365, 35);
             textBox2.TabIndex = 5;
             // 
             // label3
@@ -230,9 +244,9 @@
             // tabPage3
             // 
             tabPage3.BackColor = Color.FromArgb(247, 213, 169);
-            tabPage3.Location = new Point(4, 30);
+            tabPage3.Location = new Point(4, 34);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(900, 259);
+            tabPage3.Size = new Size(900, 255);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Igredientes";
             // 
@@ -280,5 +294,6 @@
         private PictureBox pictureBox2;
         private Label label4;
         private Label label2;
+        public TextBox textBox3;
     }
 }
