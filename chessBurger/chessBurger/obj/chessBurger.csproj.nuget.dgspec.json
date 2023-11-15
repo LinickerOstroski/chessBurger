@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iksortso K2\\Desktop\\chessBurguer\\chessBurger\\chessBurger\\chessBurger.csproj": {}
+    "C:\\Users\\Iksortso K2\\Desktop\\chessBurger\\chessBurger\\chessBurger\\chessBurger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iksortso K2\\Desktop\\chessBurguer\\chessBurger\\chessBurger\\chessBurger.csproj": {
+    "C:\\Users\\Iksortso K2\\Desktop\\chessBurger\\chessBurger\\chessBurger\\chessBurger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iksortso K2\\Desktop\\chessBurguer\\chessBurger\\chessBurger\\chessBurger.csproj",
+        "projectUniqueName": "C:\\Users\\Iksortso K2\\Desktop\\chessBurger\\chessBurger\\chessBurger\\chessBurger.csproj",
         "projectName": "chessBurger",
-        "projectPath": "C:\\Users\\Iksortso K2\\Desktop\\chessBurguer\\chessBurger\\chessBurger\\chessBurger.csproj",
+        "projectPath": "C:\\Users\\Iksortso K2\\Desktop\\chessBurger\\chessBurger\\chessBurger\\chessBurger.csproj",
         "packagesPath": "C:\\Users\\Iksortso K2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iksortso K2\\Desktop\\chessBurguer\\chessBurger\\chessBurger\\obj\\",
+        "outputPath": "C:\\Users\\Iksortso K2\\Desktop\\chessBurger\\chessBurger\\chessBurger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Iksortso K2\\AppData\\Roaming\\NuGet\\NuGet.Config",
