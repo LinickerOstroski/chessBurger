@@ -1,0 +1,16 @@
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\bin\Debug\net6.0-windows\chessBurger.exe
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\bin\Debug\net6.0-windows\chessBurger.deps.json
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\bin\Debug\net6.0-windows\chessBurger.runtimeconfig.json
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\bin\Debug\net6.0-windows\chessBurger.dll
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\bin\Debug\net6.0-windows\chessBurger.pdb
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.Form1.resources
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.csproj.GenerateResource.cache
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.AssemblyInfoInputs.cache
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.AssemblyInfo.cs
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.csproj.CoreCompileInputs.cache
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.dll
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\refint\chessBurger.dll
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.pdb
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.genruntimeconfig.cache
+C:\Users\Iksortso K2\Desktop\chessBurguer\chessBurger\chessBurger\obj\Debug\net6.0-windows\ref\chessBurger.dll
