@@ -273,4 +273,24 @@
         AElFTkSuQmCC
 </value>
   </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Chess Burger - Sistema de Gestão de Pedidos para Hamburguerias
+
+Bem-vindo ao Chess Burger, um software desktop desenvolvido usando a plataforma Windows Forms. O Chess Burger tem como objetivo simplificar e otimizar o processo de gestão de pedidos e lanches para hamburguerias, proporcionando uma experiência eficiente tanto para os clientes quanto para a equipe.
+
+Recursos do software:
+
+Cadastro de Pedidos: Utilize a tabela pedidos para realizar cadastro dos pedidos que são feitos em tempo real.
+
+Interface Amigável:
+
+Desfrute de uma interface de usuário intuitiva e amigável, projetada para facilitar o uso por parte da equipe.
+
+Desenvolvedores:
+
+Línicker Ostroski Mota
+Yago Aguiar
+
+O Chess Burger caminha para ser um projeto de nível mercado, enquanto passa pela fase de desenvolvimento, consolidando-se como uma solução robusta e inovadora para a gestão eficiente de pedidos e lanches em hamburguerias. A dedicação e expertise dos desenvolvedores, Línicker Ostroski Mota e Yago Aguiar, refletem-se em cada detalhe do software, que não apenas atende às demandas atuais do setor, mas também antecipa e se adapta às futuras necessidades do mercado. Com um compromisso inabalável com a excelência, o Chess Burger não é apenas um sistema, mas uma parceria estratégica para hamburguerias que buscam maximizar sua eficiência operacional e proporcionar uma experiência excepcional aos clientes. Ao investir no Chess Burger, você está escolhendo uma solução que está moldando os padrões da indústria e preparando o terreno para o sucesso duradouro no competitivo mercado de alimentos e serviços.</value>
+  </data>
 </root>

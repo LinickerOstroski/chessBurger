@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
             panel2 = new Panel();
             panel1 = new Panel();
+            label6 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             label4 = new Label();
@@ -53,7 +54,7 @@
             label5 = new Label();
             Alterar = new TabPage();
             tabPage3 = new TabPage();
-            label6 = new Label();
+            textBox2 = new TextBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -63,6 +64,7 @@
             panel3.SuspendLayout();
             tabPage2.SuspendLayout();
             panel4.SuspendLayout();
+            tabPage3.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -85,6 +87,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(940, 127);
             panel1.TabIndex = 2;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(717, 85);
+            label6.Name = "label6";
+            label6.Size = new Size(72, 19);
+            label6.TabIndex = 3;
+            label6.Text = "alpha 0.1";
             // 
             // pictureBox2
             // 
@@ -155,7 +167,7 @@
             panel3.Controls.Add(label1);
             panel3.Location = new Point(6, 22);
             panel3.Name = "panel3";
-            panel3.Size = new Size(877, 213);
+            panel3.Size = new Size(888, 213);
             panel3.TabIndex = 5;
             // 
             // txt_pedidos
@@ -166,6 +178,7 @@
             txt_pedidos.Multiline = true;
             txt_pedidos.Name = "txt_pedidos";
             txt_pedidos.ReadOnly = true;
+            txt_pedidos.ScrollBars = ScrollBars.Vertical;
             txt_pedidos.Size = new Size(366, 176);
             txt_pedidos.TabIndex = 6;
             txt_pedidos.Text = "Pedidos Cadastrados:";
@@ -244,9 +257,9 @@
             panel4.Controls.Add(label3);
             panel4.Controls.Add(textBox4);
             panel4.Controls.Add(label5);
-            panel4.Location = new Point(10, 21);
+            panel4.Location = new Point(6, 21);
             panel4.Name = "panel4";
-            panel4.Size = new Size(877, 213);
+            panel4.Size = new Size(888, 213);
             panel4.TabIndex = 6;
             // 
             // textBox5
@@ -266,6 +279,7 @@
             txt_lanches.Multiline = true;
             txt_lanches.Name = "txt_lanches";
             txt_lanches.ReadOnly = true;
+            txt_lanches.ScrollBars = ScrollBars.Vertical;
             txt_lanches.Size = new Size(314, 179);
             txt_lanches.TabIndex = 6;
             txt_lanches.Text = "Lanches Cadastrados:";
@@ -318,32 +332,39 @@
             // 
             // Alterar
             // 
+            Alterar.BackColor = Color.FromArgb(247, 213, 169);
             Alterar.Location = new Point(4, 30);
             Alterar.Name = "Alterar";
             Alterar.Padding = new Padding(3);
             Alterar.Size = new Size(900, 259);
             Alterar.TabIndex = 2;
             Alterar.Text = "Alterar";
-            Alterar.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
+            tabPage3.BackColor = Color.FromArgb(247, 213, 169);
+            tabPage3.Controls.Add(textBox2);
             tabPage3.Location = new Point(4, 30);
             tabPage3.Name = "tabPage3";
             tabPage3.Size = new Size(900, 259);
             tabPage3.TabIndex = 3;
             tabPage3.Text = "Sobre";
-            tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // textBox2
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(717, 85);
-            label6.Name = "label6";
-            label6.Size = new Size(72, 19);
-            label6.TabIndex = 3;
-            label6.Text = "alpha 0.1";
+            textBox2.AccessibleRole = AccessibleRole.OutlineButton;
+            textBox2.BackColor = SystemColors.Window;
+            textBox2.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox2.ForeColor = Color.FromArgb(64, 64, 64);
+            textBox2.Location = new Point(13, 14);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
+            textBox2.ScrollBars = ScrollBars.Vertical;
+            textBox2.Size = new Size(872, 231);
+            textBox2.TabIndex = 4;
+            textBox2.Text = resources.GetString("textBox2.Text");
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // FormJanelaPrincipal
             // 
@@ -369,6 +390,8 @@
             tabPage2.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            tabPage3.ResumeLayout(false);
+            tabPage3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -398,5 +421,6 @@
         private TabPage Alterar;
         private TabPage tabPage3;
         private Label label6;
+        private TextBox textBox2;
     }
 }
