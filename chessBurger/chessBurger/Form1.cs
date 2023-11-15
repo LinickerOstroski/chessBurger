@@ -1,8 +1,8 @@
 namespace chessBurger
 {
-    public partial class Form1 : Form
+    public partial class FormJanelaPrincipal : Form
     {
-        public Form1()
+        public FormJanelaPrincipal()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace chessBurger
 {
-    partial class Form1
+    partial class FormJanelaPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,92 +28,111 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            panel1 = new Panel();
-            pictureBox1 = new PictureBox();
-            label1 = new Label();
             panel2 = new Panel();
-            panel4 = new Panel();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
+            label1 = new Label();
+            button1 = new Button();
+            tabPage2 = new TabPage();
+            tabPage3 = new TabPage();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(43, 83, 110);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(932, 76);
-            panel1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(826, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(106, 70);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Consolas", 36F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.Black;
-            label1.Location = new Point(219, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(310, 56);
-            label1.TabIndex = 2;
-            label1.Text = "ChessBurger";
             // 
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(78, 116, 145);
-            panel2.Controls.Add(panel4);
-            panel2.Location = new Point(0, 0);
+            panel2.Location = new Point(0, 1);
             panel2.Name = "panel2";
-            panel2.Size = new Size(216, 493);
+            panel2.Size = new Size(943, 167);
             panel2.TabIndex = 1;
             // 
-            // panel4
+            // tabControl1
             // 
-            panel4.BackColor = Color.FromArgb(96, 132, 162);
-            panel4.Location = new Point(-13, -5);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(67, 501);
-            panel4.TabIndex = 2;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Location = new Point(12, 187);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(558, 293);
+            tabControl1.TabIndex = 2;
             // 
-            // Form1
+            // tabPage1
+            // 
+            tabPage1.Controls.Add(label1);
+            tabPage1.Controls.Add(button1);
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(550, 265);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Pedidos";
+            tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(136, 12);
+            label1.Name = "label1";
+            label1.Size = new Size(269, 32);
+            label1.TabIndex = 1;
+            label1.Text = "Registrar novo pedido";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(227, 225);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "Registrar";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            tabPage2.Location = new Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(550, 265);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Lanches";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Size = new Size(550, 265);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "Igredientes";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // FormJanelaPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(25, 66, 93);
             ClientSize = new Size(932, 492);
+            Controls.Add(tabControl1);
             Controls.Add(panel2);
-            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
-            Name = "Form1";
+            Name = "FormJanelaPrincipal";
             Text = "ChessBurger";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Panel panel1;
         private Panel panel2;
-        private Panel panel4;
+        private TabControl tabControl1;
+        private TabPage tabPage1;
+        private TabPage tabPage2;
+        private TabPage tabPage3;
+        private Button button1;
         private Label label1;
-        private PictureBox pictureBox1;
     }
 }
