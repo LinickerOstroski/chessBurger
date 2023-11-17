@@ -258,7 +258,7 @@
             // 
             // btn_finalizarPedido
             // 
-            btn_finalizarPedido.BackColor = Color.FromArgb(255, 224, 192);
+            btn_finalizarPedido.BackColor = Color.FromArgb(255, 192, 128);
             btn_finalizarPedido.FlatStyle = FlatStyle.Flat;
             btn_finalizarPedido.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
             btn_finalizarPedido.Image = (Image)resources.GetObject("btn_finalizarPedido.Image");
@@ -390,7 +390,7 @@
             // 
             // btn_removerLanche
             // 
-            btn_removerLanche.BackColor = Color.FromArgb(255, 224, 192);
+            btn_removerLanche.BackColor = Color.FromArgb(255, 192, 128);
             btn_removerLanche.FlatStyle = FlatStyle.Flat;
             btn_removerLanche.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
             btn_removerLanche.Location = new Point(753, 218);
@@ -452,12 +452,13 @@
             panel7.Name = "panel7";
             panel7.Size = new Size(434, 220);
             panel7.TabIndex = 7;
+            panel7.Paint += panel7_Paint;
             // 
             // panel8
             // 
             panel8.BackColor = Color.FromArgb(255, 224, 192);
             panel8.Controls.Add(btn_cadastrarLanche);
-            panel8.Location = new Point(153, 178);
+            panel8.Location = new Point(154, 174);
             panel8.Name = "panel8";
             panel8.Size = new Size(119, 36);
             panel8.TabIndex = 5;
@@ -469,7 +470,7 @@
             btn_cadastrarLanche.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_cadastrarLanche.Image = (Image)resources.GetObject("btn_cadastrarLanche.Image");
             btn_cadastrarLanche.ImageAlign = ContentAlignment.MiddleRight;
-            btn_cadastrarLanche.Location = new Point(4, 6);
+            btn_cadastrarLanche.Location = new Point(8, 5);
             btn_cadastrarLanche.Name = "btn_cadastrarLanche";
             btn_cadastrarLanche.Size = new Size(103, 26);
             btn_cadastrarLanche.TabIndex = 0;
@@ -480,10 +481,11 @@
             // 
             // txt_igredientes
             // 
-            txt_igredientes.Location = new Point(8, 125);
+            txt_igredientes.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_igredientes.Location = new Point(10, 126);
             txt_igredientes.Multiline = true;
             txt_igredientes.Name = "txt_igredientes";
-            txt_igredientes.Size = new Size(411, 40);
+            txt_igredientes.Size = new Size(409, 42);
             txt_igredientes.TabIndex = 8;
             // 
             // label7
@@ -491,7 +493,7 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(76, 97);
+            label7.Location = new Point(10, 95);
             label7.Name = "label7";
             label7.Size = new Size(221, 25);
             label7.TabIndex = 7;

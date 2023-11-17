@@ -101,6 +101,7 @@ namespace chessBurger
 
         private void FormJanelaPrincipal_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Bem vindo");
             listaCOBLanches();
             listaGridPedidos();
             listaGridLanches();
@@ -139,7 +140,7 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             Lanche novoLanche = new Lanche();
-           
+
 
             bool retorno;
 
@@ -190,6 +191,11 @@ namespace chessBurger
             }// fim if Ok Cancela
             else
                 MessageBox.Show("Operação cancelada");
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
