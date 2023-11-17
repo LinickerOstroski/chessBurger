@@ -38,13 +38,15 @@
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
             panel3 = new Panel();
+            panel9 = new Panel();
+            txt_filtrarPedido = new TextBox();
+            label8 = new Label();
             panel6 = new Panel();
             button1 = new Button();
+            btn_finalizarPedido = new Button();
             tabControl2 = new TabControl();
             tabPage4 = new TabPage();
-            cob_escolherPedidos = new ComboBox();
-            btn_finalizarPedido = new Button();
-            tabPage5 = new TabPage();
+            dgPedidos = new DataGridView();
             panel5 = new Panel();
             label2 = new Label();
             label1 = new Label();
@@ -69,7 +71,6 @@
             Alterar = new TabPage();
             Sobre = new TabPage();
             textBox2 = new TextBox();
-            dgPedidos = new DataGridView();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -77,9 +78,11 @@
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             panel3.SuspendLayout();
+            panel9.SuspendLayout();
             panel6.SuspendLayout();
             tabControl2.SuspendLayout();
             tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgPedidos).BeginInit();
             panel5.SuspendLayout();
             Lanches.SuspendLayout();
             panel4.SuspendLayout();
@@ -88,7 +91,6 @@
             panel7.SuspendLayout();
             panel8.SuspendLayout();
             Sobre.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgPedidos).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -109,7 +111,7 @@
             panel1.Controls.Add(label4);
             panel1.Location = new Point(0, -5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(955, 118);
+            panel1.Size = new Size(955, 115);
             panel1.TabIndex = 2;
             panel1.Paint += panel1_Paint;
             // 
@@ -140,7 +142,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(12, 7);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(158, 104);
+            pictureBox1.Size = new Size(158, 101);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -164,10 +166,10 @@
             tabControl1.Controls.Add(Alterar);
             tabControl1.Controls.Add(Sobre);
             tabControl1.Font = new Font("Microsoft Sans Serif", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point);
-            tabControl1.Location = new Point(12, 130);
+            tabControl1.Location = new Point(10, 130);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(920, 317);
+            tabControl1.Size = new Size(920, 316);
             tabControl1.TabIndex = 2;
             // 
             // Pedidos
@@ -180,7 +182,7 @@
             Pedidos.Name = "Pedidos";
             Pedidos.Padding = new Padding(3);
             Pedidos.RightToLeft = RightToLeft.No;
-            Pedidos.Size = new Size(912, 280);
+            Pedidos.Size = new Size(912, 279);
             Pedidos.TabIndex = 0;
             Pedidos.Text = "Pedidos";
             // 
@@ -189,7 +191,9 @@
             panel3.BackColor = Color.FromArgb(251, 234, 212);
             panel3.BackgroundImageLayout = ImageLayout.None;
             panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(panel9);
             panel3.Controls.Add(panel6);
+            panel3.Controls.Add(btn_finalizarPedido);
             panel3.Controls.Add(tabControl2);
             panel3.Controls.Add(panel5);
             panel3.Location = new Point(6, 20);
@@ -197,13 +201,43 @@
             panel3.Size = new Size(888, 248);
             panel3.TabIndex = 5;
             // 
+            // panel9
+            // 
+            panel9.BackColor = SystemColors.Window;
+            panel9.Controls.Add(txt_filtrarPedido);
+            panel9.Controls.Add(label8);
+            panel9.Location = new Point(11, 170);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(415, 42);
+            panel9.TabIndex = 9;
+            // 
+            // txt_filtrarPedido
+            // 
+            txt_filtrarPedido.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_filtrarPedido.Location = new Point(167, 8);
+            txt_filtrarPedido.Name = "txt_filtrarPedido";
+            txt_filtrarPedido.Size = new Size(233, 27);
+            txt_filtrarPedido.TabIndex = 6;
+            txt_filtrarPedido.TextChanged += txt_filtrarPedido_TextChanged;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Location = new Point(7, 8);
+            label8.Name = "label8";
+            label8.Size = new Size(154, 24);
+            label8.TabIndex = 5;
+            label8.Text = "Filtrar por cliente:";
+            // 
             // panel6
             // 
             panel6.BackColor = Color.FromArgb(255, 224, 192);
             panel6.Controls.Add(button1);
-            panel6.Location = new Point(18, 135);
+            panel6.Location = new Point(20, 117);
             panel6.Name = "panel6";
-            panel6.Size = new Size(187, 44);
+            panel6.Size = new Size(176, 39);
             panel6.TabIndex = 5;
             // 
             // button1
@@ -213,75 +247,64 @@
             button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleRight;
-            button1.Location = new Point(10, 8);
+            button1.Location = new Point(6, 5);
             button1.Name = "button1";
-            button1.Size = new Size(166, 29);
+            button1.Size = new Size(163, 28);
             button1.TabIndex = 0;
             button1.Text = "Cadastrar Pedido";
             button1.TextAlign = ContentAlignment.MiddleLeft;
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // tabControl2
-            // 
-            tabControl2.Alignment = TabAlignment.Bottom;
-            tabControl2.Controls.Add(tabPage4);
-            tabControl2.Controls.Add(tabPage5);
-            tabControl2.Font = new Font("Microsoft Sans Serif", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
-            tabControl2.Location = new Point(506, 20);
-            tabControl2.Multiline = true;
-            tabControl2.Name = "tabControl2";
-            tabControl2.SelectedIndex = 0;
-            tabControl2.Size = new Size(379, 211);
-            tabControl2.TabIndex = 8;
-            // 
-            // tabPage4
-            // 
-            tabPage4.Controls.Add(dgPedidos);
-            tabPage4.Controls.Add(cob_escolherPedidos);
-            tabPage4.Controls.Add(btn_finalizarPedido);
-            tabPage4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tabPage4.Location = new Point(4, 4);
-            tabPage4.Name = "tabPage4";
-            tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(371, 180);
-            tabPage4.TabIndex = 0;
-            tabPage4.Text = "Pedidos Cadastrados";
-            tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // cob_escolherPedidos
-            // 
-            cob_escolherPedidos.DropDownHeight = 100;
-            cob_escolherPedidos.FormattingEnabled = true;
-            cob_escolherPedidos.IntegralHeight = false;
-            cob_escolherPedidos.Location = new Point(8, 5);
-            cob_escolherPedidos.Name = "cob_escolherPedidos";
-            cob_escolherPedidos.Size = new Size(240, 28);
-            cob_escolherPedidos.TabIndex = 3;
-            // 
             // btn_finalizarPedido
             // 
             btn_finalizarPedido.BackColor = Color.FromArgb(255, 224, 192);
             btn_finalizarPedido.FlatStyle = FlatStyle.Flat;
             btn_finalizarPedido.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_finalizarPedido.Location = new Point(254, 6);
+            btn_finalizarPedido.Location = new Point(750, 217);
             btn_finalizarPedido.Name = "btn_finalizarPedido";
-            btn_finalizarPedido.Size = new Size(109, 26);
+            btn_finalizarPedido.Size = new Size(129, 24);
             btn_finalizarPedido.TabIndex = 2;
-            btn_finalizarPedido.Text = "finalizar";
+            btn_finalizarPedido.Text = "Finalizar Pedido";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
             // 
-            // tabPage5
+            // tabControl2
             // 
-            tabPage5.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tabPage5.Location = new Point(4, 4);
-            tabPage5.Name = "tabPage5";
-            tabPage5.Padding = new Padding(3);
-            tabPage5.Size = new Size(371, 180);
-            tabPage5.TabIndex = 1;
-            tabPage5.Text = "Tempo do pedido";
-            tabPage5.UseVisualStyleBackColor = true;
+            tabControl2.Alignment = TabAlignment.Bottom;
+            tabControl2.Controls.Add(tabPage4);
+            tabControl2.Font = new Font("Microsoft Sans Serif", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
+            tabControl2.Location = new Point(432, 20);
+            tabControl2.Multiline = true;
+            tabControl2.Name = "tabControl2";
+            tabControl2.SelectedIndex = 0;
+            tabControl2.Size = new Size(453, 219);
+            tabControl2.TabIndex = 8;
+            // 
+            // tabPage4
+            // 
+            tabPage4.Controls.Add(dgPedidos);
+            tabPage4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tabPage4.Location = new Point(4, 4);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new Padding(3);
+            tabPage4.Size = new Size(445, 188);
+            tabPage4.TabIndex = 0;
+            tabPage4.Text = "Pedidos Cadastrados";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // dgPedidos
+            // 
+            dgPedidos.BackgroundColor = SystemColors.Window;
+            dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgPedidos.Dock = DockStyle.Fill;
+            dgPedidos.GridColor = SystemColors.Window;
+            dgPedidos.Location = new Point(3, 3);
+            dgPedidos.Name = "dgPedidos";
+            dgPedidos.RowHeadersWidth = 50;
+            dgPedidos.RowTemplate.Height = 25;
+            dgPedidos.Size = new Size(439, 182);
+            dgPedidos.TabIndex = 4;
             // 
             // panel5
             // 
@@ -292,17 +315,17 @@
             panel5.Controls.Add(cob_lancheEscolhido);
             panel5.Location = new Point(11, 20);
             panel5.Name = "panel5";
-            panel5.Size = new Size(489, 97);
+            panel5.Size = new Size(415, 144);
             panel5.TabIndex = 7;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label2.Location = new Point(7, 13);
             label2.Name = "label2";
-            label2.Size = new Size(173, 25);
+            label2.Size = new Size(154, 24);
             label2.TabIndex = 2;
             label2.Text = "Nome do cliente:";
             // 
@@ -310,10 +333,10 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(7, 56);
             label1.Name = "label1";
-            label1.Size = new Size(187, 25);
+            label1.Size = new Size(165, 24);
             label1.TabIndex = 1;
             label1.Text = "Lanche escolhido:";
             label1.Click += label1_Click;
@@ -321,9 +344,9 @@
             // txt_nomeCliente
             // 
             txt_nomeCliente.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            txt_nomeCliente.Location = new Point(186, 13);
+            txt_nomeCliente.Location = new Point(167, 13);
             txt_nomeCliente.Name = "txt_nomeCliente";
-            txt_nomeCliente.Size = new Size(295, 27);
+            txt_nomeCliente.Size = new Size(233, 27);
             txt_nomeCliente.TabIndex = 3;
             txt_nomeCliente.TextChanged += textBox1_TextChanged;
             // 
@@ -331,9 +354,9 @@
             // 
             cob_lancheEscolhido.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
             cob_lancheEscolhido.FormattingEnabled = true;
-            cob_lancheEscolhido.Location = new Point(198, 55);
+            cob_lancheEscolhido.Location = new Point(178, 55);
             cob_lancheEscolhido.Name = "cob_lancheEscolhido";
-            cob_lancheEscolhido.Size = new Size(283, 27);
+            cob_lancheEscolhido.Size = new Size(222, 27);
             cob_lancheEscolhido.TabIndex = 4;
             // 
             // Lanches
@@ -557,17 +580,6 @@
             textBox2.Text = resources.GetString("textBox2.Text");
             textBox2.TextChanged += textBox2_TextChanged;
             // 
-            // dgPedidos
-            // 
-            dgPedidos.BackgroundColor = SystemColors.Control;
-            dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgPedidos.GridColor = SystemColors.Control;
-            dgPedidos.Location = new Point(8, 39);
-            dgPedidos.Name = "dgPedidos";
-            dgPedidos.RowTemplate.Height = 25;
-            dgPedidos.Size = new Size(355, 135);
-            dgPedidos.TabIndex = 4;
-            // 
             // FormJanelaPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -590,9 +602,12 @@
             tabControl1.ResumeLayout(false);
             Pedidos.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
             panel6.ResumeLayout(false);
             tabControl2.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dgPedidos).EndInit();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             Lanches.ResumeLayout(false);
@@ -605,7 +620,6 @@
             panel8.ResumeLayout(false);
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgPedidos).EndInit();
             ResumeLayout(false);
         }
 
@@ -632,9 +646,7 @@
         private Panel panel6;
         private TabControl tabControl2;
         private TabPage tabPage4;
-        private TabPage tabPage5;
         private Button btn_finalizarPedido;
-        private ComboBox cob_escolherPedidos;
         private Panel panel4;
         private TabControl tabControl3;
         private TabPage LanchesCadastrados;
@@ -652,5 +664,8 @@
         private Button button4;
         private Label lbl_mensagem;
         private DataGridView dgPedidos;
+        private Panel panel9;
+        private TextBox txt_filtrarPedido;
+        private Label label8;
     }
 }

@@ -56,6 +56,7 @@ namespace chessBurger
             }
 
             limpaCampos();
+            listaGridPedidos();
 
         }
 
@@ -77,7 +78,7 @@ namespace chessBurger
         private void FormJanelaPrincipal_Load(object sender, EventArgs e)
         {
             listaCOBLanches();
-            listaCOBPedidos();
+            listaGridPedidos();
         }
 
         public void listaCOBLanches()
@@ -90,11 +91,15 @@ namespace chessBurger
             cob_lancheEscolhido.ValueMember = "idLanche"; //O que vai buscar do Banco
         }
 
-        public void listaCOBPedidos()
+        public void listaGridPedidos()
         {
             ConectaBanco con = new ConectaBanco();
             dgPedidos.DataSource = con.listaPedidos();
         }
 
+        private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)
+        {
+            (dgPedidos.DataSource as DataTable).DefaultView.RowFilter = string.Format("nomeCliente like '{0}%'", txt_filtrarPedido.Text);
+        }
     }
 }
