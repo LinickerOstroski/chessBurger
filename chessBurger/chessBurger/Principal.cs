@@ -127,7 +127,7 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             dgLanches.DataSource = con.listaLanches();
-            //dgLanches.Columns["idLanche"].Visible = false;
+            dgLanches.Columns["idLanche"].Visible = false;
         }
 
         private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)
@@ -139,14 +139,15 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             Lanche novoLanche = new Lanche();
-            novoLanche.NomeLanche = txt_nomeLanche.Text;
-            novoLanche.Igredientes = txt_igredientes.Text;
-            novoLanche.Preco = float.Parse(txt_precoLanche.Text);
+           
 
             bool retorno;
 
             if (txt_nomeLanche.Text != "" && txt_igredientes.Text != "" && txt_precoLanche.ToString() != "")
             {
+                novoLanche.NomeLanche = txt_nomeLanche.Text;
+                novoLanche.Igredientes = txt_igredientes.Text;
+                novoLanche.Preco = float.Parse(txt_precoLanche.Text);
                 retorno = con.insereLanche(novoLanche);
                 MessageBox.Show("Lanche registrado!");
                 txt_nomeLanche.Focus();
@@ -172,7 +173,7 @@ namespace chessBurger
         {
             int linha = dgLanches.CurrentRow.Index;
             int id = Convert.ToInt32(
-                    dgLanches.Rows[linha].Cells["idlanches"].Value.ToString());
+                    dgLanches.Rows[linha].Cells["idlanche"].Value.ToString());
             DialogResult resp = MessageBox.Show("Deseja mesmo remover esse Lanche?",
                 "Remover lanche", MessageBoxButtons.OKCancel);
             if (resp == DialogResult.OK)
@@ -191,5 +192,4 @@ namespace chessBurger
                 MessageBox.Show("Operação cancelada");
         }
     }
-}
 }
