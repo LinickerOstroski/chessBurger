@@ -56,7 +56,33 @@ namespace chessBurger
                 conexao.Close();
             }
 
-        }// fim lista_generos
+        }// fim lista_lanches
+
+        public DataTable listaPedidos()
+        {
+            MySqlCommand cmd = new MySqlCommand("sp_listaPedidos", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            try
+            {
+                conexao.Open();
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable tabela = new DataTable();
+                da.Fill(tabela);
+                return tabela;
+            }// fim try
+            catch (MySqlException e)
+            {
+                mensagem = "Erro:" + e.Message;
+                return null;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+        }// fim lista_pedidos
+
+
 
     }// fim classe
 }

@@ -77,6 +77,7 @@ namespace chessBurger
         private void FormJanelaPrincipal_Load(object sender, EventArgs e)
         {
             listaCOBLanches();
+            listaCOBPedidos();
         }
 
         public void listaCOBLanches()
@@ -87,6 +88,12 @@ namespace chessBurger
             cob_lancheEscolhido.DataSource = tabelaDados;
             cob_lancheEscolhido.DisplayMember = "nomeLanche"; //O que vai mostrar
             cob_lancheEscolhido.ValueMember = "idLanche"; //O que vai buscar do Banco
+        }
+
+        public void listaCOBPedidos()
+        {
+            ConectaBanco con = new ConectaBanco();
+            dgPedidos.DataSource = con.listaPedidos();
         }
 
     }

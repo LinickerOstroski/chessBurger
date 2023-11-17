@@ -44,7 +44,6 @@
             tabPage4 = new TabPage();
             cob_escolherPedidos = new ComboBox();
             btn_finalizarPedido = new Button();
-            textBox3 = new TextBox();
             tabPage5 = new TabPage();
             panel5 = new Panel();
             label2 = new Label();
@@ -70,6 +69,7 @@
             Alterar = new TabPage();
             Sobre = new TabPage();
             textBox2 = new TextBox();
+            dgPedidos = new DataGridView();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -88,6 +88,7 @@
             panel7.SuspendLayout();
             panel8.SuspendLayout();
             Sobre.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgPedidos).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -236,9 +237,9 @@
             // 
             // tabPage4
             // 
+            tabPage4.Controls.Add(dgPedidos);
             tabPage4.Controls.Add(cob_escolherPedidos);
             tabPage4.Controls.Add(btn_finalizarPedido);
-            tabPage4.Controls.Add(textBox3);
             tabPage4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tabPage4.Location = new Point(4, 4);
             tabPage4.Name = "tabPage4";
@@ -270,16 +271,6 @@
             btn_finalizarPedido.Text = "finalizar";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = SystemColors.Control;
-            textBox3.Location = new Point(6, 38);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.ScrollBars = ScrollBars.Vertical;
-            textBox3.Size = new Size(357, 137);
-            textBox3.TabIndex = 0;
             // 
             // tabPage5
             // 
@@ -566,6 +557,17 @@
             textBox2.Text = resources.GetString("textBox2.Text");
             textBox2.TextChanged += textBox2_TextChanged;
             // 
+            // dgPedidos
+            // 
+            dgPedidos.BackgroundColor = SystemColors.Control;
+            dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgPedidos.GridColor = SystemColors.Control;
+            dgPedidos.Location = new Point(8, 39);
+            dgPedidos.Name = "dgPedidos";
+            dgPedidos.RowTemplate.Height = 25;
+            dgPedidos.Size = new Size(355, 135);
+            dgPedidos.TabIndex = 4;
+            // 
             // FormJanelaPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -591,7 +593,6 @@
             panel6.ResumeLayout(false);
             tabControl2.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
-            tabPage4.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             Lanches.ResumeLayout(false);
@@ -604,6 +605,7 @@
             panel8.ResumeLayout(false);
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgPedidos).EndInit();
             ResumeLayout(false);
         }
 
@@ -631,7 +633,6 @@
         private TabControl tabControl2;
         private TabPage tabPage4;
         private TabPage tabPage5;
-        private TextBox textBox3;
         private Button btn_finalizarPedido;
         private ComboBox cob_escolherPedidos;
         private Panel panel4;
@@ -650,5 +651,6 @@
         private Panel panel8;
         private Button button4;
         private Label lbl_mensagem;
+        private DataGridView dgPedidos;
     }
 }
