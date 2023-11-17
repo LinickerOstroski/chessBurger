@@ -48,6 +48,7 @@ namespace chessBurger
             {
                 retorno = con.inserePedido(novoPedido);
                 MessageBox.Show("Pedido registrado!");
+                txt_nomeCliente.Focus();
             }
             else
             {
@@ -66,7 +67,7 @@ namespace chessBurger
             int id = Convert.ToInt32(
                     dgPedidos.Rows[linha].Cells["idpedido"].Value.ToString());
             DialogResult resp = MessageBox.Show("O pedido foi entregue?",
-                "Remove Banda", MessageBoxButtons.OKCancel);
+                "Finalizar Pedido", MessageBoxButtons.OKCancel);
             if (resp == DialogResult.OK)
             {
                 ConectaBanco con = new ConectaBanco();
@@ -114,7 +115,7 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             dgPedidos.DataSource = con.listaPedidos();
-            dgPedidos.Columns["idPedido"].Visible = false;
+            //dgPedidos.Columns["idPedido"].Visible = false;
         }
 
         private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)

@@ -86,7 +86,7 @@ namespace chessBurger
         {
             MySqlCommand cmd = new MySqlCommand("sp_removePedido", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("idpedido", idRemovePedido);
+            cmd.Parameters.AddWithValue("idPedidos", idRemovePedido);
             try
             {
                 conexao.Open();
