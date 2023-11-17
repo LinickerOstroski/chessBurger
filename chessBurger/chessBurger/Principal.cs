@@ -29,26 +29,33 @@ namespace chessBurger
 
         }
 
+        void limpaCampos()
+        {
+            txt_nomeCliente.Clear();
+            cob_lancheEscolhido.Text = "";
+            txt_nomeCliente.Focus();
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             ConectaBanco con = new ConectaBanco();
             Pedido novoPedido = new Pedido();
             novoPedido.NomeCliente = txt_nomeCliente.Text;
-            novoPedido.LancheEscolhido = 1;
-            bool retorno = con.inserePedido(novoPedido);
+            novoPedido.LancheEscolhido = Convert.ToInt32(cob_lancheEscolhido.SelectedValue.ToString());
 
-            if (retorno == false)
+            bool retorno;
+
+            if (txt_nomeCliente.Text != "" && cob_lancheEscolhido.Text != "")
             {
-                MessageBox.Show(con.mensagem);
+                retorno = con.inserePedido(novoPedido);
+                MessageBox.Show("Pedido registrado!");
             }
-
-            if (txt_nomeCliente.Text == "")
+            else
             {
-                MessageBox.Show("Digite o nome do cliente");
+                MessageBox.Show("Digite os dados");
                 txt_nomeCliente.Focus();
-                return;
             }
 
+            limpaCampos();
 
         }
 

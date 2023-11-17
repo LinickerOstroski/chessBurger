@@ -649,5 +649,6 @@
         private TextBox txt_nomeLanche;
         private Panel panel8;
         private Button button4;
+        private Label lbl_mensagem;
     }
 }
