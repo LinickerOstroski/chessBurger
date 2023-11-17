@@ -1,14 +1,16 @@
 using System.Data;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace chessBurger
 {
     public partial class FormJanelaPrincipal : Form
     {
-        public FormJanelaPrincipal()
+        public FormJanelaPrincipal(String texto)
         {
             InitializeComponent();
-        }
 
+            string text = texto;
+        }
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -86,8 +88,6 @@ namespace chessBurger
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Igredientes igredientes = new Igredientes(txt_nomeLanche.Text);
-            igredientes.ShowDialog();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -115,12 +115,38 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             dgPedidos.DataSource = con.listaPedidos();
-            //dgPedidos.Columns["idPedido"].Visible = false;
+            dgPedidos.Columns["idPedido"].Visible = false;
         }
 
         private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)
         {
             (dgPedidos.DataSource as DataTable).DefaultView.RowFilter = string.Format("nomeCliente like '{0}%'", txt_filtrarPedido.Text);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+
+            ConectaBanco con = new ConectaBanco();
+            Lanche novoLanche = new Lanche();
+            novoLanche.NomeLanche = txt_nomeLanche.Text;
+            novoLanche.Igredientes = txt_igredientes.Text;
+            novoLanche.Preco = float.Parse(txt_precoLanche.Text);
+
+            bool retorno;
+
+            if (txt_nomeLanche.Text != "" && txt_igredientes.Text != "" && txt_precoLanche.ToString() != "")
+            {
+                retorno = con.insereLanche(novoLanche);
+                MessageBox.Show("Lanche registrado!");
+                txt_nomeLanche.Focus();
+            }
+            else
+            {
+                MessageBox.Show("Digite os dados");
+                txt_nomeCliente.Focus();
+            }
+
         }
     }
 }

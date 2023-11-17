@@ -33,6 +33,27 @@ namespace chessBurger
                 return false;
             }
         }
+
+        public bool insereLanche(Lanche novoLanche)
+        {
+            try
+            {
+                conexao.Open();
+                MySqlCommand cmd =
+                    new MySqlCommand("sp_insereLanche", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("nomeLanche", novoLanche.NomeLanche);
+                cmd.Parameters.AddWithValue("igredientes", novoLanche.Igredientes);
+                cmd.Parameters.AddWithValue("precoLanche", novoLanche.Preco);
+                cmd.ExecuteNonQuery();//executar no banco
+                return true;
+            }
+            catch (MySqlException erro)
+            {
+                mensagem = erro.Message;
+                return false;
+            }
+        }
         public DataTable listaLanches()
         {
             // comentario

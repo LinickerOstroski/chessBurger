@@ -54,15 +54,12 @@
             cob_lancheEscolhido = new ComboBox();
             Lanches = new TabPage();
             panel4 = new Panel();
+            button2 = new Button();
             tabControl3 = new TabControl();
             LanchesCadastrados = new TabPage();
-            comboBox3 = new ComboBox();
-            button2 = new Button();
-            textBox4 = new TextBox();
             panel7 = new Panel();
-            button5 = new Button();
             label7 = new Label();
-            textBox6 = new TextBox();
+            txt_precoLanche = new TextBox();
             label3 = new Label();
             label5 = new Label();
             txt_nomeLanche = new TextBox();
@@ -71,6 +68,7 @@
             Alterar = new TabPage();
             Sobre = new TabPage();
             textBox2 = new TextBox();
+            txt_igredientes = new TextBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -87,7 +85,6 @@
             Lanches.SuspendLayout();
             panel4.SuspendLayout();
             tabControl3.SuspendLayout();
-            LanchesCadastrados.SuspendLayout();
             panel7.SuspendLayout();
             panel8.SuspendLayout();
             Sobre.SuspendLayout();
@@ -123,7 +120,7 @@
             label6.Name = "label6";
             label6.Size = new Size(74, 20);
             label6.TabIndex = 3;
-            label6.Text = "alpha 0.1";
+            label6.Text = "alpha 1.2";
             // 
             // pictureBox2
             // 
@@ -165,7 +162,7 @@
             tabControl1.Controls.Add(Lanches);
             tabControl1.Controls.Add(Alterar);
             tabControl1.Controls.Add(Sobre);
-            tabControl1.Font = new Font("Microsoft Sans Serif", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point);
+            tabControl1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tabControl1.Location = new Point(10, 130);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -182,7 +179,7 @@
             Pedidos.Name = "Pedidos";
             Pedidos.Padding = new Padding(3);
             Pedidos.RightToLeft = RightToLeft.No;
-            Pedidos.Size = new Size(912, 279);
+            Pedidos.Size = new Size(912, 283);
             Pedidos.TabIndex = 0;
             Pedidos.Text = "Pedidos";
             // 
@@ -261,11 +258,14 @@
             btn_finalizarPedido.BackColor = Color.FromArgb(255, 224, 192);
             btn_finalizarPedido.FlatStyle = FlatStyle.Flat;
             btn_finalizarPedido.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_finalizarPedido.Location = new Point(750, 217);
+            btn_finalizarPedido.Image = (Image)resources.GetObject("btn_finalizarPedido.Image");
+            btn_finalizarPedido.ImageAlign = ContentAlignment.BottomRight;
+            btn_finalizarPedido.Location = new Point(753, 217);
             btn_finalizarPedido.Name = "btn_finalizarPedido";
-            btn_finalizarPedido.Size = new Size(129, 24);
+            btn_finalizarPedido.Size = new Size(125, 24);
             btn_finalizarPedido.TabIndex = 2;
             btn_finalizarPedido.Text = "Finalizar Pedido";
+            btn_finalizarPedido.TextAlign = ContentAlignment.MiddleLeft;
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
             // 
@@ -367,7 +367,7 @@
             Lanches.Location = new Point(4, 4);
             Lanches.Name = "Lanches";
             Lanches.Padding = new Padding(3);
-            Lanches.Size = new Size(912, 280);
+            Lanches.Size = new Size(912, 283);
             Lanches.TabIndex = 1;
             Lanches.Text = "Lanches";
             // 
@@ -376,117 +376,82 @@
             panel4.BackColor = Color.FromArgb(251, 234, 212);
             panel4.BackgroundImageLayout = ImageLayout.None;
             panel4.BorderStyle = BorderStyle.FixedSingle;
+            panel4.Controls.Add(button2);
             panel4.Controls.Add(tabControl3);
             panel4.Controls.Add(panel7);
-            panel4.Controls.Add(panel8);
             panel4.Location = new Point(6, 19);
             panel4.Name = "panel4";
             panel4.Size = new Size(888, 248);
             panel4.TabIndex = 6;
-            // 
-            // tabControl3
-            // 
-            tabControl3.Alignment = TabAlignment.Bottom;
-            tabControl3.Controls.Add(LanchesCadastrados);
-            tabControl3.Font = new Font("Microsoft Sans Serif", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
-            tabControl3.Location = new Point(506, 20);
-            tabControl3.Multiline = true;
-            tabControl3.Name = "tabControl3";
-            tabControl3.SelectedIndex = 0;
-            tabControl3.Size = new Size(379, 211);
-            tabControl3.TabIndex = 8;
-            // 
-            // LanchesCadastrados
-            // 
-            LanchesCadastrados.Controls.Add(comboBox3);
-            LanchesCadastrados.Controls.Add(button2);
-            LanchesCadastrados.Controls.Add(textBox4);
-            LanchesCadastrados.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            LanchesCadastrados.Location = new Point(4, 4);
-            LanchesCadastrados.Name = "LanchesCadastrados";
-            LanchesCadastrados.Padding = new Padding(3);
-            LanchesCadastrados.Size = new Size(371, 180);
-            LanchesCadastrados.TabIndex = 0;
-            LanchesCadastrados.Text = "Lanches  Cadastrados";
-            LanchesCadastrados.UseVisualStyleBackColor = true;
-            // 
-            // comboBox3
-            // 
-            comboBox3.DropDownHeight = 100;
-            comboBox3.FormattingEnabled = true;
-            comboBox3.IntegralHeight = false;
-            comboBox3.Location = new Point(8, 6);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(240, 28);
-            comboBox3.TabIndex = 3;
             // 
             // button2
             // 
             button2.BackColor = Color.FromArgb(255, 224, 192);
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(254, 6);
+            button2.Location = new Point(753, 218);
             button2.Name = "button2";
-            button2.Size = new Size(109, 26);
+            button2.Size = new Size(128, 24);
             button2.TabIndex = 2;
-            button2.Text = "remover";
+            button2.Text = "Remover";
             button2.UseVisualStyleBackColor = false;
             // 
-            // textBox4
+            // tabControl3
             // 
-            textBox4.BackColor = SystemColors.Control;
-            textBox4.Location = new Point(6, 38);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.ScrollBars = ScrollBars.Vertical;
-            textBox4.Size = new Size(357, 137);
-            textBox4.TabIndex = 0;
+            tabControl3.Alignment = TabAlignment.Bottom;
+            tabControl3.Controls.Add(LanchesCadastrados);
+            tabControl3.Font = new Font("Microsoft Sans Serif", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
+            tabControl3.Location = new Point(460, 22);
+            tabControl3.Multiline = true;
+            tabControl3.Name = "tabControl3";
+            tabControl3.SelectedIndex = 0;
+            tabControl3.Size = new Size(425, 217);
+            tabControl3.TabIndex = 8;
+            // 
+            // LanchesCadastrados
+            // 
+            LanchesCadastrados.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            LanchesCadastrados.Location = new Point(4, 4);
+            LanchesCadastrados.Name = "LanchesCadastrados";
+            LanchesCadastrados.Padding = new Padding(3);
+            LanchesCadastrados.Size = new Size(417, 186);
+            LanchesCadastrados.TabIndex = 0;
+            LanchesCadastrados.Text = "Lanches  Cadastrados";
+            LanchesCadastrados.UseVisualStyleBackColor = true;
             // 
             // panel7
             // 
             panel7.BackColor = SystemColors.Window;
-            panel7.Controls.Add(button5);
+            panel7.Controls.Add(panel8);
+            panel7.Controls.Add(txt_igredientes);
             panel7.Controls.Add(label7);
-            panel7.Controls.Add(textBox6);
+            panel7.Controls.Add(txt_precoLanche);
             panel7.Controls.Add(label3);
             panel7.Controls.Add(label5);
             panel7.Controls.Add(txt_nomeLanche);
             panel7.Location = new Point(11, 22);
             panel7.Name = "panel7";
-            panel7.Size = new Size(489, 145);
+            panel7.Size = new Size(434, 220);
             panel7.TabIndex = 7;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.FromArgb(255, 224, 192);
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(251, 100);
-            button5.Name = "button5";
-            button5.Size = new Size(163, 29);
-            button5.TabIndex = 8;
-            button5.Text = "Adicionar Igredientes";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(8, 100);
+            label7.Location = new Point(76, 97);
             label7.Name = "label7";
             label7.Size = new Size(221, 25);
             label7.TabIndex = 7;
             label7.Text = "Igredientes utilizados:";
             // 
-            // textBox6
+            // txt_precoLanche
             // 
-            textBox6.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox6.Location = new Point(186, 57);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(295, 27);
-            textBox6.TabIndex = 6;
+            txt_precoLanche.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_precoLanche.Location = new Point(186, 57);
+            txt_precoLanche.Name = "txt_precoLanche";
+            txt_precoLanche.Size = new Size(233, 27);
+            txt_precoLanche.TabIndex = 6;
             // 
             // label3
             // 
@@ -515,16 +480,16 @@
             txt_nomeLanche.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             txt_nomeLanche.Location = new Point(186, 13);
             txt_nomeLanche.Name = "txt_nomeLanche";
-            txt_nomeLanche.Size = new Size(295, 27);
+            txt_nomeLanche.Size = new Size(233, 27);
             txt_nomeLanche.TabIndex = 3;
             // 
             // panel8
             // 
             panel8.BackColor = Color.FromArgb(255, 224, 192);
             panel8.Controls.Add(button4);
-            panel8.Location = new Point(19, 173);
+            panel8.Location = new Point(161, 178);
             panel8.Name = "panel8";
-            panel8.Size = new Size(187, 44);
+            panel8.Size = new Size(111, 36);
             panel8.TabIndex = 5;
             // 
             // button4
@@ -534,13 +499,14 @@
             button4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button4.Image = (Image)resources.GetObject("button4.Image");
             button4.ImageAlign = ContentAlignment.MiddleRight;
-            button4.Location = new Point(11, 7);
+            button4.Location = new Point(4, 6);
             button4.Name = "button4";
-            button4.Size = new Size(166, 29);
+            button4.Size = new Size(103, 26);
             button4.TabIndex = 0;
-            button4.Text = "Cadastrar Lanche";
+            button4.Text = "Cadastrar";
             button4.TextAlign = ContentAlignment.MiddleLeft;
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // Alterar
             // 
@@ -549,7 +515,7 @@
             Alterar.Location = new Point(4, 4);
             Alterar.Name = "Alterar";
             Alterar.Padding = new Padding(3);
-            Alterar.Size = new Size(912, 280);
+            Alterar.Size = new Size(912, 283);
             Alterar.TabIndex = 2;
             Alterar.Text = "Alterar lanches";
             // 
@@ -560,7 +526,7 @@
             Sobre.Font = new Font("Microsoft Sans Serif", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point);
             Sobre.Location = new Point(4, 4);
             Sobre.Name = "Sobre";
-            Sobre.Size = new Size(912, 280);
+            Sobre.Size = new Size(912, 283);
             Sobre.TabIndex = 3;
             Sobre.Text = "Sobre";
             // 
@@ -579,6 +545,14 @@
             textBox2.TabIndex = 4;
             textBox2.Text = resources.GetString("textBox2.Text");
             textBox2.TextChanged += textBox2_TextChanged;
+            // 
+            // txt_igredientes
+            // 
+            txt_igredientes.Location = new Point(8, 125);
+            txt_igredientes.Multiline = true;
+            txt_igredientes.Name = "txt_igredientes";
+            txt_igredientes.Size = new Size(411, 40);
+            txt_igredientes.TabIndex = 8;
             // 
             // FormJanelaPrincipal
             // 
@@ -613,8 +587,6 @@
             Lanches.ResumeLayout(false);
             panel4.ResumeLayout(false);
             tabControl3.ResumeLayout(false);
-            LanchesCadastrados.ResumeLayout(false);
-            LanchesCadastrados.PerformLayout();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
             panel8.ResumeLayout(false);
@@ -650,13 +622,10 @@
         private Panel panel4;
         private TabControl tabControl3;
         private TabPage LanchesCadastrados;
-        private ComboBox comboBox3;
         private Button button2;
-        private TextBox textBox4;
         private Panel panel7;
-        private Button button5;
         private Label label7;
-        private TextBox textBox6;
+        private TextBox txt_precoLanche;
         private Label label3;
         private Label label5;
         private TextBox txt_nomeLanche;
@@ -667,5 +636,6 @@
         private Panel panel9;
         private TextBox txt_filtrarPedido;
         private Label label8;
+        private TextBox txt_igredientes;
     }
 }
