@@ -38,6 +38,8 @@
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
             panel3 = new Panel();
+            panel6 = new Panel();
+            button1 = new Button();
             tabControl2 = new TabControl();
             tabPage4 = new TabPage();
             cob_escolherPedidos = new ComboBox();
@@ -45,8 +47,6 @@
             textBox3 = new TextBox();
             tabPage5 = new TabPage();
             panel5 = new Panel();
-            panel6 = new Panel();
-            button1 = new Button();
             label2 = new Label();
             label1 = new Label();
             txt_nomeCliente = new TextBox();
@@ -77,10 +77,10 @@
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             panel3.SuspendLayout();
+            panel6.SuspendLayout();
             tabControl2.SuspendLayout();
             tabPage4.SuspendLayout();
             panel5.SuspendLayout();
-            panel6.SuspendLayout();
             Lanches.SuspendLayout();
             panel4.SuspendLayout();
             tabControl3.SuspendLayout();
@@ -96,7 +96,7 @@
             panel2.Controls.Add(panel1);
             panel2.Location = new Point(0, 1);
             panel2.Name = "panel2";
-            panel2.Size = new Size(968, 142);
+            panel2.Size = new Size(968, 123);
             panel2.TabIndex = 1;
             // 
             // panel1
@@ -108,14 +108,14 @@
             panel1.Controls.Add(label4);
             panel1.Location = new Point(0, -5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(955, 134);
+            panel1.Size = new Size(955, 118);
             panel1.TabIndex = 2;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(585, 79);
+            label6.Location = new Point(585, 64);
             label6.Name = "label6";
             label6.Size = new Size(74, 20);
             label6.TabIndex = 3;
@@ -125,9 +125,9 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(263, 33);
+            pictureBox2.Location = new Point(259, 13);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(45, 78);
+            pictureBox2.Size = new Size(56, 95);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
@@ -136,7 +136,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 16);
+            pictureBox1.Location = new Point(12, 7);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(158, 104);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -148,7 +148,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Microsoft Sans Serif", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(164, 33);
+            label4.Location = new Point(164, 24);
             label4.Name = "label4";
             label4.Size = new Size(435, 73);
             label4.TabIndex = 1;
@@ -162,10 +162,10 @@
             tabControl1.Controls.Add(Alterar);
             tabControl1.Controls.Add(Sobre);
             tabControl1.Font = new Font("Microsoft Sans Serif", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point);
-            tabControl1.Location = new Point(12, 157);
+            tabControl1.Location = new Point(12, 130);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(908, 323);
+            tabControl1.Size = new Size(920, 317);
             tabControl1.TabIndex = 2;
             // 
             // Pedidos
@@ -178,7 +178,7 @@
             Pedidos.Name = "Pedidos";
             Pedidos.Padding = new Padding(3);
             Pedidos.RightToLeft = RightToLeft.No;
-            Pedidos.Size = new Size(900, 286);
+            Pedidos.Size = new Size(912, 280);
             Pedidos.TabIndex = 0;
             Pedidos.Text = "Pedidos";
             // 
@@ -187,12 +187,38 @@
             panel3.BackColor = Color.FromArgb(251, 234, 212);
             panel3.BackgroundImageLayout = ImageLayout.None;
             panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(panel6);
             panel3.Controls.Add(tabControl2);
             panel3.Controls.Add(panel5);
-            panel3.Location = new Point(6, 22);
+            panel3.Location = new Point(6, 20);
             panel3.Name = "panel3";
             panel3.Size = new Size(888, 248);
             panel3.TabIndex = 5;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = Color.FromArgb(255, 224, 192);
+            panel6.Controls.Add(button1);
+            panel6.Location = new Point(18, 135);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(187, 44);
+            panel6.TabIndex = 5;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(239, 171, 82);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleRight;
+            button1.Location = new Point(10, 8);
+            button1.Name = "button1";
+            button1.Size = new Size(166, 29);
+            button1.TabIndex = 0;
+            button1.Text = "Cadastrar Pedido";
+            button1.TextAlign = ContentAlignment.MiddleLeft;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // tabControl2
             // 
@@ -268,47 +294,21 @@
             // panel5
             // 
             panel5.BackColor = SystemColors.Window;
-            panel5.Controls.Add(panel6);
             panel5.Controls.Add(label2);
             panel5.Controls.Add(label1);
             panel5.Controls.Add(txt_nomeCliente);
             panel5.Controls.Add(cob_lancheEscolhido);
             panel5.Location = new Point(11, 20);
             panel5.Name = "panel5";
-            panel5.Size = new Size(489, 164);
+            panel5.Size = new Size(489, 97);
             panel5.TabIndex = 7;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.FromArgb(255, 224, 192);
-            panel6.Controls.Add(button1);
-            panel6.Location = new Point(12, 111);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(187, 44);
-            panel6.TabIndex = 5;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.FromArgb(239, 171, 82);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.ImageAlign = ContentAlignment.MiddleRight;
-            button1.Location = new Point(10, 8);
-            button1.Name = "button1";
-            button1.Size = new Size(166, 29);
-            button1.TabIndex = 0;
-            button1.Text = "Cadastrar Pedido";
-            button1.TextAlign = ContentAlignment.MiddleLeft;
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(12, 13);
+            label2.Location = new Point(7, 13);
             label2.Name = "label2";
             label2.Size = new Size(173, 25);
             label2.TabIndex = 2;
@@ -319,7 +319,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(9, 56);
+            label1.Location = new Point(7, 56);
             label1.Name = "label1";
             label1.Size = new Size(187, 25);
             label1.TabIndex = 1;
@@ -352,7 +352,7 @@
             Lanches.Location = new Point(4, 4);
             Lanches.Name = "Lanches";
             Lanches.Padding = new Padding(3);
-            Lanches.Size = new Size(900, 286);
+            Lanches.Size = new Size(912, 280);
             Lanches.TabIndex = 1;
             Lanches.Text = "Lanches";
             // 
@@ -436,7 +436,7 @@
             panel7.Controls.Add(label3);
             panel7.Controls.Add(label5);
             panel7.Controls.Add(txt_nomeLanche);
-            panel7.Location = new Point(11, 20);
+            panel7.Location = new Point(11, 22);
             panel7.Name = "panel7";
             panel7.Size = new Size(489, 145);
             panel7.TabIndex = 7;
@@ -446,9 +446,9 @@
             button5.BackColor = Color.FromArgb(255, 224, 192);
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(230, 51);
+            button5.Location = new Point(251, 100);
             button5.Name = "button5";
-            button5.Size = new Size(163, 33);
+            button5.Size = new Size(163, 29);
             button5.TabIndex = 8;
             button5.Text = "Adicionar Igredientes";
             button5.UseVisualStyleBackColor = false;
@@ -459,7 +459,7 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(12, 55);
+            label7.Location = new Point(8, 100);
             label7.Name = "label7";
             label7.Size = new Size(221, 25);
             label7.TabIndex = 7;
@@ -468,9 +468,9 @@
             // textBox6
             // 
             textBox6.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox6.Location = new Point(92, 100);
+            textBox6.Location = new Point(186, 57);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(110, 27);
+            textBox6.Size = new Size(295, 27);
             textBox6.TabIndex = 6;
             // 
             // label3
@@ -478,7 +478,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(12, 13);
+            label3.Location = new Point(8, 13);
             label3.Name = "label3";
             label3.Size = new Size(174, 25);
             label3.TabIndex = 2;
@@ -489,11 +489,11 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Microsoft Sans Serif", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(12, 100);
+            label5.Location = new Point(8, 56);
             label5.Name = "label5";
-            label5.Size = new Size(74, 25);
+            label5.Size = new Size(174, 25);
             label5.TabIndex = 1;
-            label5.Text = "Preço:";
+            label5.Text = "Preço do lanche:";
             // 
             // txt_nomeLanche
             // 
@@ -507,7 +507,7 @@
             // 
             panel8.BackColor = Color.FromArgb(255, 224, 192);
             panel8.Controls.Add(button4);
-            panel8.Location = new Point(155, 180);
+            panel8.Location = new Point(19, 173);
             panel8.Name = "panel8";
             panel8.Size = new Size(187, 44);
             panel8.TabIndex = 5;
@@ -519,7 +519,7 @@
             button4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button4.Image = (Image)resources.GetObject("button4.Image");
             button4.ImageAlign = ContentAlignment.MiddleRight;
-            button4.Location = new Point(12, 8);
+            button4.Location = new Point(11, 7);
             button4.Name = "button4";
             button4.Size = new Size(166, 29);
             button4.TabIndex = 0;
@@ -534,7 +534,7 @@
             Alterar.Location = new Point(4, 4);
             Alterar.Name = "Alterar";
             Alterar.Padding = new Padding(3);
-            Alterar.Size = new Size(900, 286);
+            Alterar.Size = new Size(912, 280);
             Alterar.TabIndex = 2;
             Alterar.Text = "Alterar lanches";
             // 
@@ -545,7 +545,7 @@
             Sobre.Font = new Font("Microsoft Sans Serif", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point);
             Sobre.Location = new Point(4, 4);
             Sobre.Name = "Sobre";
-            Sobre.Size = new Size(900, 286);
+            Sobre.Size = new Size(912, 280);
             Sobre.TabIndex = 3;
             Sobre.Text = "Sobre";
             // 
@@ -570,7 +570,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(239, 171, 82);
-            ClientSize = new Size(944, 493);
+            ClientSize = new Size(944, 451);
             Controls.Add(tabControl1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -586,12 +586,12 @@
             tabControl1.ResumeLayout(false);
             Pedidos.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            panel6.ResumeLayout(false);
             tabControl2.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
-            panel6.ResumeLayout(false);
             Lanches.ResumeLayout(false);
             panel4.ResumeLayout(false);
             tabControl3.ResumeLayout(false);
