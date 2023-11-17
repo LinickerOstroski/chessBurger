@@ -38,11 +38,18 @@
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             panel3 = new Panel();
+            tabControl2 = new TabControl();
+            tabPage4 = new TabPage();
+            button3 = new Button();
+            textBox3 = new TextBox();
+            tabPage5 = new TabPage();
+            panel5 = new Panel();
+            panel6 = new Panel();
             button1 = new Button();
-            comboBox1 = new ComboBox();
             label2 = new Label();
-            textBox1 = new TextBox();
             label1 = new Label();
+            textBox1 = new TextBox();
+            comboBox1 = new ComboBox();
             tabPage2 = new TabPage();
             panel4 = new Panel();
             textBox5 = new TextBox();
@@ -54,12 +61,7 @@
             Alterar = new TabPage();
             tabPage3 = new TabPage();
             textBox2 = new TextBox();
-            panel5 = new Panel();
-            panel6 = new Panel();
-            tabControl2 = new TabControl();
-            tabPage4 = new TabPage();
-            tabPage5 = new TabPage();
-            textBox3 = new TextBox();
+            comboBox2 = new ComboBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -67,13 +69,13 @@
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             panel3.SuspendLayout();
+            tabControl2.SuspendLayout();
+            tabPage4.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
             tabPage2.SuspendLayout();
             panel4.SuspendLayout();
             tabPage3.SuspendLayout();
-            panel5.SuspendLayout();
-            panel6.SuspendLayout();
-            tabControl2.SuspendLayout();
-            tabPage4.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -180,6 +182,88 @@
             panel3.Size = new Size(888, 248);
             panel3.TabIndex = 5;
             // 
+            // tabControl2
+            // 
+            tabControl2.Alignment = TabAlignment.Bottom;
+            tabControl2.Controls.Add(tabPage4);
+            tabControl2.Controls.Add(tabPage5);
+            tabControl2.Font = new Font("HP Simplified Hans Light", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
+            tabControl2.Location = new Point(506, 20);
+            tabControl2.Multiline = true;
+            tabControl2.Name = "tabControl2";
+            tabControl2.SelectedIndex = 0;
+            tabControl2.Size = new Size(379, 211);
+            tabControl2.TabIndex = 8;
+            // 
+            // tabPage4
+            // 
+            tabPage4.Controls.Add(comboBox2);
+            tabPage4.Controls.Add(button3);
+            tabPage4.Controls.Add(textBox3);
+            tabPage4.Font = new Font("HP Simplified Hans", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tabPage4.Location = new Point(4, 4);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new Padding(3);
+            tabPage4.Size = new Size(371, 181);
+            tabPage4.TabIndex = 0;
+            tabPage4.Text = "Pedidos Cadastrados";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(255, 224, 192);
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("HP Simplified Hans", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(254, 6);
+            button3.Name = "button3";
+            button3.Size = new Size(109, 26);
+            button3.TabIndex = 2;
+            button3.Text = "finalizado";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = SystemColors.Control;
+            textBox3.Location = new Point(6, 38);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.ScrollBars = ScrollBars.Vertical;
+            textBox3.Size = new Size(357, 137);
+            textBox3.TabIndex = 0;
+            // 
+            // tabPage5
+            // 
+            tabPage5.Font = new Font("HP Simplified Hans", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tabPage5.Location = new Point(4, 4);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Padding = new Padding(3);
+            tabPage5.Size = new Size(371, 165);
+            tabPage5.TabIndex = 1;
+            tabPage5.Text = "Tempo do pedido";
+            tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = SystemColors.Window;
+            panel5.Controls.Add(panel6);
+            panel5.Controls.Add(label2);
+            panel5.Controls.Add(label1);
+            panel5.Controls.Add(textBox1);
+            panel5.Controls.Add(comboBox1);
+            panel5.Location = new Point(11, 20);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(489, 164);
+            panel5.TabIndex = 7;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = Color.FromArgb(255, 224, 192);
+            panel6.Controls.Add(button1);
+            panel6.Location = new Point(12, 111);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(167, 44);
+            panel6.TabIndex = 5;
+            // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(239, 171, 82);
@@ -195,15 +279,6 @@
             button1.TextAlign = ContentAlignment.MiddleLeft;
             button1.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
-            // 
-            comboBox1.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(185, 55);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(287, 27);
-            comboBox1.TabIndex = 4;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -214,15 +289,6 @@
             label2.Size = new Size(159, 24);
             label2.TabIndex = 2;
             label2.Text = "Nome do cliente:";
-            // 
-            // textBox1
-            // 
-            textBox1.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(177, 13);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(295, 27);
-            textBox1.TabIndex = 3;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
@@ -236,6 +302,24 @@
             label1.Text = "Lanche escolhido:";
             label1.Click += label1_Click;
             // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Gadugi", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(177, 13);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(295, 27);
+            textBox1.TabIndex = 3;
+            textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // comboBox1
+            // 
+            comboBox1.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(185, 55);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(287, 27);
+            comboBox1.TabIndex = 4;
+            // 
             // tabPage2
             // 
             tabPage2.BackColor = Color.FromArgb(247, 213, 169);
@@ -244,7 +328,7 @@
             tabPage2.Location = new Point(4, 4);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(900, 273);
+            tabPage2.Size = new Size(900, 288);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Lanches";
             // 
@@ -338,7 +422,7 @@
             Alterar.Location = new Point(4, 4);
             Alterar.Name = "Alterar";
             Alterar.Padding = new Padding(3);
-            Alterar.Size = new Size(900, 273);
+            Alterar.Size = new Size(900, 288);
             Alterar.TabIndex = 2;
             Alterar.Text = "Alterar";
             // 
@@ -349,7 +433,7 @@
             tabPage3.Font = new Font("HP Simplified Hans", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point);
             tabPage3.Location = new Point(4, 4);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(900, 301);
+            tabPage3.Size = new Size(900, 288);
             tabPage3.TabIndex = 3;
             tabPage3.Text = "Sobre";
             // 
@@ -359,83 +443,25 @@
             textBox2.BackColor = SystemColors.Window;
             textBox2.Font = new Font("HP Simplified Hans", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox2.ForeColor = Color.FromArgb(64, 64, 64);
-            textBox2.Location = new Point(13, 14);
+            textBox2.Location = new Point(3, 12);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
             textBox2.ScrollBars = ScrollBars.Vertical;
-            textBox2.Size = new Size(872, 231);
+            textBox2.Size = new Size(894, 260);
             textBox2.TabIndex = 4;
             textBox2.Text = resources.GetString("textBox2.Text");
             textBox2.TextChanged += textBox2_TextChanged;
             // 
-            // panel5
+            // comboBox2
             // 
-            panel5.BackColor = SystemColors.Window;
-            panel5.Controls.Add(panel6);
-            panel5.Controls.Add(label2);
-            panel5.Controls.Add(label1);
-            panel5.Controls.Add(textBox1);
-            panel5.Controls.Add(comboBox1);
-            panel5.Location = new Point(11, 20);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(489, 164);
-            panel5.TabIndex = 7;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.FromArgb(255, 224, 192);
-            panel6.Controls.Add(button1);
-            panel6.Location = new Point(12, 111);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(167, 44);
-            panel6.TabIndex = 5;
-            // 
-            // tabControl2
-            // 
-            tabControl2.Alignment = TabAlignment.Bottom;
-            tabControl2.Controls.Add(tabPage4);
-            tabControl2.Controls.Add(tabPage5);
-            tabControl2.Font = new Font("HP Simplified Hans Light", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point);
-            tabControl2.Location = new Point(506, 20);
-            tabControl2.Multiline = true;
-            tabControl2.Name = "tabControl2";
-            tabControl2.SelectedIndex = 0;
-            tabControl2.Size = new Size(379, 195);
-            tabControl2.TabIndex = 8;
-            // 
-            // tabPage4
-            // 
-            tabPage4.Controls.Add(textBox3);
-            tabPage4.Font = new Font("HP Simplified Hans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tabPage4.Location = new Point(4, 4);
-            tabPage4.Name = "tabPage4";
-            tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(371, 165);
-            tabPage4.TabIndex = 0;
-            tabPage4.Text = "Pedidos Cadastrados";
-            tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            tabPage5.Font = new Font("HP Simplified Hans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tabPage5.Location = new Point(4, 4);
-            tabPage5.Name = "tabPage5";
-            tabPage5.Padding = new Padding(3);
-            tabPage5.Size = new Size(371, 165);
-            tabPage5.TabIndex = 1;
-            tabPage5.Text = "Tempo do pedido";
-            tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = SystemColors.Control;
-            textBox3.Location = new Point(8, 6);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.ScrollBars = ScrollBars.Vertical;
-            textBox3.Size = new Size(357, 154);
-            textBox3.TabIndex = 0;
+            comboBox2.DropDownHeight = 100;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.IntegralHeight = false;
+            comboBox2.Location = new Point(8, 6);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(240, 26);
+            comboBox2.TabIndex = 3;
             // 
             // FormJanelaPrincipal
             // 
@@ -457,17 +483,17 @@
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            tabControl2.ResumeLayout(false);
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            panel6.ResumeLayout(false);
             tabPage2.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             tabPage3.ResumeLayout(false);
             tabPage3.PerformLayout();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
-            panel6.ResumeLayout(false);
-            tabControl2.ResumeLayout(false);
-            tabPage4.ResumeLayout(false);
-            tabPage4.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -503,5 +529,7 @@
         private TabPage tabPage4;
         private TabPage tabPage5;
         private TextBox textBox3;
+        private Button button3;
+        private ComboBox comboBox2;
     }
 }
