@@ -399,6 +399,7 @@
             button2.TabIndex = 2;
             button2.Text = "Remover";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // tabControl3
             // 

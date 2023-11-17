@@ -127,7 +127,7 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             dgLanches.DataSource = con.listaLanches();
-            dgLanches.Columns["idLanche"].Visible = false;
+            //dgLanches.Columns["idLanche"].Visible = false;
         }
 
         private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)
@@ -161,11 +161,36 @@ namespace chessBurger
 
             limpaCampos();
             listaGridLanches();
+            listaCOBLanches();
         }
 
         private void cob_lancheEscolhido_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int linha = dgLanches.CurrentRow.Index;
+            int id = Convert.ToInt32(
+                    dgLanches.Rows[linha].Cells["idlanche"].Value.ToString());
+            DialogResult resp = MessageBox.Show("Deseja mesmo remover esse Lanche?",
+                "Remover lanche", MessageBoxButtons.OKCancel);
+            if (resp == DialogResult.OK)
+            {
+                ConectaBanco con = new ConectaBanco();
+                bool retorno = con.deletaLanches(id);
+                if (retorno == true)
+                {
+                    MessageBox.Show("Lanche removido.");
+                    listaGridLanches();
+                }// fim if retorno true
+                else
+                    MessageBox.Show(con.mensagem);
+            }// fim if Ok Cancela
+            else
+                MessageBox.Show("Operação cancelada");
+        }
+    }
     }
 }

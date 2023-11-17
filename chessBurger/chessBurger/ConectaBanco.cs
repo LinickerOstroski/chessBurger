@@ -123,7 +123,29 @@ namespace chessBurger
             {
                 conexao.Close();
             }
-        }// fim deletaBanda 
+        }// fim  
+
+        public bool deletaLanches(int idRemoveLanche)
+        { 
+            MySqlCommand cmd = new MySqlCommand("sp_removeLanche", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("idLanches", idRemoveLanche);
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery(); // executa o comando
+                return true;
+            }
+            catch (MySqlException e)
+            {
+                mensagem = "Erro:" + e.Message;
+                return false;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }// fim 
 
 
     }// fim classe
