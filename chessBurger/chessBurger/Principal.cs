@@ -137,8 +137,6 @@ namespace chessBurger
 
         private void button4_Click(object sender, EventArgs e)
         {
-
-
             ConectaBanco con = new ConectaBanco();
             Lanche novoLanche = new Lanche();
             novoLanche.NomeLanche = txt_nomeLanche.Text;
@@ -160,8 +158,9 @@ namespace chessBurger
             }
 
             limpaCampos();
-            listaGridLanches();
             listaCOBLanches();
+            listaGridLanches();
+
         }
 
         private void cob_lancheEscolhido_SelectedIndexChanged(object sender, EventArgs e)
@@ -173,7 +172,7 @@ namespace chessBurger
         {
             int linha = dgLanches.CurrentRow.Index;
             int id = Convert.ToInt32(
-                    dgLanches.Rows[linha].Cells["idlanche"].Value.ToString());
+                    dgLanches.Rows[linha].Cells["idlanches"].Value.ToString());
             DialogResult resp = MessageBox.Show("Deseja mesmo remover esse Lanche?",
                 "Remover lanche", MessageBoxButtons.OKCancel);
             if (resp == DialogResult.OK)
@@ -192,5 +191,5 @@ namespace chessBurger
                 MessageBox.Show("Operação cancelada");
         }
     }
-    }
+}
 }

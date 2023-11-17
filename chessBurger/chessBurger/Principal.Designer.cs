@@ -54,13 +54,13 @@
             cob_lancheEscolhido = new ComboBox();
             Lanches = new TabPage();
             panel4 = new Panel();
-            button2 = new Button();
+            btn_removerLanche = new Button();
             tabControl3 = new TabControl();
             LanchesCadastrados = new TabPage();
             dgLanches = new DataGridView();
             panel7 = new Panel();
             panel8 = new Panel();
-            button4 = new Button();
+            btn_cadastrarLanche = new Button();
             txt_igredientes = new TextBox();
             label7 = new Label();
             txt_precoLanche = new TextBox();
@@ -380,7 +380,7 @@
             panel4.BackColor = Color.FromArgb(251, 234, 212);
             panel4.BackgroundImageLayout = ImageLayout.None;
             panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel4.Controls.Add(button2);
+            panel4.Controls.Add(btn_removerLanche);
             panel4.Controls.Add(tabControl3);
             panel4.Controls.Add(panel7);
             panel4.Location = new Point(6, 19);
@@ -388,18 +388,18 @@
             panel4.Size = new Size(888, 248);
             panel4.TabIndex = 6;
             // 
-            // button2
+            // btn_removerLanche
             // 
-            button2.BackColor = Color.FromArgb(255, 224, 192);
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(753, 218);
-            button2.Name = "button2";
-            button2.Size = new Size(128, 24);
-            button2.TabIndex = 2;
-            button2.Text = "Remover";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            btn_removerLanche.BackColor = Color.FromArgb(255, 224, 192);
+            btn_removerLanche.FlatStyle = FlatStyle.Flat;
+            btn_removerLanche.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_removerLanche.Location = new Point(753, 218);
+            btn_removerLanche.Name = "btn_removerLanche";
+            btn_removerLanche.Size = new Size(128, 24);
+            btn_removerLanche.TabIndex = 2;
+            btn_removerLanche.Text = "Remover";
+            btn_removerLanche.UseVisualStyleBackColor = false;
+            btn_removerLanche.Click += button2_Click;
             // 
             // tabControl3
             // 
@@ -456,27 +456,27 @@
             // panel8
             // 
             panel8.BackColor = Color.FromArgb(255, 224, 192);
-            panel8.Controls.Add(button4);
+            panel8.Controls.Add(btn_cadastrarLanche);
             panel8.Location = new Point(153, 178);
             panel8.Name = "panel8";
             panel8.Size = new Size(119, 36);
             panel8.TabIndex = 5;
             // 
-            // button4
+            // btn_cadastrarLanche
             // 
-            button4.BackColor = Color.FromArgb(239, 171, 82);
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Image = (Image)resources.GetObject("button4.Image");
-            button4.ImageAlign = ContentAlignment.MiddleRight;
-            button4.Location = new Point(4, 6);
-            button4.Name = "button4";
-            button4.Size = new Size(103, 26);
-            button4.TabIndex = 0;
-            button4.Text = "Cadastrar";
-            button4.TextAlign = ContentAlignment.MiddleLeft;
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            btn_cadastrarLanche.BackColor = Color.FromArgb(239, 171, 82);
+            btn_cadastrarLanche.FlatStyle = FlatStyle.Flat;
+            btn_cadastrarLanche.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_cadastrarLanche.Image = (Image)resources.GetObject("btn_cadastrarLanche.Image");
+            btn_cadastrarLanche.ImageAlign = ContentAlignment.MiddleRight;
+            btn_cadastrarLanche.Location = new Point(4, 6);
+            btn_cadastrarLanche.Name = "btn_cadastrarLanche";
+            btn_cadastrarLanche.Size = new Size(103, 26);
+            btn_cadastrarLanche.TabIndex = 0;
+            btn_cadastrarLanche.Text = "Cadastrar";
+            btn_cadastrarLanche.TextAlign = ContentAlignment.MiddleLeft;
+            btn_cadastrarLanche.UseVisualStyleBackColor = false;
+            btn_cadastrarLanche.Click += button4_Click;
             // 
             // txt_igredientes
             // 
@@ -643,7 +643,7 @@
         private Panel panel4;
         private TabControl tabControl3;
         private TabPage LanchesCadastrados;
-        private Button button2;
+        private Button btn_removerLanche;
         private Panel panel7;
         private Label label7;
         private TextBox txt_precoLanche;
@@ -651,7 +651,7 @@
         private Label label5;
         private TextBox txt_nomeLanche;
         private Panel panel8;
-        private Button button4;
+        private Button btn_cadastrarLanche;
         private Label lbl_mensagem;
         private DataGridView dgPedidos;
         private Panel panel9;
