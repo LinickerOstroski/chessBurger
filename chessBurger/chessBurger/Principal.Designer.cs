@@ -110,6 +110,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(955, 118);
             panel1.TabIndex = 2;
+            panel1.Paint += panel1_Paint;
             // 
             // label6
             // 
@@ -578,6 +579,7 @@
             Name = "FormJanelaPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ChessBurger";
+            Load += FormJanelaPrincipal_Load;
             panel2.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

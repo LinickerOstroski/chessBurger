@@ -1,3 +1,5 @@
+using System.Data;
+
 namespace chessBurger
 {
     public partial class FormJanelaPrincipal : Form
@@ -59,5 +61,26 @@ namespace chessBurger
             Igredientes igredientes = new Igredientes(txt_nomeLanche.Text);
             igredientes.ShowDialog();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FormJanelaPrincipal_Load(object sender, EventArgs e)
+        {
+            listaCOBLanches();
+        }
+
+        public void listaCOBLanches()
+        {
+            ConectaBanco con = new ConectaBanco();
+            DataTable tabelaDados = new DataTable();
+            tabelaDados = con.listaLanches(); ;
+            cob_lancheEscolhido.DataSource = tabelaDados;
+            cob_lancheEscolhido.DisplayMember = "nomeLanche"; //O que vai mostrar
+            cob_lancheEscolhido.ValueMember = "idLanche"; //O que vai buscar do Banco
+        }
+
     }
 }
