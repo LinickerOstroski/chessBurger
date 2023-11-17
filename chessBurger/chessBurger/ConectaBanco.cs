@@ -12,7 +12,7 @@ namespace chessBurger
     internal class ConectaBanco
     {
         MySqlConnection conexao = new MySqlConnection("server=localhost;user id=root;password=;database=chessburger");
-        string mensagem;
+        public string mensagem;
 
         public bool inserePedido(Pedido novoPedido)
         {
@@ -22,8 +22,8 @@ namespace chessBurger
                 MySqlCommand cmd =
                     new MySqlCommand("sp_inserePedido", conexao);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("nomeCliente", novoPedido.Nome);
-                cmd.Parameters.AddWithValue("idLanche", novoPedido.Lanche);
+                cmd.Parameters.AddWithValue("nomeCliente", novoPedido.NomeCliente);
+                cmd.Parameters.AddWithValue("idLanche", novoPedido.LancheEscolhido);
                 cmd.ExecuteNonQuery();//executar no banco
                 return true;
             }

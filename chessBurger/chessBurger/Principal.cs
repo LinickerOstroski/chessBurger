@@ -29,12 +29,25 @@ namespace chessBurger
 
         private void button1_Click(object sender, EventArgs e)
         {
+            ConectaBanco con = new ConectaBanco();
+            Pedido novoPedido = new Pedido();
+            novoPedido.NomeCliente = txt_nomeCliente.Text;
+            novoPedido.LancheEscolhido = 1;
+            bool retorno = con.inserePedido(novoPedido);
+
+            if (retorno == false)
+            {
+                MessageBox.Show(con.mensagem);
+            }
+
             if (txt_nomeCliente.Text == "")
             {
                 MessageBox.Show("Digite o nome do cliente");
                 txt_nomeCliente.Focus();
                 return;
             }
+
+
         }
 
         private void btn_finalizarPedido_Click(object sender, EventArgs e)

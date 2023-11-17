@@ -8,10 +8,10 @@ namespace chessBurger
 {
     class Pedido
     {
-        string nome;
-        int lanche;
+        string nomeCliente;
+        int lancheEscolhido;
 
-        public string Nome { get => nome; set => nome = value; }
-        public int Lanche { get => lanche; set => lanche = value; }
+        public string NomeCliente { get => nomeCliente; set => nomeCliente = value; }
+        public int LancheEscolhido { get => lancheEscolhido; set => lancheEscolhido = value; }
     }
 }
