@@ -57,18 +57,19 @@
             button2 = new Button();
             tabControl3 = new TabControl();
             LanchesCadastrados = new TabPage();
+            dgLanches = new DataGridView();
             panel7 = new Panel();
+            panel8 = new Panel();
+            button4 = new Button();
+            txt_igredientes = new TextBox();
             label7 = new Label();
             txt_precoLanche = new TextBox();
             label3 = new Label();
             label5 = new Label();
             txt_nomeLanche = new TextBox();
-            panel8 = new Panel();
-            button4 = new Button();
             Alterar = new TabPage();
             Sobre = new TabPage();
             textBox2 = new TextBox();
-            txt_igredientes = new TextBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -85,6 +86,8 @@
             Lanches.SuspendLayout();
             panel4.SuspendLayout();
             tabControl3.SuspendLayout();
+            LanchesCadastrados.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgLanches).BeginInit();
             panel7.SuspendLayout();
             panel8.SuspendLayout();
             Sobre.SuspendLayout();
@@ -358,6 +361,7 @@
             cob_lancheEscolhido.Name = "cob_lancheEscolhido";
             cob_lancheEscolhido.Size = new Size(222, 27);
             cob_lancheEscolhido.TabIndex = 4;
+            cob_lancheEscolhido.SelectedIndexChanged += cob_lancheEscolhido_SelectedIndexChanged;
             // 
             // Lanches
             // 
@@ -410,6 +414,7 @@
             // 
             // LanchesCadastrados
             // 
+            LanchesCadastrados.Controls.Add(dgLanches);
             LanchesCadastrados.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             LanchesCadastrados.Location = new Point(4, 4);
             LanchesCadastrados.Name = "LanchesCadastrados";
@@ -418,6 +423,19 @@
             LanchesCadastrados.TabIndex = 0;
             LanchesCadastrados.Text = "Lanches  Cadastrados";
             LanchesCadastrados.UseVisualStyleBackColor = true;
+            // 
+            // dgLanches
+            // 
+            dgLanches.BackgroundColor = SystemColors.Window;
+            dgLanches.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgLanches.Dock = DockStyle.Fill;
+            dgLanches.GridColor = SystemColors.Window;
+            dgLanches.Location = new Point(3, 3);
+            dgLanches.Name = "dgLanches";
+            dgLanches.RowHeadersWidth = 50;
+            dgLanches.RowTemplate.Height = 25;
+            dgLanches.Size = new Size(411, 180);
+            dgLanches.TabIndex = 5;
             // 
             // panel7
             // 
@@ -433,6 +451,39 @@
             panel7.Name = "panel7";
             panel7.Size = new Size(434, 220);
             panel7.TabIndex = 7;
+            // 
+            // panel8
+            // 
+            panel8.BackColor = Color.FromArgb(255, 224, 192);
+            panel8.Controls.Add(button4);
+            panel8.Location = new Point(153, 178);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(119, 36);
+            panel8.TabIndex = 5;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.FromArgb(239, 171, 82);
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.Image = (Image)resources.GetObject("button4.Image");
+            button4.ImageAlign = ContentAlignment.MiddleRight;
+            button4.Location = new Point(4, 6);
+            button4.Name = "button4";
+            button4.Size = new Size(103, 26);
+            button4.TabIndex = 0;
+            button4.Text = "Cadastrar";
+            button4.TextAlign = ContentAlignment.MiddleLeft;
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // txt_igredientes
+            // 
+            txt_igredientes.Location = new Point(8, 125);
+            txt_igredientes.Multiline = true;
+            txt_igredientes.Name = "txt_igredientes";
+            txt_igredientes.Size = new Size(411, 40);
+            txt_igredientes.TabIndex = 8;
             // 
             // label7
             // 
@@ -483,31 +534,6 @@
             txt_nomeLanche.Size = new Size(233, 27);
             txt_nomeLanche.TabIndex = 3;
             // 
-            // panel8
-            // 
-            panel8.BackColor = Color.FromArgb(255, 224, 192);
-            panel8.Controls.Add(button4);
-            panel8.Location = new Point(161, 178);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(111, 36);
-            panel8.TabIndex = 5;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.FromArgb(239, 171, 82);
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Image = (Image)resources.GetObject("button4.Image");
-            button4.ImageAlign = ContentAlignment.MiddleRight;
-            button4.Location = new Point(4, 6);
-            button4.Name = "button4";
-            button4.Size = new Size(103, 26);
-            button4.TabIndex = 0;
-            button4.Text = "Cadastrar";
-            button4.TextAlign = ContentAlignment.MiddleLeft;
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
-            // 
             // Alterar
             // 
             Alterar.BackColor = Color.FromArgb(247, 213, 169);
@@ -546,14 +572,6 @@
             textBox2.Text = resources.GetString("textBox2.Text");
             textBox2.TextChanged += textBox2_TextChanged;
             // 
-            // txt_igredientes
-            // 
-            txt_igredientes.Location = new Point(8, 125);
-            txt_igredientes.Multiline = true;
-            txt_igredientes.Name = "txt_igredientes";
-            txt_igredientes.Size = new Size(411, 40);
-            txt_igredientes.TabIndex = 8;
-            // 
             // FormJanelaPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -587,6 +605,8 @@
             Lanches.ResumeLayout(false);
             panel4.ResumeLayout(false);
             tabControl3.ResumeLayout(false);
+            LanchesCadastrados.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dgLanches).EndInit();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
             panel8.ResumeLayout(false);
@@ -637,5 +657,6 @@
         private TextBox txt_filtrarPedido;
         private Label label8;
         private TextBox txt_igredientes;
+        private DataGridView dgLanches;
     }
 }

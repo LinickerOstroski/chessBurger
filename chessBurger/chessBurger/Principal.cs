@@ -5,11 +5,9 @@ namespace chessBurger
 {
     public partial class FormJanelaPrincipal : Form
     {
-        public FormJanelaPrincipal(String texto)
+        public FormJanelaPrincipal()
         {
             InitializeComponent();
-
-            string text = texto;
         }
         private void label5_Click(object sender, EventArgs e)
         {
@@ -36,7 +34,12 @@ namespace chessBurger
             txt_nomeCliente.Clear();
             cob_lancheEscolhido.Text = "";
             txt_nomeCliente.Focus();
+            txt_nomeLanche.Clear();
+            txt_precoLanche.Clear();
+            txt_igredientes.Clear();
+            txt_nomeLanche.Focus();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             ConectaBanco con = new ConectaBanco();
@@ -60,6 +63,7 @@ namespace chessBurger
 
             limpaCampos();
             listaGridPedidos();
+            listaGridLanches();
 
         }
 
@@ -99,6 +103,7 @@ namespace chessBurger
         {
             listaCOBLanches();
             listaGridPedidos();
+            listaGridLanches();
         }
 
         public void listaCOBLanches()
@@ -116,6 +121,13 @@ namespace chessBurger
             ConectaBanco con = new ConectaBanco();
             dgPedidos.DataSource = con.listaPedidos();
             dgPedidos.Columns["idPedido"].Visible = false;
+        }
+
+        public void listaGridLanches()
+        {
+            ConectaBanco con = new ConectaBanco();
+            dgLanches.DataSource = con.listaLanches();
+            dgLanches.Columns["idLanche"].Visible = false;
         }
 
         private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)
@@ -143,9 +155,16 @@ namespace chessBurger
             }
             else
             {
-                MessageBox.Show("Digite os dados");
-                txt_nomeCliente.Focus();
+                MessageBox.Show("Digite os dados!");
+                txt_nomeLanche.Focus();
             }
+
+            limpaCampos();
+            listaGridLanches();
+        }
+
+        private void cob_lancheEscolhido_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }
