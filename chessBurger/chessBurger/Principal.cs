@@ -62,6 +62,25 @@ namespace chessBurger
 
         private void btn_finalizarPedido_Click(object sender, EventArgs e)
         {
+            int linha = dgPedidos.CurrentRow.Index;
+            int id = Convert.ToInt32(
+                    dgPedidos.Rows[linha].Cells["idpedido"].Value.ToString());
+            DialogResult resp = MessageBox.Show("O pedido foi entregue?",
+                "Remove Banda", MessageBoxButtons.OKCancel);
+            if (resp == DialogResult.OK)
+            {
+                ConectaBanco con = new ConectaBanco();
+                bool retorno = con.deletaPedidos(id);
+                if (retorno == true)
+                {
+                    MessageBox.Show("Pedido finalizado!");
+                    listaGridPedidos();
+                }// fim if retorno true
+                else
+                    MessageBox.Show(con.mensagem);
+            }// fim if Ok Cancela
+            else
+                MessageBox.Show("Operação cancelada");
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -95,6 +114,7 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             dgPedidos.DataSource = con.listaPedidos();
+            dgPedidos.Columns["idPedido"].Visible = false;
         }
 
         private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)

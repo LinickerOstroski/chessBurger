@@ -82,6 +82,27 @@ namespace chessBurger
 
         }// fim lista_pedidos
 
+        public bool deletaPedidos(int idRemovePedido)
+        {
+            MySqlCommand cmd = new MySqlCommand("sp_removePedido", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("idpedido", idRemovePedido);
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery(); // executa o comando
+                return true;
+            }
+            catch (MySqlException e)
+            {
+                mensagem = "Erro:" + e.Message;
+                return false;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }// fim deletaBanda 
 
 
     }// fim classe
