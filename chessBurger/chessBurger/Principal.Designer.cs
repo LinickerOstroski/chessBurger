@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             panel2 = new Panel();
             panel1 = new Panel();
             label6 = new Label();
@@ -298,14 +301,34 @@
             // 
             // dgPedidos
             // 
+            dgPedidos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgPedidos.BackgroundColor = SystemColors.Window;
+            dgPedidos.BorderStyle = BorderStyle.None;
+            dgPedidos.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgPedidos.Dock = DockStyle.Fill;
-            dgPedidos.GridColor = SystemColors.Window;
+            dgPedidos.GridColor = SystemColors.InfoText;
             dgPedidos.Location = new Point(3, 3);
+            dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
-            dgPedidos.RowHeadersWidth = 50;
+            dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(255, 192, 128);
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = Color.White;
+            dataGridViewCellStyle2.ForeColor = Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(255, 192, 128);
+            dataGridViewCellStyle2.SelectionForeColor = Color.White;
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgPedidos.RowTemplate.Height = 25;
+            dgPedidos.ScrollBars = ScrollBars.Vertical;
             dgPedidos.Size = new Size(439, 182);
             dgPedidos.TabIndex = 4;
             // 
@@ -427,14 +450,22 @@
             // 
             // dgLanches
             // 
+            dgLanches.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
             dgLanches.BackgroundColor = SystemColors.Window;
+            dgLanches.BorderStyle = BorderStyle.None;
+            dgLanches.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgLanches.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgLanches.Dock = DockStyle.Fill;
-            dgLanches.GridColor = SystemColors.Window;
+            dgLanches.GridColor = SystemColors.InfoText;
             dgLanches.Location = new Point(3, 3);
+            dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
+            dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgLanches.RowHeadersWidth = 50;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(255, 192, 128);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
+            dgLanches.ScrollBars = ScrollBars.Vertical;
             dgLanches.Size = new Size(411, 180);
             dgLanches.TabIndex = 5;
             // 
