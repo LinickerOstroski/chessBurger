@@ -8,6 +8,8 @@ namespace chessBurger
         public FormJanelaPrincipal()
         {
             InitializeComponent();
+            marcador.BringToFront();
+            tabControl1.ItemSize = new System.Drawing.Size(0, 01); // deixando os botões invisíveis
         }
         private void label5_Click(object sender, EventArgs e)
         {
@@ -196,6 +198,34 @@ namespace chessBurger
         private void panel7_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            marcador.Height = btnPedidos.Height;
+            marcador.Top = btnPedidos.Top;
+            tabControl1.SelectedTab = tabControl1.TabPages[0];
+        }
+
+        private void btnLanches_Click(object sender, EventArgs e)
+        {
+            marcador.Height = btnLanches.Height;
+            marcador.Top = btnLanches.Top;
+            tabControl1.SelectedTab = tabControl1.TabPages[1];
+        }
+
+        private void btnAlterarLanches_Click(object sender, EventArgs e)
+        {
+            marcador.Height = btnAlterarLanches.Height;
+            marcador.Top = btnAlterarLanches.Top;
+            tabControl1.SelectedTab = tabControl1.TabPages[2];
+        }
+
+        private void btnSobre_Click(object sender, EventArgs e)
+        {
+            marcador.Height = btnSobre.Height;
+            marcador.Top = btnSobre.Top;
+            tabControl1.SelectedTab = tabControl1.TabPages[3];
         }
     }
 }

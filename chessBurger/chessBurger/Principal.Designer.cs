@@ -73,6 +73,11 @@
             Alterar = new TabPage();
             Sobre = new TabPage();
             textBox2 = new TextBox();
+            btnPedidos = new Button();
+            marcador = new Panel();
+            btnLanches = new Button();
+            btnAlterarLanches = new Button();
+            btnSobre = new Button();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -102,7 +107,7 @@
             panel2.Controls.Add(panel1);
             panel2.Location = new Point(0, 1);
             panel2.Name = "panel2";
-            panel2.Size = new Size(968, 123);
+            panel2.Size = new Size(930, 123);
             panel2.TabIndex = 1;
             // 
             // panel1
@@ -114,7 +119,7 @@
             panel1.Controls.Add(label4);
             panel1.Location = new Point(0, -5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(955, 115);
+            panel1.Size = new Size(926, 115);
             panel1.TabIndex = 2;
             panel1.Paint += panel1_Paint;
             // 
@@ -187,7 +192,6 @@
             Pedidos.RightToLeft = RightToLeft.No;
             Pedidos.Size = new Size(912, 283);
             Pedidos.TabIndex = 0;
-            Pedidos.Text = "Pedidos";
             // 
             // panel3
             // 
@@ -396,7 +400,6 @@
             Lanches.Padding = new Padding(3);
             Lanches.Size = new Size(912, 283);
             Lanches.TabIndex = 1;
-            Lanches.Text = "Lanches";
             // 
             // panel4
             // 
@@ -577,7 +580,6 @@
             Alterar.Padding = new Padding(3);
             Alterar.Size = new Size(912, 283);
             Alterar.TabIndex = 2;
-            Alterar.Text = "Alterar lanches";
             // 
             // Sobre
             // 
@@ -588,7 +590,6 @@
             Sobre.Name = "Sobre";
             Sobre.Size = new Size(912, 283);
             Sobre.TabIndex = 3;
-            Sobre.Text = "Sobre";
             // 
             // textBox2
             // 
@@ -606,12 +607,75 @@
             textBox2.Text = resources.GetString("textBox2.Text");
             textBox2.TextChanged += textBox2_TextChanged;
             // 
+            // btnPedidos
+            // 
+            btnPedidos.BackColor = Color.White;
+            btnPedidos.FlatStyle = FlatStyle.Flat;
+            btnPedidos.Location = new Point(932, 130);
+            btnPedidos.Name = "btnPedidos";
+            btnPedidos.Size = new Size(144, 49);
+            btnPedidos.TabIndex = 3;
+            btnPedidos.Text = "Pedidos";
+            btnPedidos.UseVisualStyleBackColor = false;
+            btnPedidos.Click += button2_Click_1;
+            // 
+            // marcador
+            // 
+            marcador.BackColor = Color.Black;
+            marcador.Location = new Point(1066, 130);
+            marcador.Name = "marcador";
+            marcador.Size = new Size(10, 49);
+            marcador.TabIndex = 4;
+            // 
+            // btnLanches
+            // 
+            btnLanches.BackColor = Color.White;
+            btnLanches.FlatStyle = FlatStyle.Flat;
+            btnLanches.Image = (Image)resources.GetObject("btnLanches.Image");
+            btnLanches.ImageAlign = ContentAlignment.MiddleLeft;
+            btnLanches.Location = new Point(932, 182);
+            btnLanches.Name = "btnLanches";
+            btnLanches.Size = new Size(144, 49);
+            btnLanches.TabIndex = 5;
+            btnLanches.Text = "Lanches";
+            btnLanches.UseVisualStyleBackColor = false;
+            btnLanches.Click += btnLanches_Click;
+            // 
+            // btnAlterarLanches
+            // 
+            btnAlterarLanches.BackColor = Color.White;
+            btnAlterarLanches.FlatStyle = FlatStyle.Flat;
+            btnAlterarLanches.Location = new Point(932, 234);
+            btnAlterarLanches.Name = "btnAlterarLanches";
+            btnAlterarLanches.Size = new Size(144, 49);
+            btnAlterarLanches.TabIndex = 6;
+            btnAlterarLanches.Text = "AlterarLanches";
+            btnAlterarLanches.UseVisualStyleBackColor = false;
+            btnAlterarLanches.Click += btnAlterarLanches_Click;
+            // 
+            // btnSobre
+            // 
+            btnSobre.BackColor = Color.White;
+            btnSobre.FlatStyle = FlatStyle.Flat;
+            btnSobre.Location = new Point(932, 289);
+            btnSobre.Name = "btnSobre";
+            btnSobre.Size = new Size(144, 49);
+            btnSobre.TabIndex = 7;
+            btnSobre.Text = "Sobre";
+            btnSobre.UseVisualStyleBackColor = false;
+            btnSobre.Click += btnSobre_Click;
+            // 
             // FormJanelaPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(239, 171, 82);
-            ClientSize = new Size(944, 451);
+            ClientSize = new Size(1106, 451);
+            Controls.Add(btnSobre);
+            Controls.Add(btnAlterarLanches);
+            Controls.Add(btnLanches);
+            Controls.Add(marcador);
+            Controls.Add(btnPedidos);
             Controls.Add(tabControl1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -692,5 +756,10 @@
         private Label label8;
         private TextBox txt_igredientes;
         private DataGridView dgLanches;
+        private Button btnPedidos;
+        private Panel marcador;
+        private Button btnLanches;
+        private Button btnAlterarLanches;
+        private Button btnSobre;
     }
 }
