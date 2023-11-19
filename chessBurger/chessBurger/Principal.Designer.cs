@@ -34,19 +34,21 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
+            tableLayoutPanel6 = new TableLayoutPanel();
             tableLayoutPanel3 = new TableLayoutPanel();
             tableLayoutPanel2 = new TableLayoutPanel();
             cob_lancheEscolhido = new ComboBox();
             label1 = new Label();
             label2 = new Label();
-            txt_filtrarPedido = new TextBox();
-            label8 = new Label();
             txt_nomeCliente = new TextBox();
             button1 = new Button();
             tabControl2 = new TabControl();
             tabPage4 = new TabPage();
             dgPedidos = new DataGridView();
             btn_finalizarPedido = new Button();
+            tableLayoutPanel7 = new TableLayoutPanel();
+            label8 = new Label();
+            txt_filtrarPedido = new TextBox();
             Lanches = new TabPage();
             tableLayoutPanel4 = new TableLayoutPanel();
             tableLayoutPanel5 = new TableLayoutPanel();
@@ -77,11 +79,13 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
+            tableLayoutPanel6.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             tabControl2.SuspendLayout();
             tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgPedidos).BeginInit();
+            tableLayoutPanel7.SuspendLayout();
             Lanches.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
@@ -110,8 +114,15 @@
             // 
             resources.ApplyResources(Pedidos, "Pedidos");
             Pedidos.BackColor = Color.White;
-            Pedidos.Controls.Add(tableLayoutPanel3);
+            Pedidos.Controls.Add(tableLayoutPanel6);
             Pedidos.Name = "Pedidos";
+            // 
+            // tableLayoutPanel6
+            // 
+            resources.ApplyResources(tableLayoutPanel6, "tableLayoutPanel6");
+            tableLayoutPanel6.Controls.Add(tableLayoutPanel3, 0, 1);
+            tableLayoutPanel6.Controls.Add(tableLayoutPanel7, 0, 0);
+            tableLayoutPanel6.Name = "tableLayoutPanel6";
             // 
             // tableLayoutPanel3
             // 
@@ -127,8 +138,6 @@
             tableLayoutPanel2.Controls.Add(cob_lancheEscolhido, 1, 2);
             tableLayoutPanel2.Controls.Add(label1, 0, 2);
             tableLayoutPanel2.Controls.Add(label2, 0, 1);
-            tableLayoutPanel2.Controls.Add(txt_filtrarPedido, 1, 0);
-            tableLayoutPanel2.Controls.Add(label8, 0, 0);
             tableLayoutPanel2.Controls.Add(txt_nomeCliente, 1, 1);
             tableLayoutPanel2.Controls.Add(button1, 0, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -152,18 +161,6 @@
             resources.ApplyResources(label2, "label2");
             label2.BackColor = Color.Transparent;
             label2.Name = "label2";
-            // 
-            // txt_filtrarPedido
-            // 
-            resources.ApplyResources(txt_filtrarPedido, "txt_filtrarPedido");
-            txt_filtrarPedido.Name = "txt_filtrarPedido";
-            txt_filtrarPedido.TextChanged += txt_filtrarPedido_TextChanged;
-            // 
-            // label8
-            // 
-            resources.ApplyResources(label8, "label8");
-            label8.BackColor = Color.Transparent;
-            label8.Name = "label8";
             // 
             // txt_nomeCliente
             // 
@@ -230,6 +227,25 @@
             btn_finalizarPedido.Name = "btn_finalizarPedido";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
+            // 
+            // tableLayoutPanel7
+            // 
+            resources.ApplyResources(tableLayoutPanel7, "tableLayoutPanel7");
+            tableLayoutPanel7.Controls.Add(label8, 0, 0);
+            tableLayoutPanel7.Controls.Add(txt_filtrarPedido, 1, 0);
+            tableLayoutPanel7.Name = "tableLayoutPanel7";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(label8, "label8");
+            label8.BackColor = Color.Transparent;
+            label8.Name = "label8";
+            // 
+            // txt_filtrarPedido
+            // 
+            resources.ApplyResources(txt_filtrarPedido, "txt_filtrarPedido");
+            txt_filtrarPedido.Name = "txt_filtrarPedido";
+            txt_filtrarPedido.TextChanged += txt_filtrarPedido_TextChanged;
             // 
             // Lanches
             // 
@@ -466,12 +482,15 @@
             Load += FormJanelaPrincipal_Load;
             tabControl1.ResumeLayout(false);
             Pedidos.ResumeLayout(false);
+            tableLayoutPanel6.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
             tabControl2.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgPedidos).EndInit();
+            tableLayoutPanel7.ResumeLayout(false);
+            tableLayoutPanel7.PerformLayout();
             Lanches.ResumeLayout(false);
             tableLayoutPanel4.ResumeLayout(false);
             tableLayoutPanel5.ResumeLayout(false);
@@ -535,5 +554,7 @@
         private TableLayoutPanel tableLayoutPanel4;
         private TableLayoutPanel tableLayoutPanel5;
         private Label label4;
+        private TableLayoutPanel tableLayoutPanel6;
+        private TableLayoutPanel tableLayoutPanel7;
     }
 }
