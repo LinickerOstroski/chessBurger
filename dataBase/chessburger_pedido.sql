@@ -16,29 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `lanche`
+-- Table structure for table `pedido`
 --
 
-DROP TABLE IF EXISTS `lanche`;
+DROP TABLE IF EXISTS `pedido`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `lanche` (
-  `idLanche` int(11) NOT NULL AUTO_INCREMENT,
-  `nomeLanche` varchar(45) NOT NULL,
-  `igredientes` varchar(255) NOT NULL,
-  `precoLanche` float NOT NULL,
-  PRIMARY KEY (`idLanche`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE `pedido` (
+  `idPedido` int(11) NOT NULL AUTO_INCREMENT,
+  `nomeCliente` varchar(45) NOT NULL,
+  `idLanche` int(11) DEFAULT NULL,
+  PRIMARY KEY (`idPedido`),
+  KEY `idLanche` (`idLanche`),
+  CONSTRAINT `pedido_ibfk_1` FOREIGN KEY (`idLanche`) REFERENCES `lanche` (`idLanche`)
+) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `lanche`
+-- Dumping data for table `pedido`
 --
 
-LOCK TABLES `lanche` WRITE;
-/*!40000 ALTER TABLE `lanche` DISABLE KEYS */;
-INSERT INTO `lanche` VALUES (1,'Fritas','Batatas fritas',25),(2,'Hambúrguer','Teste',2580),(4,'Teste','teste',15.62),(5,'FazendoUmTeste','OKWEROEJKOREKORKOERKO',55.25);
-/*!40000 ALTER TABLE `lanche` ENABLE KEYS */;
+LOCK TABLES `pedido` WRITE;
+/*!40000 ALTER TABLE `pedido` DISABLE KEYS */;
+INSERT INTO `pedido` VALUES (40,'Bispo',7),(41,'Torres',8);
+/*!40000 ALTER TABLE `pedido` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-17 17:58:55
+-- Dump completed on 2023-11-19 20:53:48
