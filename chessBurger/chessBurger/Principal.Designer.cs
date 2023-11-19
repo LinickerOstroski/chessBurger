@@ -28,16 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            panel2 = new Panel();
-            panel1 = new Panel();
-            label6 = new Label();
-            pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
-            label4 = new Label();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
             panel3 = new Panel();
@@ -78,10 +72,12 @@
             btnLanches = new Button();
             btnAlterarLanches = new Button();
             btnSobre = new Button();
-            panel2.SuspendLayout();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1 = new Panel();
+            label4 = new Label();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            label6 = new Label();
+            panel2 = new Panel();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             panel3.SuspendLayout();
@@ -99,72 +95,11 @@
             panel7.SuspendLayout();
             panel8.SuspendLayout();
             Sobre.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.FromArgb(247, 213, 169);
-            panel2.Controls.Add(panel1);
-            panel2.Location = new Point(0, 1);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(930, 123);
-            panel2.TabIndex = 1;
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(251, 234, 212);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(label4);
-            panel1.Location = new Point(0, -5);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(926, 115);
-            panel1.TabIndex = 2;
-            panel1.Paint += panel1_Paint;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(585, 64);
-            label6.Name = "label6";
-            label6.Size = new Size(74, 20);
-            label6.TabIndex = 3;
-            label6.Text = "alpha 1.2";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(259, 13);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(56, 95);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 2;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 7);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(158, 101);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Microsoft Sans Serif", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(164, 24);
-            label4.Name = "label4";
-            label4.Size = new Size(435, 73);
-            label4.TabIndex = 1;
-            label4.Text = "Ch   ssBurger";
             // 
             // tabControl1
             // 
@@ -174,15 +109,15 @@
             tabControl1.Controls.Add(Alterar);
             tabControl1.Controls.Add(Sobre);
             tabControl1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tabControl1.Location = new Point(10, 130);
+            tabControl1.Location = new Point(150, 119);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(920, 316);
+            tabControl1.Size = new Size(908, 316);
             tabControl1.TabIndex = 2;
             // 
             // Pedidos
             // 
-            Pedidos.BackColor = Color.FromArgb(247, 213, 169);
+            Pedidos.BackColor = Color.White;
             Pedidos.BackgroundImageLayout = ImageLayout.None;
             Pedidos.Controls.Add(panel3);
             Pedidos.Font = new Font("Microsoft Sans Serif", 8.999999F, FontStyle.Regular, GraphicsUnit.Point);
@@ -190,7 +125,7 @@
             Pedidos.Name = "Pedidos";
             Pedidos.Padding = new Padding(3);
             Pedidos.RightToLeft = RightToLeft.No;
-            Pedidos.Size = new Size(912, 283);
+            Pedidos.Size = new Size(900, 283);
             Pedidos.TabIndex = 0;
             // 
             // panel3
@@ -203,7 +138,7 @@
             panel3.Controls.Add(btn_finalizarPedido);
             panel3.Controls.Add(tabControl2);
             panel3.Controls.Add(panel5);
-            panel3.Location = new Point(6, 20);
+            panel3.Location = new Point(6, 13);
             panel3.Name = "panel3";
             panel3.Size = new Size(888, 248);
             panel3.TabIndex = 5;
@@ -316,21 +251,21 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(255, 192, 128);
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle7.BackColor = Color.White;
+            dataGridViewCellStyle7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle7.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(255, 192, 128);
+            dataGridViewCellStyle7.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = Color.White;
-            dataGridViewCellStyle2.ForeColor = Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(255, 192, 128);
-            dataGridViewCellStyle2.SelectionForeColor = Color.White;
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle8.BackColor = Color.White;
+            dataGridViewCellStyle8.ForeColor = Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(255, 192, 128);
+            dataGridViewCellStyle8.SelectionForeColor = Color.White;
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle8;
             dgPedidos.RowTemplate.Height = 25;
             dgPedidos.ScrollBars = ScrollBars.Vertical;
             dgPedidos.Size = new Size(439, 182);
@@ -465,8 +400,8 @@
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgLanches.RowHeadersWidth = 50;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(255, 192, 128);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(255, 192, 128);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle9;
             dgLanches.RowTemplate.Height = 25;
             dgLanches.ScrollBars = ScrollBars.Vertical;
             dgLanches.Size = new Size(411, 180);
@@ -609,9 +544,11 @@
             // 
             // btnPedidos
             // 
-            btnPedidos.BackColor = Color.White;
+            btnPedidos.BackColor = Color.FromArgb(251, 234, 212);
+            btnPedidos.FlatAppearance.BorderColor = Color.FromArgb(251, 234, 212);
             btnPedidos.FlatStyle = FlatStyle.Flat;
-            btnPedidos.Location = new Point(932, 130);
+            btnPedidos.ForeColor = SystemColors.Desktop;
+            btnPedidos.Location = new Point(7, 142);
             btnPedidos.Name = "btnPedidos";
             btnPedidos.Size = new Size(144, 49);
             btnPedidos.TabIndex = 3;
@@ -622,18 +559,19 @@
             // marcador
             // 
             marcador.BackColor = Color.Black;
-            marcador.Location = new Point(1066, 130);
+            marcador.Location = new Point(7, 142);
             marcador.Name = "marcador";
             marcador.Size = new Size(10, 49);
             marcador.TabIndex = 4;
             // 
             // btnLanches
             // 
-            btnLanches.BackColor = Color.White;
+            btnLanches.BackColor = Color.FromArgb(251, 234, 212);
+            btnLanches.FlatAppearance.BorderColor = Color.FromArgb(251, 234, 212);
             btnLanches.FlatStyle = FlatStyle.Flat;
             btnLanches.Image = (Image)resources.GetObject("btnLanches.Image");
             btnLanches.ImageAlign = ContentAlignment.MiddleLeft;
-            btnLanches.Location = new Point(932, 182);
+            btnLanches.Location = new Point(7, 197);
             btnLanches.Name = "btnLanches";
             btnLanches.Size = new Size(144, 49);
             btnLanches.TabIndex = 5;
@@ -643,9 +581,10 @@
             // 
             // btnAlterarLanches
             // 
-            btnAlterarLanches.BackColor = Color.White;
+            btnAlterarLanches.BackColor = Color.FromArgb(251, 234, 212);
+            btnAlterarLanches.FlatAppearance.BorderColor = Color.FromArgb(251, 234, 212);
             btnAlterarLanches.FlatStyle = FlatStyle.Flat;
-            btnAlterarLanches.Location = new Point(932, 234);
+            btnAlterarLanches.Location = new Point(7, 252);
             btnAlterarLanches.Name = "btnAlterarLanches";
             btnAlterarLanches.Size = new Size(144, 49);
             btnAlterarLanches.TabIndex = 6;
@@ -655,9 +594,10 @@
             // 
             // btnSobre
             // 
-            btnSobre.BackColor = Color.White;
+            btnSobre.BackColor = Color.FromArgb(251, 234, 212);
+            btnSobre.FlatAppearance.BorderColor = Color.FromArgb(251, 234, 212);
             btnSobre.FlatStyle = FlatStyle.Flat;
-            btnSobre.Location = new Point(932, 289);
+            btnSobre.Location = new Point(6, 307);
             btnSobre.Name = "btnSobre";
             btnSobre.Size = new Size(144, 49);
             btnSobre.TabIndex = 7;
@@ -665,30 +605,90 @@
             btnSobre.UseVisualStyleBackColor = false;
             btnSobre.Click += btnSobre_Click;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(251, 234, 212);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(label4);
+            panel1.Location = new Point(144, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(914, 115);
+            panel1.TabIndex = 2;
+            panel1.Paint += panel1_Paint;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Microsoft Sans Serif", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(0, 21);
+            label4.Name = "label4";
+            label4.Size = new Size(435, 73);
+            label4.TabIndex = 1;
+            label4.Text = "Ch   ssBurger";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(4, 10);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(158, 101);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(94, 6);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(56, 95);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 2;
+            pictureBox2.TabStop = false;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(420, 64);
+            label6.Name = "label6";
+            label6.Size = new Size(74, 20);
+            label6.TabIndex = 3;
+            label6.Text = "alpha 1.2";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(251, 234, 212);
+            panel2.Controls.Add(marcador);
+            panel2.Controls.Add(btnSobre);
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(btnAlterarLanches);
+            panel2.Controls.Add(btnLanches);
+            panel2.Controls.Add(btnPedidos);
+            panel2.Location = new Point(-6, -3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(153, 521);
+            panel2.TabIndex = 8;
+            // 
             // FormJanelaPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(239, 171, 82);
-            ClientSize = new Size(1106, 451);
-            Controls.Add(btnSobre);
-            Controls.Add(btnAlterarLanches);
-            Controls.Add(btnLanches);
-            Controls.Add(marcador);
-            Controls.Add(btnPedidos);
-            Controls.Add(tabControl1);
+            ClientSize = new Size(1065, 418);
             Controls.Add(panel2);
+            Controls.Add(panel1);
+            Controls.Add(tabControl1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             Name = "FormJanelaPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ChessBurger";
             Load += FormJanelaPrincipal_Load;
-            panel2.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tabControl1.ResumeLayout(false);
             Pedidos.ResumeLayout(false);
             panel3.ResumeLayout(false);
@@ -710,27 +710,26 @@
             panel8.ResumeLayout(false);
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-        private Panel panel2;
         private TabControl tabControl1;
         private TabPage Pedidos;
         private TabPage Lanches;
         private Button button1;
         private Label label1;
-        private Panel panel1;
-        private PictureBox pictureBox1;
         private TextBox txt_nomeCliente;
         private ComboBox cob_lancheEscolhido;
         private Panel panel3;
-        private PictureBox pictureBox2;
-        private Label label4;
         private Label label2;
         private TabPage Alterar;
         private TabPage Sobre;
-        private Label label6;
         private TextBox textBox2;
         private Panel panel5;
         private Panel panel6;
@@ -761,5 +760,11 @@
         private Button btnLanches;
         private Button btnAlterarLanches;
         private Button btnSobre;
+        private Panel panel1;
+        private Label label6;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox1;
+        private Label label4;
+        private Panel panel2;
     }
 }

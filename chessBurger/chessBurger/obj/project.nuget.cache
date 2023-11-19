@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ugv9KcCGzEbxdVvUonFA6h4oTIMGXy2U3Fw8yPwFWekyu/bnU/8J0QaPuQwMTXzI/pFjVhK3GrWg8G/oHtDF7w==",
+  "dgSpecHash": "oK3/uXhNmk3wk5CwqL6M6GSJqNXNfnLti9ubNQjzisymg5pwgU+tPmm0CXvSLRkQdQy5HXxAlLzw68rc3DutDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Iksortso K2\\Desktop\\projetoCsharp\\chessBurger\\chessBurger\\chessBurger\\chessBurger.csproj",
+  "projectFilePath": "C:\\Users\\Iksortso K2\\Desktop\\Faculdade\\projetoCsharp\\chessBurger\\chessBurger\\chessBurger\\chessBurger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Iksortso K2\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Iksortso K2\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
