@@ -73,8 +73,8 @@
             pictureBox3 = new PictureBox();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
-            tableLayoutPanel1 = new TableLayoutPanel();
             label4 = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
@@ -317,16 +317,17 @@
             // dgLanches
             // 
             resources.ApplyResources(dgLanches, "dgLanches");
-            dgLanches.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            dgLanches.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgLanches.BackgroundColor = SystemColors.ControlLight;
             dgLanches.BorderStyle = BorderStyle.None;
             dgLanches.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgLanches.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgLanches.GridColor = SystemColors.InfoText;
+            dgLanches.GridColor = SystemColors.ControlLight;
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(255, 192, 128);
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(61, 125, 144);
             dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             // 
@@ -438,6 +439,11 @@
             panel2.Controls.Add(label4);
             panel2.Name = "panel2";
             // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.Name = "label4";
+            // 
             // tableLayoutPanel1
             // 
             resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
@@ -446,11 +452,6 @@
             tableLayoutPanel1.Controls.Add(panel1, 1, 0);
             tableLayoutPanel1.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(label4, "label4");
-            label4.Name = "label4";
             // 
             // FormJanelaPrincipal
             // 
