@@ -156,3 +156,6 @@ C:\Users\Iksortso K2\Desktop\Faculdade\projetoCsharp\chessBurger\chessBurger\che
 C:\Users\Iksortso K2\Desktop\Faculdade\projetoCsharp\chessBurger\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.pdb
 C:\Users\Iksortso K2\Desktop\Faculdade\projetoCsharp\chessBurger\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.genruntimeconfig.cache
 C:\Users\Iksortso K2\Desktop\Faculdade\projetoCsharp\chessBurger\chessBurger\chessBurger\obj\Debug\net6.0-windows\ref\chessBurger.dll
+C:\Users\Iksortso K2\Desktop\Faculdade\projetoCsharp\chessBurger\chessBurger\chessBurger\bin\Debug\net6.0-windows\pt-BR\chessBurger.resources.dll
+C:\Users\Iksortso K2\Desktop\Faculdade\projetoCsharp\chessBurger\chessBurger\chessBurger\obj\Debug\net6.0-windows\chessBurger.FormJanelaPrincipal.pt-BR.resources
+C:\Users\Iksortso K2\Desktop\Faculdade\projetoCsharp\chessBurger\chessBurger\chessBurger\obj\Debug\net6.0-windows\pt-BR\chessBurger.resources.dll

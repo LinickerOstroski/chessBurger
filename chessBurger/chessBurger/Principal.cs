@@ -103,7 +103,7 @@ namespace chessBurger
 
         private void FormJanelaPrincipal_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Bem vindo");
+            //MessageBox.Show("Bem vindo");
             listaCOBLanches();
             listaGridPedidos();
             listaGridLanches();
