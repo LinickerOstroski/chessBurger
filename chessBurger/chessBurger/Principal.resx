@@ -117,183 +117,370 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;cob_lancheEscolhido.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;dgPedidos.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;cob_lancheEscolhido.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 9</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txt_igredientes.Type" xml:space="preserve">
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txt_precoLanche.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnPedidos" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="marcador" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnLanches" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnSobre" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnAlterarLanches" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,17" /&gt;&lt;Rows Styles="Percent,46,226414,Percent,53,773586,Absolute,51,Absolute,51,Absolute,148" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 119</value>
-  </data>
-  <data name="&gt;&gt;tabControl3.Parent" xml:space="preserve">
-    <value>Lanches</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;btn_removerLanche.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="dgLanches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnPedidos.Name" xml:space="preserve">
-    <value>btnPedidos</value>
-  </data>
-  <data name="tabControl3.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="txt_igredientes.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="cob_lancheEscolhido.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 28</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_finalizarPedido.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnLanches.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>alpha 2.2</value>
-  </data>
-  <data name="Lanches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Lanches.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Pedidos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_cadastrarLanche.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="&gt;&gt;dgLanches.Name" xml:space="preserve">
-    <value>dgLanches</value>
-  </data>
-  <data name="LanchesCadastrados.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 14</value>
-  </data>
-  <data name="textBox2.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Pedidos.Size" type="System.Drawing.Size, System.Drawing">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Alterar.Size" type="System.Drawing.Size, System.Drawing">
     <value>900, 282</value>
   </data>
-  <data name="textBox2.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 6</value>
-  </data>
-  <data name="Pedidos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
-    <value>pictureBox3</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 19</value>
-  </data>
-  <data name="&gt;&gt;LanchesCadastrados.Parent" xml:space="preserve">
-    <value>tabControl3</value>
-  </data>
-  <data name="tabControl2.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-6, -3</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
-  </data>
-  <data name="&gt;&gt;Pedidos.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Ch   ssBurger</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cob_lancheEscolhido.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;txt_filtrarPedido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 54</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LanchesCadastrados.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 10</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_finalizarPedido.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Pedidos Cadastrados</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 6</value>
+  </data>
+  <data name="&gt;&gt;txt_igredientes.Name" xml:space="preserve">
+    <value>txt_igredientes</value>
+  </data>
+  <data name="&gt;&gt;dgPedidos.Name" xml:space="preserve">
+    <value>dgPedidos</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="txt_filtrarPedido.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Pedidos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnPedidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 49</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Lanches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>900, 282</value>
+  </data>
+  <data name="btnAlterarLanches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 252</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeLanche.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_filtrarPedido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 25</value>
+  </data>
+  <data name="txt_nomeCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="Lanches.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="cob_lancheEscolhido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 55</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="txt_precoLanche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 25</value>
+  </data>
+  <data name="btnAlterarLanches.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txt_nomeLanche.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 11.25pt</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cob_lancheEscolhido" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txt_filtrarPedido" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label8" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txt_nomeCliente" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,222" /&gt;&lt;Rows Styles="Percent,50,Absolute,34,Absolute,41,Absolute,37,Absolute,356" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 57</value>
+  </data>
+  <data name="btnSobre.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_finalizarPedido.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgPedidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_igredientes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 128</value>
+  </data>
+  <data name="dgLanches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 221</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeCliente.Name" xml:space="preserve">
+    <value>txt_nomeCliente</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_removerLanche.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="dgLanches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="btn_removerLanche.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnPedidos.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="Alterar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Buscar cliente:</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lanches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="Sobre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.249998pt</value>
+  </data>
+  <data name="&gt;&gt;dgPedidos.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_precoLanche.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;LanchesCadastrados.Parent" xml:space="preserve">
+    <value>tabControl3</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;marcador.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Alterar.Name" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Lanches.Name" xml:space="preserve">
+    <value>Lanches</value>
+  </data>
+  <data name="Sobre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="btn_finalizarPedido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 24</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="txt_nomeLanche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 25</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Pedidos.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_finalizarPedido.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Pedidos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.999999pt</value>
+  </data>
+  <data name="&gt;&gt;txt_filtrarPedido.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Alterar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 14</value>
+  </data>
+  <data name="txt_nomeLanche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;cob_lancheEscolhido.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="btnLanches.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeLanche.Name" xml:space="preserve">
+    <value>txt_nomeLanche</value>
+  </data>
+  <data name="cob_lancheEscolhido.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 12pt</value>
+  </data>
+  <data name="Pedidos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="txt_nomeCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 11.25pt</value>
+  </data>
+  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btn_finalizarPedido.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;marcador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pedidos.Name" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="btn_cadastrarLanche.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAE
+        PAAABDwBGWgkQgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACySURBVDhPpZNd
+        CoMwEITjXSTnEvrqgzeodxKv4SUKvYDgazqz7kqk20hN4IO4MzuYv5BSOoERwQgm8FY4Zy1++Y9JCA0Y
+        wAZY8KBGT3MKYAHMIDeXoFdCLICpucFYFU8btFfW/Ou3e8XT2MNe2RzPQDrF08gTyA57IrkKYK8ckxVe
+        4AGssVXsmxo95mdvfUD1Eqo3sXSMpYD9GC8u0qJ42n6RNKDuKmch9x5TDsYfzzmFD/0AD/RIHImjAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeCliente.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnPedidos.Name" xml:space="preserve">
+    <value>btnPedidos</value>
+  </data>
+  <data name="Lanches.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.249998pt</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 101</value>
+  </data>
+  <data name="Sobre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>900, 282</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -340,201 +527,29 @@
         QmCC
 </value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="dgPedidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 193</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="Alterar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>900, 282</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeCliente.Name" xml:space="preserve">
-    <value>txt_nomeCliente</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Sobre.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnSobre.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;dgLanches.Parent" xml:space="preserve">
-    <value>LanchesCadastrados</value>
-  </data>
-  <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 230</value>
-  </data>
-  <data name="Pedidos.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="txt_nomeCliente.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 13</value>
-  </data>
-  <data name="Lanches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>900, 282</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn_removerLanche.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="txt_nomeLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 13</value>
-  </data>
-  <data name="&gt;&gt;btnAlterarLanches.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;dgPedidos.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Alterar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Sobre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 28</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 10</value>
-  </data>
-  <data name="tabControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="txt_igredientes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 8.25pt</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="dgPedidos.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="&gt;&gt;btnPedidos.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;txt_precoLanche.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_cadastrarLanche.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;tabControl2.Name" xml:space="preserve">
-    <value>tabControl2</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
-    <value>tabControl2</value>
-  </data>
-  <data name="&gt;&gt;btnLanches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnSobre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 49</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormJanelaPrincipal</value>
-  </data>
-  <data name="&gt;&gt;Lanches.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;marcador.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="Lanches.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
   </data>
-  <data name="btn_finalizarPedido.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="tabControl3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 258</value>
-  </data>
-  <data name="Alterar.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+  <data name="marcador.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 9</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeLanche.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="btnSobre.Text" xml:space="preserve">
-    <value>Sobre</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="btnLanches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAQuSURBVFhHzZd7
-        zM11HMd/ESaGRC7Jmlut5jLX2rS5ZOsPY67/pDRtcs2dIUtoy71WZM3cVdbWiIxRKcVms6JQud8ppoRy
-        GV6v8zvfs/Oc8zwe5xjz3l7b93yfn9/38/1cf6L7SVVhKZyHf5Nr94rTq/AXnILhUBJyVmn4Gd6D6lAF
-        ZsIOaAsPQGF6DP6GxlAfvoGvoSzkpB6wIV6mVAJGgUb44kqQqWag4UEa+hX0SfzKQeNgdryMesNKGATu
-        aYieOQw+p7eCesIv8TIlQzcwXt6+9MCWeBk9CEvgCoyGZ6ABNIIvYBOUAeXt54BGdofvYS9UhpxUCn6C
-        GdAOTERd/zusgXAjD1oFYxK/oqgOfAsa/yd4kYcgL5l438EIMIkqwjq4Ab3AfWPeHNLdbtz7g9WgvIDP
-        vg7l3MhFTeEEmNFdYQVMhNNwFJ4HDTPzlX9zPT7xK4oeAUPi85amOVIecpJJqDufSPyKoo5gKPREX2gJ
-        O0GdgxfgLDwMu2ExLIPr8CPcTi/J0ltgNqtnQSNawEHQGMtTvQMaMQGsGg8P0ghDk5eM3Wb4BKwCs95m
-        Y078Dx+ACZmuwTA/XiaUaUAbME9Gwitg4mepFXgT42w2G9s94KGWnP/YZLUxLYd0GX89pOcWwQF4FN6A
-        H2AX6CF7ir+Dh1OqCcb+c9gKmTdMlx7xFpnSCG8tHm5XtG90gfbQBD4G/3YRCkgDToJusuu9CHY9LTbO
-        /8Cs5J7SE7bvC2CveBrSNQycC9VgLLwPNjcrpzZ4VpYsM0vPF2uAh/tyM936tgnZrNSHYKs2VAMgNCJl
-        bzBZ7Rl2RaerFWJzM3/Mq9+gWJ2Bx+GjJLWSe2o1dI6XCelePaesEsP4EnghO6seDP3iM5gcL7Ola+vF
-        y+g4DIXtsA1MUG/qDa1xO2SQIfB5Z4khs01roP3DVm0edAMrzEblZbLkPFgAul69C7q9BvidYDgMgd8I
-        l+ApsJw+BTufBlWA/8BvBSvIajHjdbvh8h1WSZbWgnHS4stgHdvdNMKbeYAfKR7oLU0y9zbCejDZlFPT
-        ztgQXnYD+S0xDY7AQgjTtIBssVfBGWAfsAmFb4Qgx/KQJM4Lb2lShbZdF47Ba2DNfwmTYB9YfhpXpIy7
-        DwbZuZyOQWa6CegkFNf9IMgy3g9vgjnjUDIJTTZDVqz8mHQSdgJdZlx1m3oSPNDkMQnFtXshYc0dv6T+
-        AGdJXnoObLmWjQaEUWq8TVAPtR/oHdfu2WqVo9dW7MQMmgKOa8NwR9KAX8FDW4Nt1QR0z3woSta+z1qW
-        t5QuNfvvJV4mJcvDxnGvZLUcipex5sHb8TIhsznTYpuMdR3WdyIrwypJyTq2eZhcd1uWpNXjRCygDuAf
-        poKlldf/8YqQ77JxTQfPcLoWKq2aC8bnGmSGIV98l+/U7U7X+0VRdBOyJS7LYM7F3QAAAABJRU5ErkJg
-        gg==
-</value>
-  </data>
-  <data name="&gt;&gt;LanchesCadastrados.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Sobre.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.249998pt</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 21</value>
-  </data>
-  <data name="btnAlterarLanches.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
-    <value>Pedidos</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -626,233 +641,907 @@
         HsIkgDyESQB5CJMA8hAmAeQhTALIwYPF/wMWUvjuuIQNOgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 98</value>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
-    <value>Lanches</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;btnLanches.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>415, 144</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnLanches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 197</value>
-  </data>
-  <data name="&gt;&gt;Sobre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 0</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnPedidos.TabIndex" type="System.Int32, mscorlib">
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="txt_filtrarPedido.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;Lanches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 199</value>
-  </data>
-  <data name="dgPedidos.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tabPage4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="txt_precoLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 25</value>
-  </data>
-  <data name="marcador.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 142</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btn_cadastrarLanche.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 64</value>
-  </data>
-  <data name="&gt;&gt;dgLanches.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Preço do lanche:</value>
-  </data>
-  <data name="txt_igredientes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 128</value>
-  </data>
-  <data name="marcador.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 49</value>
-  </data>
-  <data name="btn_removerLanche.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dgLanches.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txt_precoLanche.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;cob_lancheEscolhido.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="btnLanches.Text" xml:space="preserve">
-    <value>Lanches</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>454, 19</value>
-  </data>
-  <data name="&gt;&gt;btnPedidos.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;Pedidos.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="txt_filtrarPedido.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 8</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 73</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_removerLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 253</value>
-  </data>
-  <data name="btnAlterarLanches.Text" xml:space="preserve">
-    <value>AlterarLanches</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnPedidos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dgPedidos.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControl2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btn_finalizarPedido" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,585823,Percent,65,41418" /&gt;&lt;Rows Styles="Percent,50,Absolute,35" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="txt_nomeLanche.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.Name" xml:space="preserve">
-    <value>btnSobre</value>
-  </data>
-  <data name="btnPedidos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12.75pt</value>
-  </data>
-  <data name="btnLanches.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;txt_igredientes.Name" xml:space="preserve">
-    <value>txt_igredientes</value>
-  </data>
-  <data name="txt_nomeCliente.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 11.25pt</value>
-  </data>
-  <data name="Alterar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeCliente.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;tabControl3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnPedidos.Text" xml:space="preserve">
-    <value>Pedidos</value>
-  </data>
-  <data name="dgPedidos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 193</value>
-  </data>
-  <data name="tabControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 47</value>
-  </data>
-  <data name="&gt;&gt;LanchesCadastrados.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txt_igredientes.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="btnSobre.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
   </data>
   <data name="&gt;&gt;btn_cadastrarLanche.Name" xml:space="preserve">
     <value>btn_cadastrarLanche</value>
   </data>
-  <data name="&gt;&gt;btn_removerLanche.Name" xml:space="preserve">
-    <value>btn_removerLanche</value>
+  <data name="Alterar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 9</value>
+  </data>
+  <data name="cob_lancheEscolhido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 28</value>
+  </data>
+  <data name="LanchesCadastrados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 227</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>914, 115</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeCliente.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ch   ssBurger</value>
+  </data>
+  <data name="btn_finalizarPedido.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btn_finalizarPedido.Text" xml:space="preserve">
+    <value>Finalizar Pedido</value>
+  </data>
+  <data name="&gt;&gt;tabControl3.Name" xml:space="preserve">
+    <value>tabControl3</value>
+  </data>
+  <data name="&gt;&gt;dgLanches.Name" xml:space="preserve">
+    <value>dgLanches</value>
+  </data>
+  <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 230</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSobre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Alterar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.249998pt</value>
+  </data>
+  <data name="&gt;&gt;Sobre.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeLanche.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="tabControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 19</value>
+  </data>
+  <data name="txt_filtrarPedido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 8</value>
+  </data>
+  <data name="&gt;&gt;LanchesCadastrados.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgPedidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 119</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Nome do lanche:</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="Sobre.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl2.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tabControl3.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Alterar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;btn_finalizarPedido.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cob_lancheEscolhido.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 95</value>
+  </data>
+  <data name="&gt;&gt;Sobre.Name" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgLanches.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="dgPedidos.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;btn_cadastrarLanche.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;btn_removerLanche.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgPedidos.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;btnLanches.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnAlterarLanches.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel5" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControl3" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btn_removerLanche" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,41,581635,Percent,58,418365" /&gt;&lt;Rows Styles="Percent,50,Absolute,35" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="btn_cadastrarLanche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 223</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Preço do lanche:</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeLanche.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Alterar.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;btnSobre.Name" xml:space="preserve">
+    <value>btnSobre</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgPedidos.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 48pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_igredientes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Cadastrar Pedido</value>
+  </data>
+  <data name="LanchesCadastrados.Text" xml:space="preserve">
+    <value>Lanches  Cadastrados</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>Lanches</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_removerLanche.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnLanches.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 19</value>
+  </data>
+  <data name="btn_removerLanche.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;tabControl3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 264</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 199</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;txt_precoLanche.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="textBox2.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="Pedidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>900, 282</value>
+  </data>
+  <data name="btnPedidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 142</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAE
+        PAAABDwBGWgkQgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACySURBVDhPpZNd
+        CoMwEITjXSTnEvrqgzeodxKv4SUKvYDgazqz7kqk20hN4IO4MzuYv5BSOoERwQgm8FY4Zy1++Y9JCA0Y
+        wAZY8KBGT3MKYAHMIDeXoFdCLICpucFYFU8btFfW/Ou3e8XT2MNe2RzPQDrF08gTyA57IrkKYK8ckxVe
+        4AGssVXsmxo95mdvfUD1Eqo3sXSMpYD9GC8u0qJ42n6RNKDuKmch9x5TDsYfzzmFD/0AD/RIHImjAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;btnLanches.Name" xml:space="preserve">
+    <value>btnLanches</value>
+  </data>
+  <data name="&gt;&gt;txt_filtrarPedido.Name" xml:space="preserve">
+    <value>txt_filtrarPedido</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;txt_igredientes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="txt_nomeCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 13</value>
+  </data>
+  <data name="&gt;&gt;LanchesCadastrados.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_precoLanche.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnLanches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAQuSURBVFhHzZd7
+        zM11HMd/ESaGRC7Jmlut5jLX2rS5ZOsPY67/pDRtcs2dIUtoy71WZM3cVdbWiIxRKcVms6JQud8ppoRy
+        GV6v8zvfs/Oc8zwe5xjz3l7b93yfn9/38/1cf6L7SVVhKZyHf5Nr94rTq/AXnILhUBJyVmn4Gd6D6lAF
+        ZsIOaAsPQGF6DP6GxlAfvoGvoSzkpB6wIV6mVAJGgUb44kqQqWag4UEa+hX0SfzKQeNgdryMesNKGATu
+        aYieOQw+p7eCesIv8TIlQzcwXt6+9MCWeBk9CEvgCoyGZ6ABNIIvYBOUAeXt54BGdofvYS9UhpxUCn6C
+        GdAOTERd/zusgXAjD1oFYxK/oqgOfAsa/yd4kYcgL5l438EIMIkqwjq4Ab3AfWPeHNLdbtz7g9WgvIDP
+        vg7l3MhFTeEEmNFdYQVMhNNwFJ4HDTPzlX9zPT7xK4oeAUPi85amOVIecpJJqDufSPyKoo5gKPREX2gJ
+        O0GdgxfgLDwMu2ExLIPr8CPcTi/J0ltgNqtnQSNawEHQGMtTvQMaMQGsGg8P0ghDk5eM3Wb4BKwCs95m
+        Y078Dx+ACZmuwTA/XiaUaUAbME9Gwitg4mepFXgT42w2G9s94KGWnP/YZLUxLYd0GX89pOcWwQF4FN6A
+        H2AX6CF7ir+Dh1OqCcb+c9gKmTdMlx7xFpnSCG8tHm5XtG90gfbQBD4G/3YRCkgDToJusuu9CHY9LTbO
+        /8Cs5J7SE7bvC2CveBrSNQycC9VgLLwPNjcrpzZ4VpYsM0vPF2uAh/tyM936tgnZrNSHYKs2VAMgNCJl
+        bzBZ7Rl2RaerFWJzM3/Mq9+gWJ2Bx+GjJLWSe2o1dI6XCelePaesEsP4EnghO6seDP3iM5gcL7Ola+vF
+        y+g4DIXtsA1MUG/qDa1xO2SQIfB5Z4khs01roP3DVm0edAMrzEblZbLkPFgAul69C7q9BvidYDgMgd8I
+        l+ApsJw+BTufBlWA/8BvBSvIajHjdbvh8h1WSZbWgnHS4stgHdvdNMKbeYAfKR7oLU0y9zbCejDZlFPT
+        ztgQXnYD+S0xDY7AQgjTtIBssVfBGWAfsAmFb4Qgx/KQJM4Lb2lShbZdF47Ba2DNfwmTYB9YfhpXpIy7
+        DwbZuZyOQWa6CegkFNf9IMgy3g9vgjnjUDIJTTZDVqz8mHQSdgJdZlx1m3oSPNDkMQnFtXshYc0dv6T+
+        AGdJXnoObLmWjQaEUWq8TVAPtR/oHdfu2WqVo9dW7MQMmgKOa8NwR9KAX8FDW4Nt1QR0z3woSta+z1qW
+        t5QuNfvvJV4mJcvDxnGvZLUcipex5sHb8TIhsznTYpuMdR3WdyIrwypJyTq2eZhcd1uWpNXjRCygDuAf
+        poKlldf/8YqQ77JxTQfPcLoWKq2aC8bnGmSGIV98l+/U7U7X+0VRdBOyJS7LYM7F3QAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="&gt;&gt;btnAlterarLanches.Name" xml:space="preserve">
+    <value>btnAlterarLanches</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pedidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 9</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_finalizarPedido.Name" xml:space="preserve">
+    <value>btn_finalizarPedido</value>
+  </data>
+  <data name="btnPedidos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="&gt;&gt;btn_cadastrarLanche.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnAlterarLanches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLanches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 197</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pedidos.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;btnAlterarLanches.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ChessBurger</value>
+  </data>
+  <data name="&gt;&gt;Lanches.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1065, 411</value>
+  </data>
+  <data name="marcador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 142</value>
+  </data>
+  <data name="&gt;&gt;Lanches.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;cob_lancheEscolhido.Name" xml:space="preserve">
+    <value>cob_lancheEscolhido</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 73</value>
+  </data>
+  <data name="btnAlterarLanches.Text" xml:space="preserve">
+    <value>AlterarLanches</value>
+  </data>
+  <data name="btn_cadastrarLanche.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LanchesCadastrados.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgLanches.Parent" xml:space="preserve">
+    <value>LanchesCadastrados</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 98</value>
+  </data>
+  <data name="btn_cadastrarLanche.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnPedidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Nome do cliente:</value>
+  </data>
+  <data name="&gt;&gt;LanchesCadastrados.Name" xml:space="preserve">
+    <value>LanchesCadastrados</value>
+  </data>
+  <data name="&gt;&gt;Pedidos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-6, -3</value>
+  </data>
+  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;btnPedidos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_cadastrarLanche.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 47</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>alpha 2.2</value>
+  </data>
+  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;marcador.Name" xml:space="preserve">
+    <value>marcador</value>
+  </data>
+  <data name="LanchesCadastrados.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnSobre.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;txt_nomeCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lanches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 28</value>
+  </data>
+  <data name="&gt;&gt;btnLanches.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="txt_igredientes.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormJanelaPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btn_cadastrarLanche.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControl1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,11,994113,Percent,88,00589" /&gt;&lt;Rows Styles="Percent,16,04426,Percent,83,95574" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="btn_cadastrarLanche.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnAlterarLanches.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="tabControl3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.249998pt</value>
+  </data>
+  <data name="&gt;&gt;Alterar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
+  </data>
+  <data name="btn_cadastrarLanche.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;cob_lancheEscolhido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSobre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 307</value>
+  </data>
+  <data name="&gt;&gt;txt_filtrarPedido.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 0</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Lanche escolhido:</value>
+  </data>
+  <data name="&gt;&gt;txt_igredientes.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label5" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label7" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txt_nomeLanche" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txt_precoLanche" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txt_igredientes" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btn_cadastrarLanche" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,306" /&gt;&lt;Rows Styles="Percent,50,Absolute,37,Absolute,102,Absolute,40,Absolute,293" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;btnLanches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn_finalizarPedido.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Igredientes utilizados:</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgLanches.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_removerLanche.Name" xml:space="preserve">
+    <value>btn_removerLanche</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="txt_precoLanche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 55</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControl2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btn_finalizarPedido" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,585823,Percent,65,41418" /&gt;&lt;Rows Styles="Percent,50,Absolute,36" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 56</value>
+  </data>
+  <data name="&gt;&gt;btnSobre.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 258</value>
+  </data>
+  <data name="&gt;&gt;tabControl3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnPedidos.Text" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="btn_removerLanche.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="txt_nomeLanche.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="txt_igredientes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 89</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_precoLanche.Name" xml:space="preserve">
+    <value>txt_precoLanche</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
+    <value>Lanches</value>
+  </data>
+  <data name="tabControl2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.249998pt</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 219</value>
+  </data>
+  <data name="btn_removerLanche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>766, 253</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Sobre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_cadastrarLanche.Text" xml:space="preserve">
+    <value>Cadastrar</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txt_filtrarPedido.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 11.25pt</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 258</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="&gt;&gt;tabControl3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_cadastrarLanche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 29</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_igredientes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="btnSobre.Text" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>908, 315</value>
+  </data>
+  <data name="button1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_finalizarPedido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>764, 253</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
+  </data>
+  <data name="Pedidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="btnLanches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 49</value>
+  </data>
+  <data name="btn_finalizarPedido.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="textBox2.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txt_nomeCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgLanches.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSobre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 49</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 64</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSobre.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLanches.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lanches.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cob_lancheEscolhido.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txt_igredientes.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 54</value>
+  </data>
+  <data name="btn_removerLanche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 24</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 144</value>
+  </data>
+  <data name="&gt;&gt;Sobre.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="txt_precoLanche.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnPedidos.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="btn_removerLanche.Text" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.Name" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LanchesCadastrados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;txt_precoLanche.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="marcador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 49</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="btn_finalizarPedido.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -864,21 +1553,6 @@
         AdlC7hAlBPTAWrUccoh118iQfaJZ3teoS23/kMxe2z9lE9LuM1nQ/vjO3r0AWLAdWHfOU2MAAAAASUVO
         RK5CYII=
 </value>
-  </data>
-  <data name="&gt;&gt;dgPedidos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeLanche.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 521</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
   </data>
   <data name="textBox2.Text" xml:space="preserve">
     <value>Chess Burger - Sistema de Gestão de Pedidos para Hamburguerias
@@ -898,685 +1572,32 @@ Desenvolvedores:
 Línicker Ostroski Mota
 Yago Aguiar</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
+  <data name="dgLanches.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>50</value>
   </data>
-  <data name="btn_removerLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 24</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;txt_filtrarPedido.Name" xml:space="preserve">
-    <value>txt_filtrarPedido</value>
-  </data>
-  <data name="tabControl3.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="tabControl3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.249998pt</value>
-  </data>
-  <data name="&gt;&gt;tabControl3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>914, 115</value>
-  </data>
-  <data name="dgLanches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>429, 221</value>
-  </data>
-  <data name="dgLanches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt_filtrarPedido.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LanchesCadastrados.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnAlterarLanches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 252</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Igredientes utilizados:</value>
-  </data>
-  <data name="&gt;&gt;txt_precoLanche.Name" xml:space="preserve">
-    <value>txt_precoLanche</value>
-  </data>
-  <data name="&gt;&gt;btn_finalizarPedido.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btn_finalizarPedido.Text" xml:space="preserve">
-    <value>Finalizar Pedido</value>
-  </data>
-  <data name="&gt;&gt;marcador.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btn_cadastrarLanche.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAE
-        PAAABDwBGWgkQgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACySURBVDhPpZNd
-        CoMwEITjXSTnEvrqgzeodxKv4SUKvYDgazqz7kqk20hN4IO4MzuYv5BSOoERwQgm8FY4Zy1++Y9JCA0Y
-        wAZY8KBGT3MKYAHMIDeXoFdCLICpucFYFU8btFfW/Ou3e8XT2MNe2RzPQDrF08gTyA57IrkKYK8ckxVe
-        4AGssVXsmxo95mdvfUD1Eqo3sXSMpYD9GC8u0qJ42n6RNKDuKmch9x5TDsYfzzmFD/0AD/RIHImjAAAA
-        AElFTkSuQmCC
-</value>
-  </data>
-  <data name="txt_igredientes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>409, 89</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeCliente.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="LanchesCadastrados.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btn_removerLanche.Parent" xml:space="preserve">
-    <value>Lanches</value>
-  </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 95</value>
-  </data>
-  <data name="LanchesCadastrados.Size" type="System.Drawing.Size, System.Drawing">
-    <value>435, 227</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeLanche.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;btn_cadastrarLanche.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt_filtrarPedido.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeLanche.Name" xml:space="preserve">
-    <value>txt_nomeLanche</value>
-  </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LanchesCadastrados.Name" xml:space="preserve">
-    <value>LanchesCadastrados</value>
-  </data>
-  <data name="button1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="Sobre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>900, 282</value>
-  </data>
-  <data name="Pedidos.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.999999pt</value>
-  </data>
-  <data name="&gt;&gt;btnAlterarLanches.Name" xml:space="preserve">
-    <value>btnAlterarLanches</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Alterar.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;tabControl2.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="txt_nomeCliente.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Lanches.Name" xml:space="preserve">
-    <value>Lanches</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 20</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Nome do lanche:</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 57</value>
-  </data>
-  <data name="&gt;&gt;txt_filtrarPedido.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_cadastrarLanche.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 56</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Buscar cliente:</value>
-  </data>
-  <data name="dgPedidos.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="&gt;&gt;tabControl3.Name" xml:space="preserve">
-    <value>tabControl3</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>908, 315</value>
-  </data>
-  <data name="LanchesCadastrados.Text" xml:space="preserve">
-    <value>Lanches  Cadastrados</value>
-  </data>
-  <data name="&gt;&gt;dgPedidos.Name" xml:space="preserve">
-    <value>dgPedidos</value>
-  </data>
-  <data name="btn_removerLanche.Text" xml:space="preserve">
-    <value>Remover</value>
-  </data>
-  <data name="btnPedidos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 49</value>
-  </data>
-  <data name="&gt;&gt;btnLanches.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="txt_nomeLanche.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 11.25pt</value>
-  </data>
-  <data name="Lanches.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.249998pt</value>
-  </data>
-  <data name="Pedidos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="cob_lancheEscolhido.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 55</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 13</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12.75pt</value>
   </data>
-  <data name="txt_nomeCliente.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 25</value>
-  </data>
-  <data name="button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Sobre.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnAlterarLanches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 49</value>
-  </data>
-  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txt_precoLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 55</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="panel2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tabControl1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panel1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,11,994113,Percent,88,00589" /&gt;&lt;Rows Styles="Percent,16,04426,Percent,83,95574" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Lanche escolhido:</value>
-  </data>
-  <data name="&gt;&gt;txt_igredientes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cob_lancheEscolhido.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 12pt</value>
-  </data>
-  <data name="marcador.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 20</value>
-  </data>
-  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 20</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>Pedidos</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="dgLanches.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
-    <value>tableLayoutPanel4</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Nome do cliente:</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txt_filtrarPedido.Size" type="System.Drawing.Size, System.Drawing">
-    <value>720, 25</value>
-  </data>
-  <data name="btnPedidos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 142</value>
-  </data>
-  <data name="txt_filtrarPedido.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="&gt;&gt;Pedidos.Name" xml:space="preserve">
-    <value>Pedidos</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 20</value>
-  </data>
-  <data name="&gt;&gt;txt_nomeCliente.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="btn_cadastrarLanche.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 521</value>
   </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Alterar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Pedidos.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
-  <data name="&gt;&gt;tabControl2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txt_nomeLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 25</value>
-  </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="Alterar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="txt_precoLanche.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 219</value>
-  </data>
-  <data name="btn_cadastrarLanche.Text" xml:space="preserve">
-    <value>Cadastrar</value>
-  </data>
-  <data name="&gt;&gt;Lanches.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btn_finalizarPedido.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Sobre.Name" xml:space="preserve">
-    <value>Sobre</value>
-  </data>
-  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="dgLanches.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 20</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>ChessBurger</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="dgLanches.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
   </data>
   <data name="&gt;&gt;dgLanches.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txt_precoLanche.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Narrow, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_finalizarPedido.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 24</value>
-  </data>
-  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cob_lancheEscolhido" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txt_filtrarPedido" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label8" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txt_nomeCliente" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,243" /&gt;&lt;Rows Styles="Percent,50,Absolute,34,Absolute,41,Absolute,45,Absolute,348" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 20</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 258</value>
-  </data>
-  <data name="&gt;&gt;Alterar.Name" xml:space="preserve">
-    <value>Alterar</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Cadastrar Pedido</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnLanches.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnAlterarLanches.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 49</value>
   </data>
-  <data name="&gt;&gt;marcador.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>Sobre</value>
-  </data>
-  <data name="Alterar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.249998pt</value>
-  </data>
-  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnAlterarLanches.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnAlterarLanches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Pedidos.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1065, 411</value>
-  </data>
-  <data name="btn_finalizarPedido.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomRight</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="btn_removerLanche.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="LanchesCadastrados.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 101</value>
-  </data>
-  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txt_igredientes.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>Pedidos Cadastrados</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;marcador.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAE
-        PAAABDwBGWgkQgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACySURBVDhPpZNd
-        CoMwEITjXSTnEvrqgzeodxKv4SUKvYDgazqz7kqk20hN4IO4MzuYv5BSOoERwQgm8FY4Zy1++Y9JCA0Y
-        wAZY8KBGT3MKYAHMIDeXoFdCLICpucFYFU8btFfW/Ou3e8XT2MNe2RzPQDrF08gTyA57IrkKYK8ckxVe
-        4AGssVXsmxo95mdvfUD1Eqo3sXSMpYD9GC8u0qJ42n6RNKDuKmch9x5TDsYfzzmFD/0AD/RIHImjAAAA
-        AElFTkSuQmCC
-</value>
-  </data>
-  <data name="btn_removerLanche.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 48pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dgPedidos.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;btn_cadastrarLanche.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="btnLanches.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_finalizarPedido.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;cob_lancheEscolhido.Name" xml:space="preserve">
-    <value>cob_lancheEscolhido</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>879, 264</value>
-  </data>
-  <data name="&gt;&gt;Sobre.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnSobre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 307</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="btn_cadastrarLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 223</value>
-  </data>
-  <data name="btn_cadastrarLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 29</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;marcador.Name" xml:space="preserve">
-    <value>marcador</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 20</value>
-  </data>
-  <data name="tabControl2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.249998pt</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;btn_finalizarPedido.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;btn_finalizarPedido.Name" xml:space="preserve">
-    <value>btn_finalizarPedido</value>
-  </data>
-  <data name="&gt;&gt;btnLanches.Name" xml:space="preserve">
-    <value>btnLanches</value>
-  </data>
-  <data name="btn_finalizarPedido.Location" type="System.Drawing.Point, System.Drawing">
-    <value>764, 253</value>
-  </data>
-  <data name="Pedidos.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnAlterarLanches.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="btn_cadastrarLanche.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="btnLanches.Text" xml:space="preserve">
+    <value>Lanches</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>pt-BR</value>
