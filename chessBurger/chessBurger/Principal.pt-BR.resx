@@ -118,6 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12.75pt</value>
+  </data>
+  <data name="label11.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 12</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 20</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Dica: Para alterar um lanche, vá até a tabela lanches, selecione e clique em alterar. 👀</value>
+  </data>
   <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -131,7 +150,6 @@
   <data name="cob_lancheEscolhido.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="cob_lancheEscolhido.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 49</value>
   </data>
@@ -174,11 +192,55 @@
   <data name="txt_nomeCliente.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="tableLayoutPanel10.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        cAAAAHABznhikwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEdSURBVDhPfdM/
+        TgJREMfxTUxEEwtO4AVUPIa9IaG2xBhLC7kBBTH+A3qOAQRao7FQo61XAFEL/31/LwyZXd9jkk8zOzOw
+        781mkdjFFZ7xjjc84gzbSMY62vjGb8IXLrGKXKh5hFhTzAC5IR3ECk0TdXy43AVCVPAD32Bu0cUKFHuw
+        IXqdLYR3KjbKDcpzx7Ah+7CalhIvLmGs2cIP0S1Z3QOyT5eINVsod4JXWO0E/wYcIRWn8LUzhIWxRAM6
+        mCqKcYjiYT8hbJ0lNpUgtHF+SKxZzhGu0bZvjA0oNKSGVLN6Fqt9DXtwB13VAXrQHsg9/ABd/yJKGMIX
+        LNOHenKhhP7Jso9Jz/TLa0jGDrTnOmGt7RT6nHVghc85y/4AKi2V6xcUIp8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 3</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 31</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="button3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -194,16 +256,25 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 85</value>
+    <value>3, 3</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 30</value>
+    <value>107, 31</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Cadastrar</value>
+  </data>
+  <data name="tableLayoutPanel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel10.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 37</value>
   </data>
   <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -334,7 +405,7 @@
     <value>3, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 32</value>
+    <value>171, 28</value>
   </data>
   <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -343,10 +414,10 @@
     <value>Fill</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 32</value>
+    <value>3, 28</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 47</value>
+    <value>171, 51</value>
   </data>
   <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -379,7 +450,7 @@
     <value>Fill</value>
   </data>
   <data name="txt_precoLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 35</value>
+    <value>180, 31</value>
   </data>
   <data name="txt_precoLanche.Size" type="System.Drawing.Size, System.Drawing">
     <value>297, 25</value>
@@ -393,11 +464,49 @@
   <data name="txt_igredientes.Size" type="System.Drawing.Size, System.Drawing">
     <value>297, 60</value>
   </data>
+  <data name="tableLayoutPanel9.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_limpar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btn_limpar1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_limpar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btn_limpar1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        cAAAAHABznhikwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEdSURBVDhPfdM/
+        TgJREMfxTUxEEwtO4AVUPIa9IaG2xBhLC7kBBTH+A3qOAQRao7FQo61XAFEL/31/LwyZXd9jkk8zOzOw
+        781mkdjFFZ7xjjc84gzbSMY62vjGb8IXLrGKXKh5hFhTzAC5IR3ECk0TdXy43AVCVPAD32Bu0cUKFHuw
+        IXqdLYR3KjbKDcpzx7Ah+7CalhIvLmGs2cIP0S1Z3QOyT5eINVsod4JXWO0E/wYcIRWn8LUzhIWxRAM6
+        mCqKcYjiYT8hbJ0lNpUgtHF+SKxZzhGu0bZvjA0oNKSGVLN6Fqt9DXtwB13VAXrQHsg9/ABd/yJKGMIX
+        LNOHenKhhP7Jso9Jz/TLa0jGDrTnOmGt7RT6nHVghc85y/4AKi2V6xcUIp8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_limpar1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_limpar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_limpar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 32</value>
+  </data>
+  <data name="btn_limpar1.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="btn_limpar1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="btn_cadastrarLanche.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
   <data name="btn_cadastrarLanche.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
   <data name="btn_cadastrarLanche.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -410,13 +519,22 @@
 </value>
   </data>
   <data name="btn_cadastrarLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 148</value>
+    <value>3, 3</value>
   </data>
   <data name="btn_cadastrarLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 34</value>
+    <value>171, 32</value>
   </data>
   <data name="btn_cadastrarLanche.Text" xml:space="preserve">
     <value>Cadastrar lanche</value>
+  </data>
+  <data name="tableLayoutPanel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel9.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 38</value>
   </data>
   <data name="tableLayoutPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -461,7 +579,7 @@
     <value>Flat</value>
   </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
   <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -492,7 +610,7 @@
     <value>Right</value>
   </data>
   <data name="btn_removerLanche.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
   <data name="btn_removerLanche.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -549,17 +667,66 @@
   <data name="Lanches.Size" type="System.Drawing.Size, System.Drawing">
     <value>1175, 536</value>
   </data>
-  <data name="txt_alteraIgredienteLanche.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 42</value>
   </data>
-  <data name="txt_alteraIgredienteLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 127</value>
+  <data name="btn_limpar2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="txt_alteraPrecoLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 29</value>
+  <data name="btn_limpar2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="txt_alteraNomeLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 29</value>
+  <data name="btn_limpar2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        cAAAAHABznhikwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEdSURBVDhPfdM/
+        TgJREMfxTUxEEwtO4AVUPIa9IaG2xBhLC7kBBTH+A3qOAQRao7FQo61XAFEL/31/LwyZXd9jkk8zOzOw
+        781mkdjFFZ7xjjc84gzbSMY62vjGb8IXLrGKXKh5hFhTzAC5IR3ECk0TdXy43AVCVPAD32Bu0cUKFHuw
+        IXqdLYR3KjbKDcpzx7Ah+7CalhIvLmGs2cIP0S1Z3QOyT5eINVsod4JXWO0E/wYcIRWn8LUzhIWxRAM6
+        mCqKcYjiYT8hbJ0lNpUgtHF+SKxZzhGu0bZvjA0oNKSGVLN6Fqt9DXtwB13VAXrQHsg9/ABd/yJKGMIX
+        LNOHenKhhP7Jso9Jz/TLa0jGDrTnOmGt7RT6nHVghc85y/4AKi2V6xcUIp8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_limpar2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_limpar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 32</value>
+  </data>
+  <data name="btn_limpar2.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="btn_limpar2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_confirmaAlteracao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_confirmaAlteracao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btn_confirmaAlteracao.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        bQAAAG0BjlwfygAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADqSURBVDhPnZM9
+        CgIxFISzWIiVleAB9g56qhWsrCy9hVcQFA9g4QHEQqwsrW3EzjjzfJGXmF10Ax8kk3lDfp33PgKtBHOw
+        AVeFfWrll//Tca4AFbgDCjk4R08RBVAAW2DNTdArISGAqdbwC5XWyp6bll0Ha1grh5MzpFzAGJyNxlo5
+        YWt8JGNyAENd8lQ1wlq5piDcwAjMjLYDfS2egCcIc6yNAk5goGaGrEBXxwsQfAEJSLdwBCGE19sBS2A9
+        AdlC7hAlBPTAWrUccoh118iQfaJZ3teoS23/kMxe2z9lE9LuM1nQ/vjO3r0AWLAdWHfOU2MAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="btn_confirmaAlteracao.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_confirmaAlteracao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 32</value>
+  </data>
+  <data name="btn_confirmaAlteracao.Text" xml:space="preserve">
+    <value>Confirmar alterações</value>
+  </data>
+  <data name="btn_confirmaAlteracao.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12.75pt</value>
@@ -568,7 +735,7 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 54</value>
+    <value>18, 22</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 20</value>
@@ -582,6 +749,27 @@
   <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
+  <data name="txt_alteraNomeLanche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="txt_alteraNomeLanche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 29</value>
+  </data>
+  <data name="txt_alteraPrecoLanche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 63</value>
+  </data>
+  <data name="txt_alteraPrecoLanche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 29</value>
+  </data>
+  <data name="txt_alteraIgredienteLanche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 115</value>
+  </data>
+  <data name="txt_alteraIgredienteLanche.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_alteraIgredienteLanche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 127</value>
+  </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -592,7 +780,7 @@
     <value>NoControl</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 125</value>
+    <value>18, 66</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 20</value>
@@ -613,7 +801,7 @@
     <value>NoControl</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 197</value>
+    <value>18, 115</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 20</value>
@@ -623,6 +811,12 @@
   </data>
   <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 308</value>
   </data>
   <data name="Alterar.Size" type="System.Drawing.Size, System.Drawing">
     <value>1175, 536</value>

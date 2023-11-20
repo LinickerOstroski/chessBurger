@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
@@ -41,6 +42,8 @@
             label1 = new Label();
             label2 = new Label();
             txt_nomeCliente = new TextBox();
+            tableLayoutPanel10 = new TableLayoutPanel();
+            button3 = new Button();
             button1 = new Button();
             tabControl2 = new TabControl();
             tabPage4 = new TabPage();
@@ -58,6 +61,8 @@
             txt_nomeLanche = new TextBox();
             txt_precoLanche = new TextBox();
             txt_igredientes = new TextBox();
+            tableLayoutPanel9 = new TableLayoutPanel();
+            btn_limpar1 = new Button();
             btn_cadastrarLanche = new Button();
             tabControl3 = new TabControl();
             LanchesCadastrados = new TabPage();
@@ -66,10 +71,14 @@
             button2 = new Button();
             btn_removerLanche = new Button();
             Alterar = new TabPage();
-            txt_alteraIgredienteLanche = new TextBox();
-            txt_alteraPrecoLanche = new TextBox();
-            txt_alteraNomeLanche = new TextBox();
+            panel4 = new Panel();
+            panel3 = new Panel();
+            btn_limpar2 = new Button();
+            btn_confirmaAlteracao = new Button();
             label6 = new Label();
+            txt_alteraNomeLanche = new TextBox();
+            txt_alteraPrecoLanche = new TextBox();
+            txt_alteraIgredienteLanche = new TextBox();
             label9 = new Label();
             label10 = new Label();
             Sobre = new TabPage();
@@ -85,11 +94,13 @@
             panel2 = new Panel();
             label4 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
+            label11 = new Label();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel10.SuspendLayout();
             tabControl2.SuspendLayout();
             tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgPedidos).BeginInit();
@@ -97,11 +108,14 @@
             Lanches.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
+            tableLayoutPanel9.SuspendLayout();
             tabControl3.SuspendLayout();
             LanchesCadastrados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgLanches).BeginInit();
             tableLayoutPanel8.SuspendLayout();
             Alterar.SuspendLayout();
+            panel4.SuspendLayout();
+            panel3.SuspendLayout();
             Sobre.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -109,6 +123,12 @@
             panel2.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
+            // 
+            // label11
+            // 
+            resources.ApplyResources(label11, "label11");
+            label11.BackColor = Color.Transparent;
+            label11.Name = "label11";
             // 
             // tabControl1
             // 
@@ -149,7 +169,7 @@
             tableLayoutPanel2.Controls.Add(label1, 0, 2);
             tableLayoutPanel2.Controls.Add(label2, 0, 1);
             tableLayoutPanel2.Controls.Add(txt_nomeCliente, 1, 1);
-            tableLayoutPanel2.Controls.Add(button1, 0, 3);
+            tableLayoutPanel2.Controls.Add(tableLayoutPanel10, 1, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             // 
             // cob_lancheEscolhido
@@ -178,10 +198,25 @@
             txt_nomeCliente.Name = "txt_nomeCliente";
             txt_nomeCliente.TextChanged += textBox1_TextChanged;
             // 
+            // tableLayoutPanel10
+            // 
+            resources.ApplyResources(tableLayoutPanel10, "tableLayoutPanel10");
+            tableLayoutPanel10.Controls.Add(button3, 1, 0);
+            tableLayoutPanel10.Controls.Add(button1, 0, 0);
+            tableLayoutPanel10.Name = "tableLayoutPanel10";
+            // 
+            // button3
+            // 
+            resources.ApplyResources(button3, "button3");
+            button3.BackColor = SystemColors.Control;
+            button3.Name = "button3";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click_1;
+            // 
             // button1
             // 
             resources.ApplyResources(button1, "button1");
-            button1.BackColor = Color.White;
+            button1.BackColor = SystemColors.Control;
             button1.Name = "button1";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -233,7 +268,7 @@
             // btn_finalizarPedido
             // 
             resources.ApplyResources(btn_finalizarPedido, "btn_finalizarPedido");
-            btn_finalizarPedido.BackColor = Color.White;
+            btn_finalizarPedido.BackColor = SystemColors.Control;
             btn_finalizarPedido.Name = "btn_finalizarPedido";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
@@ -281,7 +316,7 @@
             tableLayoutPanel5.Controls.Add(txt_nomeLanche, 1, 0);
             tableLayoutPanel5.Controls.Add(txt_precoLanche, 1, 1);
             tableLayoutPanel5.Controls.Add(txt_igredientes, 1, 2);
-            tableLayoutPanel5.Controls.Add(btn_cadastrarLanche, 1, 3);
+            tableLayoutPanel5.Controls.Add(tableLayoutPanel9, 1, 3);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             // 
             // label3
@@ -317,10 +352,25 @@
             resources.ApplyResources(txt_igredientes, "txt_igredientes");
             txt_igredientes.Name = "txt_igredientes";
             // 
+            // tableLayoutPanel9
+            // 
+            resources.ApplyResources(tableLayoutPanel9, "tableLayoutPanel9");
+            tableLayoutPanel9.Controls.Add(btn_limpar1, 1, 0);
+            tableLayoutPanel9.Controls.Add(btn_cadastrarLanche, 0, 0);
+            tableLayoutPanel9.Name = "tableLayoutPanel9";
+            // 
+            // btn_limpar1
+            // 
+            resources.ApplyResources(btn_limpar1, "btn_limpar1");
+            btn_limpar1.BackColor = SystemColors.Control;
+            btn_limpar1.Name = "btn_limpar1";
+            btn_limpar1.UseVisualStyleBackColor = false;
+            btn_limpar1.Click += btn_limpar1_Click;
+            // 
             // btn_cadastrarLanche
             // 
             resources.ApplyResources(btn_cadastrarLanche, "btn_cadastrarLanche");
-            btn_cadastrarLanche.BackColor = Color.White;
+            btn_cadastrarLanche.BackColor = SystemColors.Control;
             btn_cadastrarLanche.Name = "btn_cadastrarLanche";
             btn_cadastrarLanche.UseVisualStyleBackColor = false;
             btn_cadastrarLanche.Click += button4_Click;
@@ -367,14 +417,15 @@
             // button2
             // 
             resources.ApplyResources(button2, "button2");
+            button2.BackColor = SystemColors.Control;
             button2.Name = "button2";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click_2;
             // 
             // btn_removerLanche
             // 
             resources.ApplyResources(btn_removerLanche, "btn_removerLanche");
-            btn_removerLanche.BackColor = Color.FromArgb(224, 224, 224);
+            btn_removerLanche.BackColor = SystemColors.Control;
             btn_removerLanche.ForeColor = Color.Black;
             btn_removerLanche.Name = "btn_removerLanche";
             btn_removerLanche.UseVisualStyleBackColor = false;
@@ -384,34 +435,67 @@
             // 
             resources.ApplyResources(Alterar, "Alterar");
             Alterar.BackColor = Color.White;
-            Alterar.Controls.Add(txt_alteraIgredienteLanche);
-            Alterar.Controls.Add(txt_alteraPrecoLanche);
-            Alterar.Controls.Add(txt_alteraNomeLanche);
-            Alterar.Controls.Add(label6);
-            Alterar.Controls.Add(label9);
-            Alterar.Controls.Add(label10);
+            Alterar.Controls.Add(panel4);
+            Alterar.Controls.Add(panel3);
             Alterar.Name = "Alterar";
             // 
-            // txt_alteraIgredienteLanche
+            // panel4
             // 
-            resources.ApplyResources(txt_alteraIgredienteLanche, "txt_alteraIgredienteLanche");
-            txt_alteraIgredienteLanche.Name = "txt_alteraIgredienteLanche";
+            resources.ApplyResources(panel4, "panel4");
+            panel4.BackColor = SystemColors.Control;
+            panel4.Controls.Add(label11);
+            panel4.Name = "panel4";
             // 
-            // txt_alteraPrecoLanche
+            // panel3
             // 
-            resources.ApplyResources(txt_alteraPrecoLanche, "txt_alteraPrecoLanche");
-            txt_alteraPrecoLanche.Name = "txt_alteraPrecoLanche";
+            resources.ApplyResources(panel3, "panel3");
+            panel3.BackColor = SystemColors.Control;
+            panel3.Controls.Add(btn_limpar2);
+            panel3.Controls.Add(btn_confirmaAlteracao);
+            panel3.Controls.Add(label6);
+            panel3.Controls.Add(txt_alteraNomeLanche);
+            panel3.Controls.Add(txt_alteraPrecoLanche);
+            panel3.Controls.Add(txt_alteraIgredienteLanche);
+            panel3.Controls.Add(label9);
+            panel3.Controls.Add(label10);
+            panel3.Name = "panel3";
             // 
-            // txt_alteraNomeLanche
+            // btn_limpar2
             // 
-            resources.ApplyResources(txt_alteraNomeLanche, "txt_alteraNomeLanche");
-            txt_alteraNomeLanche.Name = "txt_alteraNomeLanche";
+            resources.ApplyResources(btn_limpar2, "btn_limpar2");
+            btn_limpar2.BackColor = SystemColors.Control;
+            btn_limpar2.Name = "btn_limpar2";
+            btn_limpar2.UseVisualStyleBackColor = false;
+            btn_limpar2.Click += btn_limpar2_Click;
+            // 
+            // btn_confirmaAlteracao
+            // 
+            resources.ApplyResources(btn_confirmaAlteracao, "btn_confirmaAlteracao");
+            btn_confirmaAlteracao.BackColor = SystemColors.Control;
+            btn_confirmaAlteracao.Name = "btn_confirmaAlteracao";
+            btn_confirmaAlteracao.UseVisualStyleBackColor = false;
+            btn_confirmaAlteracao.Click += button3_Click;
             // 
             // label6
             // 
             resources.ApplyResources(label6, "label6");
             label6.BackColor = Color.Transparent;
             label6.Name = "label6";
+            // 
+            // txt_alteraNomeLanche
+            // 
+            resources.ApplyResources(txt_alteraNomeLanche, "txt_alteraNomeLanche");
+            txt_alteraNomeLanche.Name = "txt_alteraNomeLanche";
+            // 
+            // txt_alteraPrecoLanche
+            // 
+            resources.ApplyResources(txt_alteraPrecoLanche, "txt_alteraPrecoLanche");
+            txt_alteraPrecoLanche.Name = "txt_alteraPrecoLanche";
+            // 
+            // txt_alteraIgredienteLanche
+            // 
+            resources.ApplyResources(txt_alteraIgredienteLanche, "txt_alteraIgredienteLanche");
+            txt_alteraIgredienteLanche.Name = "txt_alteraIgredienteLanche";
             // 
             // label9
             // 
@@ -549,6 +633,7 @@
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
+            tableLayoutPanel10.ResumeLayout(false);
             tabControl2.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgPedidos).EndInit();
@@ -558,12 +643,16 @@
             tableLayoutPanel4.ResumeLayout(false);
             tableLayoutPanel5.ResumeLayout(false);
             tableLayoutPanel5.PerformLayout();
+            tableLayoutPanel9.ResumeLayout(false);
             tabControl3.ResumeLayout(false);
             LanchesCadastrados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgLanches).EndInit();
             tableLayoutPanel8.ResumeLayout(false);
             Alterar.ResumeLayout(false);
-            Alterar.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
             panel1.ResumeLayout(false);
@@ -630,5 +719,13 @@
         private TextBox txt_alteraIgredienteLanche;
         private TextBox txt_alteraPrecoLanche;
         private TextBox txt_alteraNomeLanche;
+        private Panel panel3;
+        private Button btn_confirmaAlteracao;
+        private Button btn_limpar2;
+        private TableLayoutPanel tableLayoutPanel9;
+        private Button btn_limpar1;
+        private TableLayoutPanel tableLayoutPanel10;
+        private Button button3;
+        private Panel panel4;
     }
 }

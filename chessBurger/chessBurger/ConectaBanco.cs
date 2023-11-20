@@ -150,7 +150,7 @@ namespace chessBurger
 
         public bool alteraLanche(Lanche l, int idlanche)
         {
-            MySqlCommand cmd = new MySqlCommand("sp_alteraBanda", conexao);
+            MySqlCommand cmd = new MySqlCommand("sp_alteraLanche", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("idLanches", idlanche);
             cmd.Parameters.AddWithValue("nomeLanche", l.NomeLanche);

@@ -249,5 +249,60 @@ namespace chessBurger
             marcador.Height = btnAlterarLanches.Height;
             marcador.Top = btnAlterarLanches.Top;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (txt_alteraNomeLanche.Text != "" && txt_alteraPrecoLanche.Text != "" && txt_alteraIgredienteLanche.Text != "")
+            {
+                ConectaBanco con = new ConectaBanco();
+                Lanche novoLanche = new Lanche();
+                novoLanche.NomeLanche = txt_alteraNomeLanche.Text;
+                novoLanche.Preco = float.Parse(txt_alteraPrecoLanche.Text);
+                novoLanche.Ingredientes = (txt_alteraIgredienteLanche.Text);
+                bool retorno = con.alteraLanche(novoLanche, idAlterar);
+                if (retorno == false)
+                    MessageBox.Show(con.mensagem);
+                else
+                    MessageBox.Show($"Alteração de {novoLanche.NomeLanche} realizada com sucesso!");
+
+                listaCOBLanches();
+                listaGridPedidos();
+                listaGridLanches();
+                txt_alteraNomeLanche.Clear();
+                txt_alteraPrecoLanche.Clear();
+                txt_alteraIgredienteLanche.Clear();
+                tabControl1.SelectedTab = Lanches;
+                marcador.Height = btnLanches.Height;
+                marcador.Top = btnLanches.Top;
+
+            }
+            else
+            {
+                MessageBox.Show("Digite os dados primeiro");
+            }
+        }
+
+        private void btn_limpar2_Click(object sender, EventArgs e)
+        {
+            txt_alteraNomeLanche.Clear();
+            txt_alteraPrecoLanche.Clear();
+            txt_alteraIgredienteLanche.Clear();
+            txt_alteraNomeLanche.Focus();
+        }
+
+        private void btn_limpar1_Click(object sender, EventArgs e)
+        {
+            txt_nomeLanche.Clear();
+            txt_precoLanche.Clear();
+            txt_igredientes.Clear();
+            txt_nomeLanche.Focus();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            txt_nomeCliente.Clear();
+            cob_lancheEscolhido.Text = "";
+            txt_nomeCliente.Focus();
+        }
     }
 }
