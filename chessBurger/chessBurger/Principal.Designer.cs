@@ -62,6 +62,8 @@
             tabControl3 = new TabControl();
             LanchesCadastrados = new TabPage();
             dgLanches = new DataGridView();
+            tableLayoutPanel8 = new TableLayoutPanel();
+            button2 = new Button();
             btn_removerLanche = new Button();
             Alterar = new TabPage();
             Sobre = new TabPage();
@@ -92,6 +94,7 @@
             tabControl3.SuspendLayout();
             LanchesCadastrados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgLanches).BeginInit();
+            tableLayoutPanel8.SuspendLayout();
             Sobre.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -171,7 +174,7 @@
             // button1
             // 
             resources.ApplyResources(button1, "button1");
-            button1.BackColor = Color.FromArgb(136, 195, 216);
+            button1.BackColor = Color.White;
             button1.Name = "button1";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -195,7 +198,7 @@
             // 
             resources.ApplyResources(dgPedidos, "dgPedidos");
             dgPedidos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgPedidos.BackgroundColor = SystemColors.ControlLight;
+            dgPedidos.BackgroundColor = SystemColors.ScrollBar;
             dgPedidos.BorderStyle = BorderStyle.None;
             dgPedidos.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -223,7 +226,7 @@
             // btn_finalizarPedido
             // 
             resources.ApplyResources(btn_finalizarPedido, "btn_finalizarPedido");
-            btn_finalizarPedido.BackColor = Color.FromArgb(136, 195, 216);
+            btn_finalizarPedido.BackColor = Color.FromArgb(224, 224, 224);
             btn_finalizarPedido.Name = "btn_finalizarPedido";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
@@ -259,7 +262,7 @@
             resources.ApplyResources(tableLayoutPanel4, "tableLayoutPanel4");
             tableLayoutPanel4.Controls.Add(tableLayoutPanel5, 0, 0);
             tableLayoutPanel4.Controls.Add(tabControl3, 1, 0);
-            tableLayoutPanel4.Controls.Add(btn_removerLanche, 1, 1);
+            tableLayoutPanel4.Controls.Add(tableLayoutPanel8, 1, 1);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             // 
             // tableLayoutPanel5
@@ -271,7 +274,7 @@
             tableLayoutPanel5.Controls.Add(txt_nomeLanche, 1, 0);
             tableLayoutPanel5.Controls.Add(txt_precoLanche, 1, 1);
             tableLayoutPanel5.Controls.Add(txt_igredientes, 1, 2);
-            tableLayoutPanel5.Controls.Add(btn_cadastrarLanche, 0, 3);
+            tableLayoutPanel5.Controls.Add(btn_cadastrarLanche, 1, 3);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             // 
             // label3
@@ -310,7 +313,7 @@
             // btn_cadastrarLanche
             // 
             resources.ApplyResources(btn_cadastrarLanche, "btn_cadastrarLanche");
-            btn_cadastrarLanche.BackColor = Color.FromArgb(136, 195, 216);
+            btn_cadastrarLanche.BackColor = Color.White;
             btn_cadastrarLanche.Name = "btn_cadastrarLanche";
             btn_cadastrarLanche.UseVisualStyleBackColor = false;
             btn_cadastrarLanche.Click += button4_Click;
@@ -334,7 +337,7 @@
             // 
             resources.ApplyResources(dgLanches, "dgLanches");
             dgLanches.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgLanches.BackgroundColor = SystemColors.ControlLight;
+            dgLanches.BackgroundColor = SystemColors.ScrollBar;
             dgLanches.BorderStyle = BorderStyle.None;
             dgLanches.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgLanches.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -347,10 +350,23 @@
             dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             // 
+            // tableLayoutPanel8
+            // 
+            resources.ApplyResources(tableLayoutPanel8, "tableLayoutPanel8");
+            tableLayoutPanel8.Controls.Add(button2, 0, 0);
+            tableLayoutPanel8.Controls.Add(btn_removerLanche, 1, 0);
+            tableLayoutPanel8.Name = "tableLayoutPanel8";
+            // 
+            // button2
+            // 
+            resources.ApplyResources(button2, "button2");
+            button2.Name = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // btn_removerLanche
             // 
             resources.ApplyResources(btn_removerLanche, "btn_removerLanche");
-            btn_removerLanche.BackColor = Color.FromArgb(136, 195, 216);
+            btn_removerLanche.BackColor = Color.FromArgb(224, 224, 224);
             btn_removerLanche.ForeColor = Color.Black;
             btn_removerLanche.Name = "btn_removerLanche";
             btn_removerLanche.UseVisualStyleBackColor = false;
@@ -498,6 +514,7 @@
             tabControl3.ResumeLayout(false);
             LanchesCadastrados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgLanches).EndInit();
+            tableLayoutPanel8.ResumeLayout(false);
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
             panel1.ResumeLayout(false);
@@ -556,5 +573,7 @@
         private Label label4;
         private TableLayoutPanel tableLayoutPanel6;
         private TableLayoutPanel tableLayoutPanel7;
+        private TableLayoutPanel tableLayoutPanel8;
+        private Button button2;
     }
 }

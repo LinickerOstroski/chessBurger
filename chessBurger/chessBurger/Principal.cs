@@ -104,6 +104,7 @@ namespace chessBurger
         private void FormJanelaPrincipal_Load(object sender, EventArgs e)
         {
             //MessageBox.Show("Bem vindo");
+            txt_filtrarPedido.Focus();
             listaCOBLanches();
             listaGridPedidos();
             listaGridLanches();
