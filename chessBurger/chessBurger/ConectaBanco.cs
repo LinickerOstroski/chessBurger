@@ -44,7 +44,7 @@ namespace chessBurger
                     new MySqlCommand("sp_insereLanche", conexao);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("nomeLanche", novoLanche.NomeLanche); //Entre aspas = parametros da stored procedure
-                cmd.Parameters.AddWithValue("igredientes", novoLanche.Igredientes);
+                cmd.Parameters.AddWithValue("ingredientes", novoLanche.Ingredientes);
                 cmd.Parameters.AddWithValue("precoLanche", novoLanche.Preco);
                 cmd.ExecuteNonQuery();//executar no banco
                 return true;
@@ -154,7 +154,7 @@ namespace chessBurger
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("idLanches", idlanche);
             cmd.Parameters.AddWithValue("nomeLanche", l.NomeLanche);
-            cmd.Parameters.AddWithValue("igredientes", l.Igredientes);
+            cmd.Parameters.AddWithValue("ingredientes", l.Ingredientes);
             cmd.Parameters.AddWithValue("precoLanche", l.Preco);
      
             try

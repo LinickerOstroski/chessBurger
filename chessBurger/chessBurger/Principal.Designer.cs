@@ -66,6 +66,12 @@
             button2 = new Button();
             btn_removerLanche = new Button();
             Alterar = new TabPage();
+            txt_alteraIgredienteLanche = new TextBox();
+            txt_alteraPrecoLanche = new TextBox();
+            txt_alteraNomeLanche = new TextBox();
+            label6 = new Label();
+            label9 = new Label();
+            label10 = new Label();
             Sobre = new TabPage();
             textBox2 = new TextBox();
             btnPedidos = new Button();
@@ -79,9 +85,6 @@
             panel2 = new Panel();
             label4 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            label6 = new Label();
-            label9 = new Label();
-            label10 = new Label();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
@@ -366,6 +369,7 @@
             resources.ApplyResources(button2, "button2");
             button2.Name = "button2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_2;
             // 
             // btn_removerLanche
             // 
@@ -380,10 +384,46 @@
             // 
             resources.ApplyResources(Alterar, "Alterar");
             Alterar.BackColor = Color.White;
+            Alterar.Controls.Add(txt_alteraIgredienteLanche);
+            Alterar.Controls.Add(txt_alteraPrecoLanche);
+            Alterar.Controls.Add(txt_alteraNomeLanche);
             Alterar.Controls.Add(label6);
             Alterar.Controls.Add(label9);
             Alterar.Controls.Add(label10);
             Alterar.Name = "Alterar";
+            // 
+            // txt_alteraIgredienteLanche
+            // 
+            resources.ApplyResources(txt_alteraIgredienteLanche, "txt_alteraIgredienteLanche");
+            txt_alteraIgredienteLanche.Name = "txt_alteraIgredienteLanche";
+            // 
+            // txt_alteraPrecoLanche
+            // 
+            resources.ApplyResources(txt_alteraPrecoLanche, "txt_alteraPrecoLanche");
+            txt_alteraPrecoLanche.Name = "txt_alteraPrecoLanche";
+            // 
+            // txt_alteraNomeLanche
+            // 
+            resources.ApplyResources(txt_alteraNomeLanche, "txt_alteraNomeLanche");
+            txt_alteraNomeLanche.Name = "txt_alteraNomeLanche";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = Color.Transparent;
+            label6.Name = "label6";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(label9, "label9");
+            label9.BackColor = Color.Transparent;
+            label9.Name = "label9";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(label10, "label10");
+            label10.BackColor = Color.Transparent;
+            label10.Name = "label10";
             // 
             // Sobre
             // 
@@ -492,24 +532,6 @@
             tableLayoutPanel1.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
-            // label6
-            // 
-            resources.ApplyResources(label6, "label6");
-            label6.BackColor = Color.Transparent;
-            label6.Name = "label6";
-            // 
-            // label9
-            // 
-            resources.ApplyResources(label9, "label9");
-            label9.BackColor = Color.Transparent;
-            label9.Name = "label9";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(label10, "label10");
-            label10.BackColor = Color.Transparent;
-            label10.Name = "label10";
-            // 
             // FormJanelaPrincipal
             // 
             resources.ApplyResources(this, "$this");
@@ -605,5 +627,8 @@
         private Label label6;
         private Label label9;
         private Label label10;
+        private TextBox txt_alteraIgredienteLanche;
+        private TextBox txt_alteraPrecoLanche;
+        private TextBox txt_alteraNomeLanche;
     }
 }

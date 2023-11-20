@@ -5,6 +5,7 @@ namespace chessBurger
 {
     public partial class FormJanelaPrincipal : Form
     {
+        int idAlterar;
         public FormJanelaPrincipal()
         {
             InitializeComponent();
@@ -150,7 +151,7 @@ namespace chessBurger
             if (txt_nomeLanche.Text != "" && txt_igredientes.Text != "" && txt_precoLanche.ToString() != "")
             {
                 novoLanche.NomeLanche = txt_nomeLanche.Text;
-                novoLanche.Igredientes = txt_igredientes.Text;
+                novoLanche.Ingredientes = txt_igredientes.Text;
                 novoLanche.Preco = float.Parse(txt_precoLanche.Text);
                 retorno = con.insereLanche(novoLanche);
                 MessageBox.Show("Lanche registrado!");
@@ -231,6 +232,22 @@ namespace chessBurger
             marcador.Height = btnSobre.Height;
             marcador.Top = btnSobre.Top;
             tabControl1.SelectedTab = tabControl1.TabPages[3];
+        }
+
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+            int linha = dgLanches.CurrentRow.Index;// pega a linha selecionada
+            idAlterar = Convert.ToInt32(
+              dgLanches.Rows[linha].Cells["idLanche"].Value.ToString());
+            txt_alteraNomeLanche.Text =
+                 dgLanches.Rows[linha].Cells["nomeLanche"].Value.ToString();
+            txt_alteraIgredienteLanche.Text =
+                dgLanches.Rows[linha].Cells["ingredientes"].Value.ToString();
+            txt_alteraPrecoLanche.Text =
+                dgLanches.Rows[linha].Cells["precoLanche"].Value.ToString();
+            tabControl1.SelectedTab = Alterar;// muda aba
+            marcador.Height = btnAlterarLanches.Height;
+            marcador.Top = btnAlterarLanches.Top;
         }
     }
 }
