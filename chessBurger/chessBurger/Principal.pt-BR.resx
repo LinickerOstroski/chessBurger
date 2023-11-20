@@ -208,8 +208,14 @@
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>398, 467</value>
   </data>
+  <data name="tabControl2.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="dgPedidos.Size" type="System.Drawing.Size, System.Drawing">
     <value>746, 430</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
   </data>
   <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
     <value>752, 436</value>
@@ -397,11 +403,17 @@
   <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>483, 509</value>
   </data>
+  <data name="tabControl3.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="dgLanches.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
     <value>Both</value>
   </data>
   <data name="dgLanches.Size" type="System.Drawing.Size, System.Drawing">
     <value>667, 472</value>
+  </data>
+  <data name="LanchesCadastrados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
   </data>
   <data name="LanchesCadastrados.Size" type="System.Drawing.Size, System.Drawing">
     <value>673, 478</value>
@@ -528,7 +540,7 @@
   <data name="btnLanches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        ugAAALoBTx5ghQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJZSURBVFhH7dZP
+        twAAALcBRi4NFgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJZSURBVFhH7dZP
         iI1RGMfxB1FjJ5oVmbKxkKFIoWZhY0zJQiFZKDJZKIUoNEUpDdlaWFhYTNliJ8RG/m7Ehq2SvyV/itf3
         ee850/Oe89x7m3nP0qlPc85vzjnPM907771SVdWMMbbjJo54v58JN+yH8Ro6OYkdmMQGb28/bphizE/W
         toHxMH+f7Gmc6cYNUwz9K9/gXFh3bYBxCq+w297RjRtGjEVYBW1AA+I679XAl7Bu1wDjCn6Hn7NqAPtw
