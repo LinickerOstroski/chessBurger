@@ -1,4 +1,6 @@
 using System.Data;
+using System.Drawing;
+using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace chessBurger
@@ -60,7 +62,7 @@ namespace chessBurger
             }
             else
             {
-                MessageBox.Show("Digite os dados");
+                MessageBox.Show("Digite os dados!", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 txt_nomeCliente.Focus();
             }
 
@@ -154,12 +156,12 @@ namespace chessBurger
                 novoLanche.Ingredientes = txt_igredientes.Text;
                 novoLanche.Preco = float.Parse(txt_precoLanche.Text);
                 retorno = con.insereLanche(novoLanche);
-                MessageBox.Show("Lanche registrado!");
+                MessageBox.Show("Lanche registrado com sucesso!");
                 txt_nomeLanche.Focus();
             }
             else
             {
-                MessageBox.Show("Digite os dados!");
+                MessageBox.Show("Digite os dados!", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 txt_nomeLanche.Focus();
             }
 
@@ -187,11 +189,11 @@ namespace chessBurger
                 bool retorno = con.deletaLanches(id);
                 if (retorno == true)
                 {
-                    MessageBox.Show("Lanche removido.");
+                    MessageBox.Show("Lanche removido com sucesso!");
                     listaGridLanches();
                 }// fim if retorno true
                 else
-                    MessageBox.Show("Tem um pedido cadastrado com esse lanche!\n\n" + con.mensagem);
+                    MessageBox.Show("Tem um pedido cadastrado com esse lanche!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }// fim if Ok Cancela
             else
                 MessageBox.Show("Operação cancelada");
@@ -274,11 +276,10 @@ namespace chessBurger
                 tabControl1.SelectedTab = Lanches;
                 marcador.Height = btnLanches.Height;
                 marcador.Top = btnLanches.Top;
-
             }
             else
             {
-                MessageBox.Show("Digite os dados primeiro");
+                MessageBox.Show("Digite os dados!", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             }
         }
 

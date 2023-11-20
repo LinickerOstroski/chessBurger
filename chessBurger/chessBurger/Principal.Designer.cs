@@ -208,7 +208,7 @@
             // button3
             // 
             resources.ApplyResources(button3, "button3");
-            button3.BackColor = SystemColors.Control;
+            button3.BackColor = SystemColors.ControlLight;
             button3.Name = "button3";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click_1;
@@ -260,7 +260,7 @@
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
             dataGridViewCellStyle2.BackColor = Color.White;
             dataGridViewCellStyle2.ForeColor = Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(61, 125, 144);
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(156, 173, 239);
             dataGridViewCellStyle2.SelectionForeColor = Color.White;
             dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgPedidos.RowTemplate.Height = 25;
@@ -362,7 +362,7 @@
             // btn_limpar1
             // 
             resources.ApplyResources(btn_limpar1, "btn_limpar1");
-            btn_limpar1.BackColor = SystemColors.Control;
+            btn_limpar1.BackColor = SystemColors.ControlLight;
             btn_limpar1.Name = "btn_limpar1";
             btn_limpar1.UseVisualStyleBackColor = false;
             btn_limpar1.Click += btn_limpar1_Click;
@@ -403,7 +403,7 @@
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.ForeColor = Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(61, 125, 144);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(156, 173, 239);
             dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             // 
@@ -425,7 +425,7 @@
             // btn_removerLanche
             // 
             resources.ApplyResources(btn_removerLanche, "btn_removerLanche");
-            btn_removerLanche.BackColor = SystemColors.Control;
+            btn_removerLanche.BackColor = SystemColors.ControlLight;
             btn_removerLanche.ForeColor = Color.Black;
             btn_removerLanche.Name = "btn_removerLanche";
             btn_removerLanche.UseVisualStyleBackColor = false;
@@ -463,7 +463,7 @@
             // btn_limpar2
             // 
             resources.ApplyResources(btn_limpar2, "btn_limpar2");
-            btn_limpar2.BackColor = SystemColors.Control;
+            btn_limpar2.BackColor = SystemColors.ControlLight;
             btn_limpar2.Name = "btn_limpar2";
             btn_limpar2.UseVisualStyleBackColor = false;
             btn_limpar2.Click += btn_limpar2_Click;
@@ -529,8 +529,8 @@
             // btnPedidos
             // 
             resources.ApplyResources(btnPedidos, "btnPedidos");
-            btnPedidos.BackColor = Color.FromArgb(136, 195, 216);
-            btnPedidos.FlatAppearance.BorderColor = Color.FromArgb(136, 195, 216);
+            btnPedidos.BackColor = Color.FromArgb(208, 221, 255);
+            btnPedidos.FlatAppearance.BorderColor = Color.FromArgb(208, 221, 255);
             btnPedidos.ForeColor = SystemColors.Desktop;
             btnPedidos.Name = "btnPedidos";
             btnPedidos.UseVisualStyleBackColor = false;
@@ -545,8 +545,8 @@
             // btnLanches
             // 
             resources.ApplyResources(btnLanches, "btnLanches");
-            btnLanches.BackColor = Color.FromArgb(136, 195, 216);
-            btnLanches.FlatAppearance.BorderColor = Color.FromArgb(136, 195, 216);
+            btnLanches.BackColor = Color.FromArgb(208, 221, 255);
+            btnLanches.FlatAppearance.BorderColor = Color.FromArgb(208, 221, 255);
             btnLanches.Name = "btnLanches";
             btnLanches.UseVisualStyleBackColor = false;
             btnLanches.Click += btnLanches_Click;
@@ -554,8 +554,8 @@
             // btnAlterarLanches
             // 
             resources.ApplyResources(btnAlterarLanches, "btnAlterarLanches");
-            btnAlterarLanches.BackColor = Color.FromArgb(136, 195, 216);
-            btnAlterarLanches.FlatAppearance.BorderColor = Color.FromArgb(136, 195, 216);
+            btnAlterarLanches.BackColor = Color.FromArgb(208, 221, 255);
+            btnAlterarLanches.FlatAppearance.BorderColor = Color.FromArgb(208, 221, 255);
             btnAlterarLanches.Name = "btnAlterarLanches";
             btnAlterarLanches.UseVisualStyleBackColor = false;
             btnAlterarLanches.Click += btnAlterarLanches_Click;
@@ -563,8 +563,8 @@
             // btnSobre
             // 
             resources.ApplyResources(btnSobre, "btnSobre");
-            btnSobre.BackColor = Color.FromArgb(136, 195, 216);
-            btnSobre.FlatAppearance.BorderColor = Color.FromArgb(136, 195, 216);
+            btnSobre.BackColor = Color.FromArgb(208, 221, 255);
+            btnSobre.FlatAppearance.BorderColor = Color.FromArgb(208, 221, 255);
             btnSobre.Name = "btnSobre";
             btnSobre.UseVisualStyleBackColor = false;
             btnSobre.Click += btnSobre_Click;
@@ -572,7 +572,7 @@
             // panel1
             // 
             resources.ApplyResources(panel1, "panel1");
-            panel1.BackColor = Color.FromArgb(136, 195, 216);
+            panel1.BackColor = Color.FromArgb(208, 221, 255);
             panel1.Controls.Add(pictureBox3);
             panel1.Name = "panel1";
             panel1.Paint += panel1_Paint;
@@ -593,7 +593,7 @@
             // panel2
             // 
             resources.ApplyResources(panel2, "panel2");
-            panel2.BackColor = Color.FromArgb(136, 195, 216);
+            panel2.BackColor = Color.FromArgb(208, 221, 255);
             panel2.Controls.Add(btnSobre);
             panel2.Controls.Add(marcador);
             panel2.Controls.Add(btnAlterarLanches);
@@ -610,6 +610,7 @@
             // tableLayoutPanel1
             // 
             resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.BackColor = Color.FromArgb(208, 221, 255);
             tableLayoutPanel1.Controls.Add(panel2, 0, 1);
             tableLayoutPanel1.Controls.Add(tabControl1, 1, 1);
             tableLayoutPanel1.Controls.Add(panel1, 1, 0);
@@ -620,7 +621,7 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(136, 195, 216);
+            BackColor = Color.FromArgb(208, 221, 255);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "FormJanelaPrincipal";

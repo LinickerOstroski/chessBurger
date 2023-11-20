@@ -29,7 +29,7 @@ CREATE TABLE `pedido` (
   PRIMARY KEY (`idPedido`),
   KEY `idLanche` (`idLanche`),
   CONSTRAINT `pedido_ibfk_1` FOREIGN KEY (`idLanche`) REFERENCES `lanche` (`idLanche`)
-) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `pedido` (
 
 LOCK TABLES `pedido` WRITE;
 /*!40000 ALTER TABLE `pedido` DISABLE KEYS */;
-INSERT INTO `pedido` VALUES (40,'Bispo',7),(41,'Torres',8);
+INSERT INTO `pedido` VALUES (41,'Torres',8);
 /*!40000 ALTER TABLE `pedido` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-19 20:53:48
+-- Dump completed on 2023-11-20 16:01:44

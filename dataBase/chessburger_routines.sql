@@ -22,6 +22,31 @@
 --
 -- Dumping routines for database 'chessburger'
 --
+/*!50003 DROP PROCEDURE IF EXISTS `sp_alteraLanche` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_alteraLanche`(idLanches int, nomeLanche varchar(45),ingredientes varchar(255),precoLanche float)
+BEGIN
+UPDATE `lanche`
+SET
+`nomeLanche` = nomeLanche,
+`ingredientes` = ingredientes,
+`precoLanche` = precoLanche
+WHERE `idLanche` = idLanches;
+
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!50003 DROP PROCEDURE IF EXISTS `sp_insereLanche` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
 /*!50003 SET @saved_cs_results     = @@character_set_results */ ;
@@ -32,17 +57,17 @@
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_insereLanche`(nomeLanche varchar(45),igredientes varchar(255),precoLanche float)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_insereLanche`(nomeLanche varchar(45),ingredientes varchar(255),precoLanche float)
 BEGIN
 INSERT INTO `chessburger`.`lanche`
 (
 `nomeLanche`,
-`igredientes`,
+`ingredientes`,
 `precoLanche`)
 VALUES
 (
 nomeLanche,
-igredientes,
+ingredientes,
 precoLanche);
 
 END ;;
@@ -87,17 +112,17 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_lanche`(nomeLanche varchar(45),igredientes varchar(255),precoLanche float)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_lanche`(nomeLanche varchar(45),ingredientes varchar(255),precoLanche float)
 BEGIN
 INSERT INTO `chessburger`.`lanche`
 (
 `nomeLanche`,
-`igredientes`,
+`ingredientes`,
 `precoLanche`)
 VALUES
 (
 nomeLanche,
-igredientes,
+ingredientes,
 precoLanche);
 
 END ;;
@@ -233,4 +258,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-19 20:53:48
+-- Dump completed on 2023-11-20 16:01:45
