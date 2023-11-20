@@ -79,6 +79,9 @@
             panel2 = new Panel();
             label4 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
+            label6 = new Label();
+            label9 = new Label();
+            label10 = new Label();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
@@ -95,6 +98,7 @@
             LanchesCadastrados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgLanches).BeginInit();
             tableLayoutPanel8.SuspendLayout();
+            Alterar.SuspendLayout();
             Sobre.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -226,7 +230,7 @@
             // btn_finalizarPedido
             // 
             resources.ApplyResources(btn_finalizarPedido, "btn_finalizarPedido");
-            btn_finalizarPedido.BackColor = Color.FromArgb(224, 224, 224);
+            btn_finalizarPedido.BackColor = Color.White;
             btn_finalizarPedido.Name = "btn_finalizarPedido";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
@@ -376,6 +380,9 @@
             // 
             resources.ApplyResources(Alterar, "Alterar");
             Alterar.BackColor = Color.White;
+            Alterar.Controls.Add(label6);
+            Alterar.Controls.Add(label9);
+            Alterar.Controls.Add(label10);
             Alterar.Name = "Alterar";
             // 
             // Sobre
@@ -485,6 +492,24 @@
             tableLayoutPanel1.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = Color.Transparent;
+            label6.Name = "label6";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(label9, "label9");
+            label9.BackColor = Color.Transparent;
+            label9.Name = "label9";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(label10, "label10");
+            label10.BackColor = Color.Transparent;
+            label10.Name = "label10";
+            // 
             // FormJanelaPrincipal
             // 
             resources.ApplyResources(this, "$this");
@@ -515,6 +540,8 @@
             LanchesCadastrados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgLanches).EndInit();
             tableLayoutPanel8.ResumeLayout(false);
+            Alterar.ResumeLayout(false);
+            Alterar.PerformLayout();
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
             panel1.ResumeLayout(false);
@@ -575,5 +602,8 @@
         private TableLayoutPanel tableLayoutPanel7;
         private TableLayoutPanel tableLayoutPanel8;
         private Button button2;
+        private Label label6;
+        private Label label9;
+        private Label label10;
     }
 }

@@ -14,6 +14,7 @@ namespace chessBurger
         MySqlConnection conexao = new MySqlConnection("server=localhost;user id=root;password=;database=chessburger");
         public string mensagem;
 
+           //Comunicação com as stored procedures ***
         public bool inserePedido(Pedido novoPedido)
         {
             try
@@ -32,7 +33,7 @@ namespace chessBurger
                 mensagem = erro.Message;
                 return false;
             }
-        }
+        }//fim insere pedido
 
         public bool insereLanche(Lanche novoLanche)
         {
@@ -42,7 +43,7 @@ namespace chessBurger
                 MySqlCommand cmd =
                     new MySqlCommand("sp_insereLanche", conexao);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("nomeLanche", novoLanche.NomeLanche);
+                cmd.Parameters.AddWithValue("nomeLanche", novoLanche.NomeLanche); //Entre aspas = parametros da stored procedure
                 cmd.Parameters.AddWithValue("igredientes", novoLanche.Igredientes);
                 cmd.Parameters.AddWithValue("precoLanche", novoLanche.Preco);
                 cmd.ExecuteNonQuery();//executar no banco
@@ -53,7 +54,7 @@ namespace chessBurger
                 mensagem = erro.Message;
                 return false;
             }
-        }
+        }// fim insere lanche
         public DataTable listaLanches()
         {
             // comentario
@@ -77,7 +78,7 @@ namespace chessBurger
                 conexao.Close();
             }
 
-        }// fim lista_lanches
+        }// fim lista lanches
 
         public DataTable listaPedidos()
         {
@@ -101,7 +102,7 @@ namespace chessBurger
                 conexao.Close();
             }
 
-        }// fim lista_pedidos
+        }// fim lista pedidos
 
         public bool deletaPedidos(int idRemovePedido)
         {
@@ -123,7 +124,7 @@ namespace chessBurger
             {
                 conexao.Close();
             }
-        }// fim  
+        }// fim deleta pedidos
 
         public bool deletaLanches(int idRemoveLanche)
         { 
@@ -145,7 +146,33 @@ namespace chessBurger
             {
                 conexao.Close();
             }
-        }// fim 
+        }// fim deleta lanche
+
+        public bool alteraLanche(Lanche l, int idlanche)
+        {
+            MySqlCommand cmd = new MySqlCommand("sp_alteraBanda", conexao);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("idLanches", idlanche);
+            cmd.Parameters.AddWithValue("nomeLanche", l.NomeLanche);
+            cmd.Parameters.AddWithValue("igredientes", l.Igredientes);
+            cmd.Parameters.AddWithValue("precoLanche", l.Preco);
+     
+            try
+            {
+                conexao.Open();
+                cmd.ExecuteNonQuery(); // executa o comando
+                return true;
+            }
+            catch (MySqlException e)
+            {
+                mensagem = "Erro:" + e.Message;
+                return false;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }// fim update_lanche
 
 
     }// fim classe
