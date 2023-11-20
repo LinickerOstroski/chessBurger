@@ -2,7 +2,7 @@
 
 > Gestor de pedidos para hamburgueria ChessBurger
 
-<img src="chessBurger/assets/screenshot/foto.png" alt="Exemplo imagem">
+<img src="" alt="Exemplo imagem">
 
 ### O que há nessa versão?
 
