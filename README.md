@@ -29,7 +29,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Você instalou a versão mais recente do VisualStudio,
 - Você tem uma máquina Windows.
 
-## 🤝 Colaboradores
+## 🤝 Desenvolvedores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
