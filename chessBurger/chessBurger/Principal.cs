@@ -189,7 +189,7 @@ namespace chessBurger
                     listaGridLanches();
                 }// fim if retorno true
                 else
-                    MessageBox.Show(con.mensagem);
+                    MessageBox.Show("Tem um pedido cadastrado com esse lanche!\n\n" + con.mensagem);
             }// fim if Ok Cancela
             else
                 MessageBox.Show("Operação cancelada");
