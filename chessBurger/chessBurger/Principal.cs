@@ -193,6 +193,10 @@ namespace chessBurger
             }// fim if Ok Cancela
             else
                 MessageBox.Show("Operação cancelada");
+
+            listaCOBLanches();
+            listaGridPedidos();
+            listaGridLanches();
         }
 
         private void panel7_Paint(object sender, PaintEventArgs e)

@@ -12,6 +12,11 @@
         },
         "runtime": {
           "chessBurger.dll": {}
+        },
+        "resources": {
+          "pt-BR/chessBurger.resources.dll": {
+            "locale": "pt-BR"
+          }
         }
       },
       "BouncyCastle.Cryptography/2.2.1": {
