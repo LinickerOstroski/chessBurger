@@ -886,7 +886,7 @@ Yago Aguiar
   <data name="btnPedidos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIYAAAAuCAYAAADtNmESAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABjZJREFUeF7tW11oXEUUzov4sETii0W0NqYIVdEWqYqCJBRbH6qwRYipP3UxrRaV
+        EAAACxABrSO9dQAABjZJREFUeF7tW11oXEUUzov4sETii0W0NqYIVdEWqYqCJBRbH6qwRYipP3UxrRaV
         muIP+JJEUPBB2PhiQShb1Lwp8V+phK34YFVKWhACPrgvFYVSFwtKheLxfOfOGefevZvN3v2Jmz0ffMzc
         uXPn3p357jlnZu4OtIgh5gyz6jjFNBgGShuvytEHr+2ixbfy9N4ruypcBqEY+hiwFnS8uJuqx58g+v5Z
         qi4eIJQxN6GCoT8xzKTl+XH646tJEQaIMuY2VDD0L8r7H9hCv32yj/757hmaPXAHRAF3YuhzwGpUrshd
@@ -935,29 +935,39 @@ Yago Aguiar
     <value>ㅤ</value>
   </data>
   <data name="marcador.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 20</value>
+    <value>143, 20</value>
   </data>
   <data name="marcador.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 58</value>
+    <value>19, 58</value>
   </data>
   <data name="btnLanches.Font" type="System.Drawing.Font, System.Drawing">
     <value>Gadugi, 12pt, style=Bold</value>
   </data>
   <data name="btnLanches.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        qAAAAKgBefSzxgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJZSURBVFhH7dZP
-        iI1RGMfxB1FjJ5oVmbKxkKFIoWZhY0zJQiFZKDJZKIUoNEUpDdlaWFhYTNliJ8RG/m7Ehq2SvyV/itf3
-        ee850/Oe89x7m3nP0qlPc85vzjnPM907771SVdWMMbbjJo54v58JN+yH8Ro6OYkdmMQGb28/bphizE/W
-        toHxMH+f7Gmc6cYNUwz9K9/gXFh3bYBxCq+w297RjRtGjEVYBW1AA+I679XAl7Bu1wDjCn6Hn7NqAPtw
-        GivjvSk3VIx70EmbBibC/EW8N+WGivG/gZINPI/3ptxQMTZDm2jTwGGcxzLMiXdbzYXIIdyHPmbPYgGW
-        YDYN7ArrEdzGZ/zEhObR9KReiOyBTqLHGMJq/NIs7OvXwBMsxAVoaI3HevX+xkJkjdkYfcQ6bMG3sK9X
-        A3exGJehQWqkUbOxEBnAX3zFQ8RDP7AXa8O+Xg1o8amQeQYbNe2iDkTe4SmGYQ+qi5iHjTiOUWzCfizF
-        IPQ9lJ6LPmX1sqDzhokH/ph5pK/xHZyBvizboB/Hz+Dttx5l9bJA5FLYrB9CWigeLuFaVi8LRA6GzWPQ
-        vyweLuFYVi8LOg8gnZyAvrbxcAljWb0s6LyLdXId68O8lBVZvTSoQ5EP0G81+mS0F7Sh/8pzs1ppUIci
-        D8Khkl66tdxQ5Ko5WMqUW8sNRY6ag6U0PoSma7mhyFZzsBT3S2oW1KHIcnOwlGG3lhvy5QHfw8ES9BE9
-        4NbyQsXQZ7u9pI23Xg3lhopxw1zQ1i2vhnJDxdBPO3tJG5NeDeWGirHTXNDWAa9GVVXyD9HUq9TmwZOV
-        AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAIYAAAAqCAYAAAB2pyMEAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAABOZJREFUeF7tmk9oVUcUxgP9gyREIkj9F9tElIq0EETtqpCiUKjQChUUFROQQLEp
+        ieLCQjEPwU03ZumioNAKdVOVLrUEEVN0k41bCbhwm40LQXD8vvPmDGdu7nvGvPvCe3B+8DF35s6dO2/m
+        u3Pmvvd6DKPQVeg2NNcGsV22PwQ5XcIMFNZQvJ/T4YxDYc/QhnDr8sHw/J8Tohd3T4XX/58N4clkZVr4
+        63gY2tKv5uAK5XQwc+v7Pg7z135IpqBezk2UTm6rWrx7Wo3B8OJ0MOHbA4OZKajX89WuFlYjuzbSGIv1
+        2zudSjj6zY41Ncbo3m1ujC6ga40RQjgCjUd11NuO6VvX7qXCnuEN4dyxLzNdOrM/1CYOyJ5g6b+JMHv+
+        a8lXobgBrcIYi5DCTXTHgP5o37p2L7UEcaJKtW+4P9yb+ar0XItagFoCg+7GaCMD0Ai0tHn9h+HK4U3h
+        1tj2pEcXdoVnV74IDy58vmr9O7kz/P7jttC/7gMagkbk/XjflsCgv5cxUGeU9aKWLfHxPDUCDUBNw1Sh
+        TtYe8skYkNZjeGnUlu1bozpDpg7b4ji2lSNQ+PXQxvDgl+Gkh1M7xBRV6bfvtuhqUckHwsAsQEqpMVDO
+        SZmBllgJ2Gv4TWwilhFOKuvbumOxmoD8FMQ6lJqAqfQjHhOtQxGWp4nnMUTzkGZ9u14vzu5Hsvaqhh8m
+        XCwY49F024xRyYYMA6IDSpoZg8xCskoh5dOp1KQiiHlF+oiU1xGudAKOaTTCr/kFHE/Xi2SieE87eXzw
+        WEf7m8ILj+tFYTrmaRQ1kZZxhVDEBEh1FWpbqMpCyR/Ht4a/xwaT7k/tLA0P76ubZ4bD4MBHGkr44aoI
+        Je80BsE5WaGQ6upxG1LshCt3YhHLrIl4rEYjxfCRwgBSNYY1gZqHsB1tO/WBIH+jXiwGYT01J+HK0TAk
+        VQnfDvRJXktVsfm0xmi4CuEcB/eq1KrDgdbBJ5/Fesp1uRDg2BqBE5sZJVZbBs6VGYMTqrAdNQoNwP7R
+        sHal4TFXEMqWK/z8DR+IVmn6utoOVfi6ulJjaHzm4OrqYSdJ9wVKMgaJZYTtWGNIiCgD58qMwQlWaAob
+        Iri/oGFZLpvfeFkCZbw3DV00SVvM0c1fcNmQUGoMlHOQlTSAOLblGsuVojE05t+BuIJofll8R5nuY95l
+        jBrUcPVBnnVTCJRCA8psWMr6WxXdbAwbDlZiDNnpI2WZNZVsQOMxmWVeQT6bZKR2UuQvBEg1XEmIRFpm
+        DBuWZDKR6qrH+ro/oWGYlzFCypWFebuHsSbzFcOCAbHG4FMsg2kkmzqkdvNGWNdeWzRGelMhyLMtYieZ
+        T7zC9ihOcsPNJ4llRI1Bs9i+pOsgXX3seSKfrX6Ym7hK5Gf3p38ezYzx6uFPpZPaqqr82R2DwiefT5eK
+        T1SmWJV19Tz3FpwMSvM6mVleQZ7XsjzbU7BeLOd12XczzMdzxWukX1DxHrat7JyCcu2HttHym10zOHiy
+        AZ2/9n0yBv+o8+bxz6WTu1rRFPEnd6oty59TLVw6ZcIGP+lL+nRTv7xBrFTjh3eLARgqys7rPeL9nC6B
+        m7cbEJf41UonnHGv7DzjasPXSsdxHMdxHMdxHMdxHMdxHMdxHMdxHMdxHMdxHMdxek729c25XEX1nOjt
+        rblcuXprbwHOZmFp01TkbwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="btnLanches.Location" type="System.Drawing.Point, System.Drawing">
@@ -968,6 +978,9 @@ Yago Aguiar
   </data>
   <data name="btnLanches.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="btnLanches.Text" xml:space="preserve">
+    <value>ㅤ</value>
   </data>
   <data name="btnAlterarLanches.Font" type="System.Drawing.Font, System.Drawing">
     <value>Gadugi, 12pt, style=Bold</value>
@@ -1002,7 +1015,7 @@ Yago Aguiar
     <value>3</value>
   </data>
   <data name="btnAlterarLanches.Text" xml:space="preserve">
-    <value>Alterar</value>
+    <value>ㅤ</value>
   </data>
   <data name="btnSobre.Font" type="System.Drawing.Font, System.Drawing">
     <value>Gadugi, 12pt, style=Bold</value>
@@ -1305,7 +1318,7 @@ Yago Aguiar
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAApsAAACSCAYAAAAKAgGFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAJ0VJREFUeF7tnT2IJsl5xzc5dPPOLDrk6EDGl5xSbyopWaRURpfopP0471kCgcBG
+        DwAACw8BkvkDpQAAJ0VJREFUeF7tnT2IJsl5xzc5dPPOLDrk6EDGl5xSbyopWaRURpfopP0471kCgcBG
         h4wiS+wmp8DJXCKBo1mw7Mj2CjmxE40xOJENE9hIGAwD8kd0sKBA2NH5+dc8PdfTU91dVc9T3fX2+//B
         w97N210fXVVP/eur+w4hhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQggh
         jfHVT3ziMw+Ojj6Lf/VPVVk6PkIIIYQQsgLffP313aPj4z9+fHLyZ509PD5+V3925/fv3v0tieP7/fge

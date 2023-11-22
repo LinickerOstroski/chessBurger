@@ -305,5 +305,10 @@ namespace chessBurger
             cob_lancheEscolhido.Text = "";
             txt_nomeCliente.Focus();
         }
+
+        private void marcador_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -539,12 +539,13 @@
             resources.ApplyResources(marcador, "marcador");
             marcador.BackColor = Color.BlanchedAlmond;
             marcador.Name = "marcador";
+            marcador.Paint += marcador_Paint;
             // 
             // btnLanches
             // 
             resources.ApplyResources(btnLanches, "btnLanches");
-            btnLanches.BackColor = Color.FromArgb(208, 221, 255);
-            btnLanches.FlatAppearance.BorderColor = Color.FromArgb(208, 221, 255);
+            btnLanches.BackColor = Color.FromArgb(146, 63, 26);
+            btnLanches.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
             btnLanches.Name = "btnLanches";
             btnLanches.UseVisualStyleBackColor = false;
             btnLanches.Click += btnLanches_Click;
@@ -552,8 +553,8 @@
             // btnAlterarLanches
             // 
             resources.ApplyResources(btnAlterarLanches, "btnAlterarLanches");
-            btnAlterarLanches.BackColor = Color.FromArgb(208, 221, 255);
-            btnAlterarLanches.FlatAppearance.BorderColor = Color.FromArgb(208, 221, 255);
+            btnAlterarLanches.BackColor = Color.FromArgb(146, 63, 26);
+            btnAlterarLanches.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
             btnAlterarLanches.Name = "btnAlterarLanches";
             btnAlterarLanches.UseVisualStyleBackColor = false;
             btnAlterarLanches.Click += btnAlterarLanches_Click;
