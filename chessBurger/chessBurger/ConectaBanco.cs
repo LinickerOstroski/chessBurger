@@ -156,7 +156,7 @@ namespace chessBurger
             cmd.Parameters.AddWithValue("nomeLanche", l.NomeLanche);
             cmd.Parameters.AddWithValue("ingredientes", l.Ingredientes);
             cmd.Parameters.AddWithValue("precoLanche", l.Preco);
-     
+     ////
             try
             {
                 conexao.Open();
