@@ -30,9 +30,9 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
             tableLayoutPanel6 = new TableLayoutPanel();
@@ -90,7 +90,6 @@
             btnSobre = new Button();
             panel1 = new Panel();
             pictureBox3 = new PictureBox();
-            pictureBox1 = new PictureBox();
             panel2 = new Panel();
             label4 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -119,7 +118,6 @@
             Sobre.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
@@ -240,7 +238,7 @@
             // 
             resources.ApplyResources(dgPedidos, "dgPedidos");
             dgPedidos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgPedidos.BackgroundColor = SystemColors.ScrollBar;
+            dgPedidos.BackgroundColor = SystemColors.MenuBar;
             dgPedidos.BorderStyle = BorderStyle.None;
             dgPedidos.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -248,21 +246,21 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.BackColor = Color.White;
-            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = Color.White;
-            dataGridViewCellStyle5.ForeColor = Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(156, 173, 239);
-            dataGridViewCellStyle5.SelectionForeColor = Color.White;
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = Color.White;
+            dataGridViewCellStyle2.ForeColor = Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(156, 173, 239);
+            dataGridViewCellStyle2.SelectionForeColor = Color.White;
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgPedidos.RowTemplate.Height = 25;
             // 
             // btn_finalizarPedido
@@ -402,9 +400,9 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle6.ForeColor = Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(156, 173, 239);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(156, 173, 239);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             // 
             // tableLayoutPanel8
@@ -572,7 +570,7 @@
             // panel1
             // 
             resources.ApplyResources(panel1, "panel1");
-            panel1.BackColor = Color.FromArgb(208, 221, 255);
+            panel1.BackColor = Color.FromArgb(217, 141, 48);
             panel1.Controls.Add(pictureBox3);
             panel1.Name = "panel1";
             panel1.Paint += panel1_Paint;
@@ -583,17 +581,10 @@
             pictureBox3.Name = "pictureBox3";
             pictureBox3.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(pictureBox1, "pictureBox1");
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.TabStop = false;
-            // 
             // panel2
             // 
             resources.ApplyResources(panel2, "panel2");
-            panel2.BackColor = Color.FromArgb(208, 221, 255);
+            panel2.BackColor = Color.FromArgb(142, 63, 26);
             panel2.Controls.Add(btnSobre);
             panel2.Controls.Add(marcador);
             panel2.Controls.Add(btnAlterarLanches);
@@ -610,11 +601,10 @@
             // tableLayoutPanel1
             // 
             resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
-            tableLayoutPanel1.BackColor = Color.FromArgb(208, 221, 255);
+            tableLayoutPanel1.BackColor = Color.FromArgb(146, 63, 26);
             tableLayoutPanel1.Controls.Add(panel2, 0, 1);
             tableLayoutPanel1.Controls.Add(tabControl1, 1, 1);
             tableLayoutPanel1.Controls.Add(panel1, 1, 0);
-            tableLayoutPanel1.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // FormJanelaPrincipal
@@ -657,7 +647,6 @@
             Sobre.PerformLayout();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
@@ -698,7 +687,6 @@
         private Button btnAlterarLanches;
         private Button btnSobre;
         private Panel panel1;
-        private PictureBox pictureBox1;
         private Panel panel2;
         private Button btn_finalizarPedido;
         private TableLayoutPanel tableLayoutPanel1;
