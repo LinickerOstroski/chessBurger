@@ -30,9 +30,17 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle15 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            panel2 = new Panel();
+            btnSobre = new Button();
+            marcador = new Panel();
+            btnAlterarLanches = new Button();
+            btnLanches = new Button();
+            btnPedidos = new Button();
+            label4 = new Label();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
             tableLayoutPanel6 = new TableLayoutPanel();
@@ -83,17 +91,11 @@
             label10 = new Label();
             Sobre = new TabPage();
             textBox2 = new TextBox();
-            btnPedidos = new Button();
-            marcador = new Panel();
-            btnLanches = new Button();
-            btnAlterarLanches = new Button();
-            btnSobre = new Button();
             panel1 = new Panel();
             pictureBox3 = new PictureBox();
-            panel2 = new Panel();
-            label4 = new Label();
-            tableLayoutPanel1 = new TableLayoutPanel();
             label11 = new Label();
+            tableLayoutPanel1.SuspendLayout();
+            panel2.SuspendLayout();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
@@ -118,8 +120,6 @@
             Sobre.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            panel2.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // label11
@@ -127,6 +127,77 @@
             resources.ApplyResources(label11, "label11");
             label11.BackColor = Color.Transparent;
             label11.Name = "label11";
+            // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.BackColor = Color.FromArgb(142, 63, 26);
+            tableLayoutPanel1.Controls.Add(panel2, 0, 1);
+            tableLayoutPanel1.Controls.Add(tabControl1, 1, 1);
+            tableLayoutPanel1.Controls.Add(panel1, 1, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // panel2
+            // 
+            resources.ApplyResources(panel2, "panel2");
+            panel2.BackColor = Color.FromArgb(142, 63, 26);
+            panel2.Controls.Add(btnSobre);
+            panel2.Controls.Add(marcador);
+            panel2.Controls.Add(btnAlterarLanches);
+            panel2.Controls.Add(btnLanches);
+            panel2.Controls.Add(btnPedidos);
+            panel2.Controls.Add(label4);
+            panel2.Name = "panel2";
+            panel2.Paint += panel2_Paint;
+            // 
+            // btnSobre
+            // 
+            resources.ApplyResources(btnSobre, "btnSobre");
+            btnSobre.BackColor = Color.FromArgb(146, 63, 26);
+            btnSobre.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
+            btnSobre.Name = "btnSobre";
+            btnSobre.UseVisualStyleBackColor = false;
+            btnSobre.Click += btnSobre_Click;
+            // 
+            // marcador
+            // 
+            resources.ApplyResources(marcador, "marcador");
+            marcador.BackColor = Color.BlanchedAlmond;
+            marcador.Name = "marcador";
+            marcador.Paint += marcador_Paint;
+            // 
+            // btnAlterarLanches
+            // 
+            resources.ApplyResources(btnAlterarLanches, "btnAlterarLanches");
+            btnAlterarLanches.BackColor = Color.FromArgb(146, 63, 26);
+            btnAlterarLanches.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
+            btnAlterarLanches.Name = "btnAlterarLanches";
+            btnAlterarLanches.UseVisualStyleBackColor = false;
+            btnAlterarLanches.Click += btnAlterarLanches_Click;
+            // 
+            // btnLanches
+            // 
+            resources.ApplyResources(btnLanches, "btnLanches");
+            btnLanches.BackColor = Color.FromArgb(146, 63, 26);
+            btnLanches.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
+            btnLanches.Name = "btnLanches";
+            btnLanches.UseVisualStyleBackColor = false;
+            btnLanches.Click += btnLanches_Click;
+            // 
+            // btnPedidos
+            // 
+            resources.ApplyResources(btnPedidos, "btnPedidos");
+            btnPedidos.BackColor = Color.FromArgb(146, 63, 26);
+            btnPedidos.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
+            btnPedidos.ForeColor = SystemColors.Desktop;
+            btnPedidos.Name = "btnPedidos";
+            btnPedidos.UseVisualStyleBackColor = false;
+            btnPedidos.Click += button2_Click_1;
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.Name = "label4";
             // 
             // tabControl1
             // 
@@ -246,21 +317,21 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle13.BackColor = Color.White;
-            dataGridViewCellStyle13.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle13.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle13.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle13.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle14.BackColor = Color.White;
-            dataGridViewCellStyle14.ForeColor = Color.Black;
-            dataGridViewCellStyle14.SelectionBackColor = Color.FromArgb(156, 173, 239);
-            dataGridViewCellStyle14.SelectionForeColor = Color.White;
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = Color.White;
+            dataGridViewCellStyle2.ForeColor = Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(156, 173, 239);
+            dataGridViewCellStyle2.SelectionForeColor = Color.White;
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgPedidos.RowTemplate.Height = 25;
             // 
             // btn_finalizarPedido
@@ -400,9 +471,9 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle15.ForeColor = Color.Black;
-            dataGridViewCellStyle15.SelectionBackColor = Color.FromArgb(156, 173, 239);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(156, 173, 239);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             // 
             // tableLayoutPanel8
@@ -524,50 +595,6 @@
             textBox2.ReadOnly = true;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
-            // btnPedidos
-            // 
-            resources.ApplyResources(btnPedidos, "btnPedidos");
-            btnPedidos.BackColor = Color.FromArgb(146, 63, 26);
-            btnPedidos.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
-            btnPedidos.ForeColor = SystemColors.Desktop;
-            btnPedidos.Name = "btnPedidos";
-            btnPedidos.UseVisualStyleBackColor = false;
-            btnPedidos.Click += button2_Click_1;
-            // 
-            // marcador
-            // 
-            resources.ApplyResources(marcador, "marcador");
-            marcador.BackColor = Color.BlanchedAlmond;
-            marcador.Name = "marcador";
-            marcador.Paint += marcador_Paint;
-            // 
-            // btnLanches
-            // 
-            resources.ApplyResources(btnLanches, "btnLanches");
-            btnLanches.BackColor = Color.FromArgb(146, 63, 26);
-            btnLanches.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
-            btnLanches.Name = "btnLanches";
-            btnLanches.UseVisualStyleBackColor = false;
-            btnLanches.Click += btnLanches_Click;
-            // 
-            // btnAlterarLanches
-            // 
-            resources.ApplyResources(btnAlterarLanches, "btnAlterarLanches");
-            btnAlterarLanches.BackColor = Color.FromArgb(146, 63, 26);
-            btnAlterarLanches.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
-            btnAlterarLanches.Name = "btnAlterarLanches";
-            btnAlterarLanches.UseVisualStyleBackColor = false;
-            btnAlterarLanches.Click += btnAlterarLanches_Click;
-            // 
-            // btnSobre
-            // 
-            resources.ApplyResources(btnSobre, "btnSobre");
-            btnSobre.BackColor = Color.FromArgb(146, 63, 26);
-            btnSobre.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
-            btnSobre.Name = "btnSobre";
-            btnSobre.UseVisualStyleBackColor = false;
-            btnSobre.Click += btnSobre_Click;
-            // 
             // panel1
             // 
             resources.ApplyResources(panel1, "panel1");
@@ -582,32 +609,6 @@
             pictureBox3.Name = "pictureBox3";
             pictureBox3.TabStop = false;
             // 
-            // panel2
-            // 
-            resources.ApplyResources(panel2, "panel2");
-            panel2.BackColor = Color.FromArgb(142, 63, 26);
-            panel2.Controls.Add(btnSobre);
-            panel2.Controls.Add(marcador);
-            panel2.Controls.Add(btnAlterarLanches);
-            panel2.Controls.Add(btnLanches);
-            panel2.Controls.Add(btnPedidos);
-            panel2.Controls.Add(label4);
-            panel2.Name = "panel2";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(label4, "label4");
-            label4.Name = "label4";
-            // 
-            // tableLayoutPanel1
-            // 
-            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
-            tableLayoutPanel1.BackColor = Color.FromArgb(146, 63, 26);
-            tableLayoutPanel1.Controls.Add(panel2, 0, 1);
-            tableLayoutPanel1.Controls.Add(tabControl1, 1, 1);
-            tableLayoutPanel1.Controls.Add(panel1, 1, 0);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            // 
             // FormJanelaPrincipal
             // 
             resources.ApplyResources(this, "$this");
@@ -618,6 +619,9 @@
             Name = "FormJanelaPrincipal";
             ShowIcon = false;
             Load += FormJanelaPrincipal_Load;
+            tableLayoutPanel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             tabControl1.ResumeLayout(false);
             Pedidos.ResumeLayout(false);
             tableLayoutPanel6.ResumeLayout(false);
@@ -648,73 +652,70 @@
             Sobre.PerformLayout();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
+        private Label lbl_mensagem;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Panel panel2;
+        private Button btnSobre;
+        private Panel marcador;
+        private Button btnAlterarLanches;
+        private Button btnLanches;
+        private Button btnPedidos;
+        private Label label4;
         private TabControl tabControl1;
         private TabPage Pedidos;
-        private TabPage Lanches;
-        private Label label1;
-        private TextBox txt_nomeCliente;
-        private ComboBox cob_lancheEscolhido;
-        private Label label2;
-        private TabPage Alterar;
-        private TabPage Sobre;
-        private TextBox textBox2;
-        private TabControl tabControl2;
-        private TabPage tabPage4;
-        private TabControl tabControl3;
-        private TabPage LanchesCadastrados;
-        private Button btn_removerLanche;
-        private Label label7;
-        private TextBox txt_precoLanche;
-        private Label label3;
-        private Label label5;
-        private TextBox txt_nomeLanche;
-        private Button btn_cadastrarLanche;
-        private Label lbl_mensagem;
-        private DataGridView dgPedidos;
-        private TextBox txt_filtrarPedido;
-        private Label label8;
-        private TextBox txt_igredientes;
-        private DataGridView dgLanches;
-        private Button btnPedidos;
-        private Panel marcador;
-        private Button btnLanches;
-        private Button btnAlterarLanches;
-        private Button btnSobre;
-        private Panel panel1;
-        private Panel panel2;
-        private Button btn_finalizarPedido;
-        private TableLayoutPanel tableLayoutPanel1;
+        private TableLayoutPanel tableLayoutPanel6;
         private TableLayoutPanel tableLayoutPanel3;
         private TableLayoutPanel tableLayoutPanel2;
-        private Button button1;
-        private PictureBox pictureBox3;
-        private TableLayoutPanel tableLayoutPanel4;
-        private TableLayoutPanel tableLayoutPanel5;
-        private Label label4;
-        private TableLayoutPanel tableLayoutPanel6;
-        private TableLayoutPanel tableLayoutPanel7;
-        private TableLayoutPanel tableLayoutPanel8;
-        private Button button2;
-        private Label label6;
-        private Label label9;
-        private Label label10;
-        private TextBox txt_alteraIgredienteLanche;
-        private TextBox txt_alteraPrecoLanche;
-        private TextBox txt_alteraNomeLanche;
-        private Panel panel3;
-        private Button btn_confirmaAlteracao;
-        private Button btn_limpar2;
-        private TableLayoutPanel tableLayoutPanel9;
-        private Button btn_limpar1;
+        private ComboBox cob_lancheEscolhido;
+        private Label label1;
+        private Label label2;
+        private TextBox txt_nomeCliente;
         private TableLayoutPanel tableLayoutPanel10;
         private Button button3;
+        private Button button1;
+        private TabControl tabControl2;
+        private TabPage tabPage4;
+        private DataGridView dgPedidos;
+        private Button btn_finalizarPedido;
+        private TableLayoutPanel tableLayoutPanel7;
+        private Label label8;
+        private TextBox txt_filtrarPedido;
+        private TabPage Lanches;
+        private TableLayoutPanel tableLayoutPanel4;
+        private TableLayoutPanel tableLayoutPanel5;
+        private Label label3;
+        private Label label5;
+        private Label label7;
+        private TextBox txt_nomeLanche;
+        private TextBox txt_precoLanche;
+        private TextBox txt_igredientes;
+        private TableLayoutPanel tableLayoutPanel9;
+        private Button btn_limpar1;
+        private Button btn_cadastrarLanche;
+        private TabControl tabControl3;
+        private TabPage LanchesCadastrados;
+        private DataGridView dgLanches;
+        private TableLayoutPanel tableLayoutPanel8;
+        private Button button2;
+        private Button btn_removerLanche;
+        private TabPage Alterar;
         private Panel panel4;
+        private Panel panel3;
+        private Button btn_limpar2;
+        private Button btn_confirmaAlteracao;
+        private Label label6;
+        private TextBox txt_alteraNomeLanche;
+        private TextBox txt_alteraPrecoLanche;
+        private TextBox txt_alteraIgredienteLanche;
+        private Label label9;
+        private Label label10;
+        private TabPage Sobre;
+        private TextBox textBox2;
+        private Panel panel1;
+        private PictureBox pictureBox3;
     }
 }
