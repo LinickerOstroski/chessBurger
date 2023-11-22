@@ -30,9 +30,9 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle15 = new DataGridViewCellStyle();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
             tableLayoutPanel6 = new TableLayoutPanel();
@@ -246,21 +246,21 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle7.BackColor = Color.White;
-            dataGridViewCellStyle7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle7.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle7.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle13.BackColor = Color.White;
+            dataGridViewCellStyle13.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle13.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle13.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle13.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle13.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle8.BackColor = Color.White;
-            dataGridViewCellStyle8.ForeColor = Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(156, 173, 239);
-            dataGridViewCellStyle8.SelectionForeColor = Color.White;
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle14.BackColor = Color.White;
+            dataGridViewCellStyle14.ForeColor = Color.Black;
+            dataGridViewCellStyle14.SelectionBackColor = Color.FromArgb(156, 173, 239);
+            dataGridViewCellStyle14.SelectionForeColor = Color.White;
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle14;
             dgPedidos.RowTemplate.Height = 25;
             // 
             // btn_finalizarPedido
@@ -400,9 +400,9 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle9.ForeColor = Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(156, 173, 239);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle15.ForeColor = Color.Black;
+            dataGridViewCellStyle15.SelectionBackColor = Color.FromArgb(156, 173, 239);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle15;
             dgLanches.RowTemplate.Height = 25;
             // 
             // tableLayoutPanel8
@@ -562,8 +562,8 @@
             // btnSobre
             // 
             resources.ApplyResources(btnSobre, "btnSobre");
-            btnSobre.BackColor = Color.FromArgb(208, 221, 255);
-            btnSobre.FlatAppearance.BorderColor = Color.FromArgb(208, 221, 255);
+            btnSobre.BackColor = Color.FromArgb(146, 63, 26);
+            btnSobre.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
             btnSobre.Name = "btnSobre";
             btnSobre.UseVisualStyleBackColor = false;
             btnSobre.Click += btnSobre_Click;
