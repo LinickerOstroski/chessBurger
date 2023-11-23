@@ -166,142 +166,6 @@
   <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="cob_lancheEscolhido.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="cob_lancheEscolhido.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 35</value>
-  </data>
-  <data name="cob_lancheEscolhido.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 28</value>
-  </data>
-  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Trebuchet MS, 12.75pt</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 32</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 34</value>
-  </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Trebuchet MS, 12.75pt</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, -9</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
-  </data>
-  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="txt_nomeCliente.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="txt_nomeCliente.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 5</value>
-  </data>
-  <data name="txt_nomeCliente.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 24</value>
-  </data>
-  <data name="txt_nomeCliente.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="tableLayoutPanel10.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Trebuchet MS, 11.25pt, style=Bold</value>
-  </data>
-  <data name="button3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 3</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 31</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Limpar</value>
-  </data>
-  <data name="button3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Trebuchet MS, 11.25pt, style=Bold</value>
-  </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAAOlJREFUOE+lkwsRgzAQRJFQB0VCJSChEpCAg9ZB64A6qAQkIAEJlUD3JTl+CQ0z
-        fTM7k9zeheQSil+M43hCYXoMFVRSK30kg/FbqkNajEy+9pBysHgZymYU7J29hlgqPkjz0TS5uXDMJfjL
-        4xidFZd+nuQccvhiigqz8eMkuQVazM6PHWyVZJMtQI7FlscZMK1JGIfuXHlTY7fb4w3QE6eQT84Uk8iZ
-        ajBffpgk14Me858mPjF5gal7htwC/pgaXP08wnqS4u6KDQI+foh1sSGjlva2Cxy1Cen7KImFuB0eEOIP
-        pNmbd1IUX7W5/PxUxeC0AAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="button1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 4, 0</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 31</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Cadastrarㅤ</value>
-  </data>
-  <data name="tableLayoutPanel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 69</value>
-  </data>
-  <data name="tableLayoutPanel10.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 37</value>
-  </data>
   <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -330,17 +194,19 @@
     <value>Right</value>
   </data>
   <data name="btn_finalizarPedido.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Trebuchet MS, 12pt, style=Bold</value>
   </data>
   <data name="btn_finalizarPedido.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        bQAAAG0BjlwfygAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADqSURBVDhPnZM9
-        CgIxFISzWIiVleAB9g56qhWsrCy9hVcQFA9g4QHEQqwsrW3EzjjzfJGXmF10Ax8kk3lDfp33PgKtBHOw
-        AVeFfWrll//Tca4AFbgDCjk4R08RBVAAW2DNTdArISGAqdbwC5XWyp6bll0Ha1grh5MzpFzAGJyNxlo5
-        YWt8JGNyAENd8lQ1wlq5piDcwAjMjLYDfS2egCcIc6yNAk5goGaGrEBXxwsQfAEJSLdwBCGE19sBS2A9
-        AdlC7hAlBPTAWrUccoh118iQfaJZ3teoS23/kMxe2z9lE9LuM1nQ/vjO3r0AWLAdWHfOU2MAAAAASUVO
-        RK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAAAbBJREFUOE+VlL9KA0EQxvcRltylVvQF4hvcE+gTaFK4h6DgtWJhSCPmNlgEA9r4
+        p4pd0MJG7CzFwgcQTBURQgrBbp1vb/ZydzE5/GBIdm7nt3MzOycWSenKftipvofafw07/hG7y9VoSqna
+        1RoMgQQwOSPfzrFc3o79AHs5LK9Qe3XV8cbZwKi7Yr4mH9ai7moB6lGmXp3DEzVOpUwe+ObyYc/o/rr9
+        HX6+GSfA4OsNNq0xcIxYxgiBVPGgN9jisHIBihiUgTFC4L3/C0LWMyBXWJwyT3g1HPT4cm7XLqO0mw7i
+        CvuX4D+4WLOB7jDUL21A7EfULbojtMhC7p5PTOs6sL4spHUTmO+fCe9KDrAgumuUkb1wMyD4AJgHgRxI
+        UTIijCsRFkhzOJq2+8rVYAEE5bB7Yr+Z1In+wFEs9j1l1n86nIFAabEdBFJtWYNT327wtnKdUQcRs6vl
+        EmOmoEXtL8qBcJkZk4yI0smc4a7AAM02AO2GD1mnr0VjlRsRSLW9hps3Z2gAYLnCsmHAEcPheUX0aUCq
+        dmS4ATkjH8oAw14OKxfD6KNGdw23d66E+AU6msgff/4F7AAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="btn_finalizarPedido.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -351,6 +217,9 @@
   </data>
   <data name="btn_finalizarPedido.Location" type="System.Drawing.Point, System.Drawing">
     <value>977, 442</value>
+  </data>
+  <data name="btn_finalizarPedido.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 5, 0</value>
   </data>
   <data name="btn_finalizarPedido.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 30</value>
@@ -647,6 +516,154 @@
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>11/2023- Beta 1.1</value>
+  </data>
+  <data name="cob_lancheEscolhido.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cob_lancheEscolhido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 35</value>
+  </data>
+  <data name="cob_lancheEscolhido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 28</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12.75pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 32</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 34</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12.75pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -9</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 41</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_nomeCliente.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="txt_nomeCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 5</value>
+  </data>
+  <data name="txt_nomeCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 24</value>
+  </data>
+  <data name="txt_nomeCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel10.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 69</value>
+  </data>
+  <data name="tableLayoutPanel10.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 37</value>
+  </data>
+  <data name="button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 11.25pt, style=Bold</value>
+  </data>
+  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DQAACw0B7QfALAAAAKxJREFUKFOVkQENhDAQBHHySKgEpFRCJeCAOvh3gAQkIAEJSCi7ZI9cGvqETSZ/
+        vdulB9/VKqUMwCto1BZMDG2g1++gUVsWUn0fQjOC0fEFPsSzn0cbLIBDY1IoV336NgtFmp5Enw/VN7W4
+        buIK1J3JMwNqZIhfa9cGf0Uf/SwSWNQMYD4dEs685aN6BcmaWc3rPzLxDCz0A5kFXy6p+RTiVisL7vlG
+        uz39BSUc2d629WKQp6IAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 3</value>
+  </data>
+  <data name="button3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 10, 0</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 31</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="button3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 11.25pt, style=Bold</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DQAACw0B7QfALAAAAOlJREFUOE+lkwsRgzAQRJFQB0VCJSChEpCAg9ZB64A6qAQkIAEJlUD3JTl+CQ0z
+        fTM7k9zeheQSil+M43hCYXoMFVRSK30kg/FbqkNajEy+9pBysHgZymYU7J29hlgqPkjz0TS5uXDMJfjL
+        4xidFZd+nuQccvhiigqz8eMkuQVazM6PHWyVZJMtQI7FlscZMK1JGIfuXHlTY7fb4w3QE6eQT84Uk8iZ
+        ajBffpgk14Me858mPjF5gal7htwC/pgaXP08wnqS4u6KDQI+foh1sSGjlva2Cxy1Cen7KImFuB0eEOIP
+        pNmbd1IUX7W5/PxUxeC0AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="button1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 4, 0</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 31</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Cadastrarㅤ</value>
   </data>
   <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 29</value>

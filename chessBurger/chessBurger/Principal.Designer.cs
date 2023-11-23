@@ -311,7 +311,7 @@
             // 
             resources.ApplyResources(dgPedidos, "dgPedidos");
             dgPedidos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgPedidos.BackgroundColor = SystemColors.MenuBar;
+            dgPedidos.BackgroundColor = Color.FromArgb(255, 237, 216);
             dgPedidos.BorderStyle = BorderStyle.None;
             dgPedidos.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -329,9 +329,9 @@
             dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = Color.White;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(71, 65, 67);
             dataGridViewCellStyle5.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = Color.WhiteSmoke;
+            dataGridViewCellStyle5.ForeColor = Color.White;
             dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(191, 80, 15);
             dataGridViewCellStyle5.SelectionForeColor = Color.White;
             dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle5;
@@ -340,7 +340,8 @@
             // btn_finalizarPedido
             // 
             resources.ApplyResources(btn_finalizarPedido, "btn_finalizarPedido");
-            btn_finalizarPedido.BackColor = SystemColors.Control;
+            btn_finalizarPedido.BackColor = Color.FromArgb(191, 80, 15);
+            btn_finalizarPedido.ForeColor = Color.White;
             btn_finalizarPedido.Name = "btn_finalizarPedido";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
             btn_finalizarPedido.Click += btn_finalizarPedido_Click;
