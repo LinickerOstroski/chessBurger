@@ -30,9 +30,9 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle17 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel2 = new Panel();
             btnSobre = new Button();
@@ -197,6 +197,8 @@
             // label4
             // 
             resources.ApplyResources(label4, "label4");
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.FromArgb(255, 237, 216);
             label4.Name = "label4";
             // 
             // tabControl1
@@ -321,22 +323,22 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle16.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle16.BackColor = Color.White;
+            dataGridViewCellStyle16.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle16.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle16.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle16.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle16.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(71, 65, 67);
-            dataGridViewCellStyle2.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(191, 80, 15);
-            dataGridViewCellStyle2.SelectionForeColor = Color.White;
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle17.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle17.BackColor = Color.FromArgb(71, 65, 67);
+            dataGridViewCellStyle17.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle17.ForeColor = Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = Color.FromArgb(191, 80, 15);
+            dataGridViewCellStyle17.SelectionForeColor = Color.WhiteSmoke;
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle17;
             dgPedidos.RowTemplate.Height = 25;
             // 
             // btn_finalizarPedido
@@ -480,10 +482,12 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(191, 80, 15);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle18.BackColor = Color.FromArgb(71, 65, 67);
+            dataGridViewCellStyle18.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle18.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(191, 80, 15);
+            dataGridViewCellStyle18.SelectionForeColor = Color.WhiteSmoke;
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle18;
             dgLanches.RowTemplate.Height = 25;
             dgLanches.CellContentClick += dgLanches_CellContentClick;
             // 
@@ -497,7 +501,8 @@
             // button2
             // 
             resources.ApplyResources(button2, "button2");
-            button2.BackColor = SystemColors.Control;
+            button2.BackColor = Color.White;
+            button2.ForeColor = Color.FromArgb(71, 65, 67);
             button2.Name = "button2";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click_2;
@@ -505,8 +510,8 @@
             // btn_removerLanche
             // 
             resources.ApplyResources(btn_removerLanche, "btn_removerLanche");
-            btn_removerLanche.BackColor = SystemColors.ControlLight;
-            btn_removerLanche.ForeColor = Color.Black;
+            btn_removerLanche.BackColor = Color.FromArgb(191, 15, 15);
+            btn_removerLanche.ForeColor = Color.White;
             btn_removerLanche.Name = "btn_removerLanche";
             btn_removerLanche.UseVisualStyleBackColor = false;
             btn_removerLanche.Click += button2_Click;
