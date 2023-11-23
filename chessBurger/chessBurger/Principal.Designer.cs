@@ -30,9 +30,9 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle17 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel2 = new Panel();
             btnSobre = new Button();
@@ -40,6 +40,7 @@
             btnAlterarLanches = new Button();
             btnLanches = new Button();
             btnPedidos = new Button();
+            panel5 = new Panel();
             label4 = new Label();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
@@ -96,6 +97,7 @@
             label11 = new Label();
             tableLayoutPanel1.SuspendLayout();
             panel2.SuspendLayout();
+            panel5.SuspendLayout();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
             tableLayoutPanel6.SuspendLayout();
@@ -146,7 +148,7 @@
             panel2.Controls.Add(btnAlterarLanches);
             panel2.Controls.Add(btnLanches);
             panel2.Controls.Add(btnPedidos);
-            panel2.Controls.Add(label4);
+            panel2.Controls.Add(panel5);
             panel2.Name = "panel2";
             panel2.Paint += panel2_Paint;
             // 
@@ -193,6 +195,13 @@
             btnPedidos.Name = "btnPedidos";
             btnPedidos.UseVisualStyleBackColor = false;
             btnPedidos.Click += button2_Click_1;
+            // 
+            // panel5
+            // 
+            resources.ApplyResources(panel5, "panel5");
+            panel5.BackColor = Color.FromArgb(217, 141, 48);
+            panel5.Controls.Add(label4);
+            panel5.Name = "panel5";
             // 
             // label4
             // 
@@ -246,6 +255,7 @@
             // cob_lancheEscolhido
             // 
             resources.ApplyResources(cob_lancheEscolhido, "cob_lancheEscolhido");
+            cob_lancheEscolhido.BackColor = SystemColors.ControlLight;
             cob_lancheEscolhido.ForeColor = Color.FromArgb(71, 65, 67);
             cob_lancheEscolhido.FormattingEnabled = true;
             cob_lancheEscolhido.Name = "cob_lancheEscolhido";
@@ -255,6 +265,7 @@
             // 
             resources.ApplyResources(label1, "label1");
             label1.BackColor = Color.Transparent;
+            label1.FlatStyle = FlatStyle.Flat;
             label1.Name = "label1";
             label1.Click += label1_Click;
             // 
@@ -262,11 +273,14 @@
             // 
             resources.ApplyResources(label2, "label2");
             label2.BackColor = Color.Transparent;
+            label2.FlatStyle = FlatStyle.Flat;
             label2.Name = "label2";
             // 
             // txt_nomeCliente
             // 
             resources.ApplyResources(txt_nomeCliente, "txt_nomeCliente");
+            txt_nomeCliente.BackColor = SystemColors.ControlLight;
+            txt_nomeCliente.BorderStyle = BorderStyle.None;
             txt_nomeCliente.ForeColor = Color.FromArgb(71, 65, 67);
             txt_nomeCliente.Name = "txt_nomeCliente";
             txt_nomeCliente.TextChanged += textBox1_TextChanged;
@@ -323,28 +337,28 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle16.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle16.BackColor = Color.White;
-            dataGridViewCellStyle16.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle16.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle16.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle16.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle16.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle17.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle17.BackColor = Color.FromArgb(71, 65, 67);
-            dataGridViewCellStyle17.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle17.ForeColor = Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = Color.FromArgb(191, 80, 15);
-            dataGridViewCellStyle17.SelectionForeColor = Color.WhiteSmoke;
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.ButtonFace;
+            dataGridViewCellStyle2.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(191, 100, 36);
+            dataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(255, 237, 180);
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgPedidos.RowTemplate.Height = 25;
             // 
             // btn_finalizarPedido
             // 
             resources.ApplyResources(btn_finalizarPedido, "btn_finalizarPedido");
-            btn_finalizarPedido.BackColor = Color.FromArgb(191, 80, 15);
+            btn_finalizarPedido.BackColor = Color.FromArgb(191, 100, 50);
             btn_finalizarPedido.ForeColor = Color.White;
             btn_finalizarPedido.Name = "btn_finalizarPedido";
             btn_finalizarPedido.UseVisualStyleBackColor = false;
@@ -366,6 +380,8 @@
             // txt_filtrarPedido
             // 
             resources.ApplyResources(txt_filtrarPedido, "txt_filtrarPedido");
+            txt_filtrarPedido.BackColor = SystemColors.ControlLight;
+            txt_filtrarPedido.BorderStyle = BorderStyle.None;
             txt_filtrarPedido.ForeColor = Color.FromArgb(71, 65, 67);
             txt_filtrarPedido.Name = "txt_filtrarPedido";
             txt_filtrarPedido.TextChanged += txt_filtrarPedido_TextChanged;
@@ -401,33 +417,43 @@
             // 
             resources.ApplyResources(label3, "label3");
             label3.BackColor = Color.Transparent;
+            label3.FlatStyle = FlatStyle.Flat;
             label3.Name = "label3";
             // 
             // label5
             // 
             resources.ApplyResources(label5, "label5");
             label5.BackColor = Color.Transparent;
+            label5.FlatStyle = FlatStyle.Flat;
             label5.Name = "label5";
             // 
             // label7
             // 
             resources.ApplyResources(label7, "label7");
             label7.BackColor = Color.Transparent;
+            label7.FlatStyle = FlatStyle.Flat;
             label7.Name = "label7";
             // 
             // txt_nomeLanche
             // 
             resources.ApplyResources(txt_nomeLanche, "txt_nomeLanche");
+            txt_nomeLanche.BackColor = SystemColors.ControlLight;
+            txt_nomeLanche.BorderStyle = BorderStyle.None;
             txt_nomeLanche.Name = "txt_nomeLanche";
             // 
             // txt_precoLanche
             // 
             resources.ApplyResources(txt_precoLanche, "txt_precoLanche");
+            txt_precoLanche.BackColor = SystemColors.ControlLight;
+            txt_precoLanche.BorderStyle = BorderStyle.None;
             txt_precoLanche.Name = "txt_precoLanche";
             // 
             // txt_igredientes
             // 
             resources.ApplyResources(txt_igredientes, "txt_igredientes");
+            txt_igredientes.BackColor = SystemColors.ControlLight;
+            txt_igredientes.BorderStyle = BorderStyle.None;
+            txt_igredientes.ForeColor = Color.FromArgb(71, 65, 67);
             txt_igredientes.Name = "txt_igredientes";
             // 
             // tableLayoutPanel9
@@ -482,12 +508,12 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle18.BackColor = Color.FromArgb(71, 65, 67);
-            dataGridViewCellStyle18.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle18.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(191, 80, 15);
-            dataGridViewCellStyle18.SelectionForeColor = Color.WhiteSmoke;
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle3.BackColor = SystemColors.ButtonFace;
+            dataGridViewCellStyle3.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(191, 100, 36);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(255, 237, 180);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             dgLanches.CellContentClick += dgLanches_CellContentClick;
             // 
@@ -534,7 +560,7 @@
             // panel3
             // 
             resources.ApplyResources(panel3, "panel3");
-            panel3.BackColor = SystemColors.Control;
+            panel3.BackColor = Color.White;
             panel3.Controls.Add(btn_limpar2);
             panel3.Controls.Add(btn_confirmaAlteracao);
             panel3.Controls.Add(label6);
@@ -570,16 +596,25 @@
             // txt_alteraNomeLanche
             // 
             resources.ApplyResources(txt_alteraNomeLanche, "txt_alteraNomeLanche");
+            txt_alteraNomeLanche.BackColor = SystemColors.ControlLight;
+            txt_alteraNomeLanche.BorderStyle = BorderStyle.None;
+            txt_alteraNomeLanche.ForeColor = Color.FromArgb(71, 65, 67);
             txt_alteraNomeLanche.Name = "txt_alteraNomeLanche";
             // 
             // txt_alteraPrecoLanche
             // 
             resources.ApplyResources(txt_alteraPrecoLanche, "txt_alteraPrecoLanche");
+            txt_alteraPrecoLanche.BackColor = SystemColors.ControlLight;
+            txt_alteraPrecoLanche.BorderStyle = BorderStyle.None;
+            txt_alteraPrecoLanche.ForeColor = Color.FromArgb(71, 65, 67);
             txt_alteraPrecoLanche.Name = "txt_alteraPrecoLanche";
             // 
             // txt_alteraIgredienteLanche
             // 
             resources.ApplyResources(txt_alteraIgredienteLanche, "txt_alteraIgredienteLanche");
+            txt_alteraIgredienteLanche.BackColor = SystemColors.ControlLight;
+            txt_alteraIgredienteLanche.BorderStyle = BorderStyle.None;
+            txt_alteraIgredienteLanche.ForeColor = Color.FromArgb(71, 65, 67);
             txt_alteraIgredienteLanche.Name = "txt_alteraIgredienteLanche";
             // 
             // label9
@@ -606,6 +641,7 @@
             resources.ApplyResources(textBox2, "textBox2");
             textBox2.AccessibleRole = AccessibleRole.OutlineButton;
             textBox2.BackColor = SystemColors.Window;
+            textBox2.BorderStyle = BorderStyle.None;
             textBox2.ForeColor = Color.FromArgb(64, 64, 64);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
@@ -633,11 +669,12 @@
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "FormJanelaPrincipal";
-            ShowIcon = false;
+            WindowState = FormWindowState.Maximized;
             Load += FormJanelaPrincipal_Load;
             tableLayoutPanel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             tabControl1.ResumeLayout(false);
             Pedidos.ResumeLayout(false);
             tableLayoutPanel6.ResumeLayout(false);
@@ -733,5 +770,6 @@
         private TextBox textBox2;
         private Panel panel1;
         private PictureBox pictureBox3;
+        private Panel panel5;
     }
 }
