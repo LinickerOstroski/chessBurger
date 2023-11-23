@@ -315,5 +315,10 @@ namespace chessBurger
         {
 
         }
+
+        private void dgLanches_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
