@@ -351,7 +351,7 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 7</value>
+    <value>10, 5</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 22</value>
@@ -363,10 +363,10 @@
     <value>11/2023- Beta 1.1</value>
   </data>
   <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-3, 540</value>
+    <value>-3, 528</value>
   </data>
   <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 45</value>
+    <value>165, 32</value>
   </data>
   <data name="panel5.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
