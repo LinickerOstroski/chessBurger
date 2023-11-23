@@ -30,9 +30,9 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel2 = new Panel();
             btnSobre = new Button();
@@ -244,6 +244,7 @@
             // cob_lancheEscolhido
             // 
             resources.ApplyResources(cob_lancheEscolhido, "cob_lancheEscolhido");
+            cob_lancheEscolhido.ForeColor = Color.FromArgb(71, 65, 67);
             cob_lancheEscolhido.FormattingEnabled = true;
             cob_lancheEscolhido.Name = "cob_lancheEscolhido";
             cob_lancheEscolhido.SelectedIndexChanged += cob_lancheEscolhido_SelectedIndexChanged;
@@ -264,6 +265,7 @@
             // txt_nomeCliente
             // 
             resources.ApplyResources(txt_nomeCliente, "txt_nomeCliente");
+            txt_nomeCliente.ForeColor = Color.FromArgb(71, 65, 67);
             txt_nomeCliente.Name = "txt_nomeCliente";
             txt_nomeCliente.TextChanged += textBox1_TextChanged;
             // 
@@ -319,22 +321,22 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.BackColor = Color.White;
-            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb(71, 65, 67);
-            dataGridViewCellStyle5.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(191, 80, 15);
-            dataGridViewCellStyle5.SelectionForeColor = Color.White;
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(71, 65, 67);
+            dataGridViewCellStyle2.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(191, 80, 15);
+            dataGridViewCellStyle2.SelectionForeColor = Color.White;
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgPedidos.RowTemplate.Height = 25;
             // 
             // btn_finalizarPedido
@@ -362,6 +364,7 @@
             // txt_filtrarPedido
             // 
             resources.ApplyResources(txt_filtrarPedido, "txt_filtrarPedido");
+            txt_filtrarPedido.ForeColor = Color.FromArgb(71, 65, 67);
             txt_filtrarPedido.Name = "txt_filtrarPedido";
             txt_filtrarPedido.TextChanged += txt_filtrarPedido_TextChanged;
             // 
@@ -435,7 +438,8 @@
             // btn_limpar1
             // 
             resources.ApplyResources(btn_limpar1, "btn_limpar1");
-            btn_limpar1.BackColor = SystemColors.ControlLight;
+            btn_limpar1.BackColor = Color.FromArgb(71, 65, 67);
+            btn_limpar1.ForeColor = Color.White;
             btn_limpar1.Name = "btn_limpar1";
             btn_limpar1.UseVisualStyleBackColor = false;
             btn_limpar1.Click += btn_limpar1_Click;
@@ -443,7 +447,8 @@
             // btn_cadastrarLanche
             // 
             resources.ApplyResources(btn_cadastrarLanche, "btn_cadastrarLanche");
-            btn_cadastrarLanche.BackColor = SystemColors.Control;
+            btn_cadastrarLanche.BackColor = Color.FromArgb(21, 126, 44);
+            btn_cadastrarLanche.ForeColor = Color.White;
             btn_cadastrarLanche.Name = "btn_cadastrarLanche";
             btn_cadastrarLanche.UseVisualStyleBackColor = false;
             btn_cadastrarLanche.Click += button4_Click;
@@ -467,7 +472,7 @@
             // 
             resources.ApplyResources(dgLanches, "dgLanches");
             dgLanches.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgLanches.BackgroundColor = SystemColors.ScrollBar;
+            dgLanches.BackgroundColor = Color.FromArgb(255, 237, 216);
             dgLanches.BorderStyle = BorderStyle.None;
             dgLanches.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgLanches.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -475,10 +480,10 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle6.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(191, 80, 15);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(191, 80, 15);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             dgLanches.CellContentClick += dgLanches_CellContentClick;
             // 
