@@ -30,18 +30,19 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel2 = new Panel();
-            btnSobre = new Button();
-            marcador = new Panel();
-            btnAlterarLanches = new Button();
-            btnLanches = new Button();
+            tableLayoutPanel11 = new TableLayoutPanel();
             btnPedidos = new Button();
+            btnSobre = new Button();
             panel5 = new Panel();
             label4 = new Label();
+            btnAlterarLanches = new Button();
+            btnLanches = new Button();
+            marcador = new Panel();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
             tableLayoutPanel6 = new TableLayoutPanel();
@@ -97,6 +98,7 @@
             label11 = new Label();
             tableLayoutPanel1.SuspendLayout();
             panel2.SuspendLayout();
+            tableLayoutPanel11.SuspendLayout();
             panel5.SuspendLayout();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
@@ -143,14 +145,30 @@
             // 
             resources.ApplyResources(panel2, "panel2");
             panel2.BackColor = Color.FromArgb(142, 63, 26);
-            panel2.Controls.Add(btnSobre);
+            panel2.Controls.Add(tableLayoutPanel11);
             panel2.Controls.Add(marcador);
-            panel2.Controls.Add(btnAlterarLanches);
-            panel2.Controls.Add(btnLanches);
-            panel2.Controls.Add(btnPedidos);
-            panel2.Controls.Add(panel5);
             panel2.Name = "panel2";
             panel2.Paint += panel2_Paint;
+            // 
+            // tableLayoutPanel11
+            // 
+            resources.ApplyResources(tableLayoutPanel11, "tableLayoutPanel11");
+            tableLayoutPanel11.Controls.Add(btnPedidos, 0, 0);
+            tableLayoutPanel11.Controls.Add(btnSobre, 0, 3);
+            tableLayoutPanel11.Controls.Add(panel5, 0, 4);
+            tableLayoutPanel11.Controls.Add(btnAlterarLanches, 0, 2);
+            tableLayoutPanel11.Controls.Add(btnLanches, 0, 1);
+            tableLayoutPanel11.Name = "tableLayoutPanel11";
+            // 
+            // btnPedidos
+            // 
+            resources.ApplyResources(btnPedidos, "btnPedidos");
+            btnPedidos.BackColor = Color.FromArgb(146, 63, 26);
+            btnPedidos.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
+            btnPedidos.ForeColor = SystemColors.Desktop;
+            btnPedidos.Name = "btnPedidos";
+            btnPedidos.UseVisualStyleBackColor = false;
+            btnPedidos.Click += button2_Click_1;
             // 
             // btnSobre
             // 
@@ -161,12 +179,19 @@
             btnSobre.UseVisualStyleBackColor = false;
             btnSobre.Click += btnSobre_Click;
             // 
-            // marcador
+            // panel5
             // 
-            resources.ApplyResources(marcador, "marcador");
-            marcador.BackColor = Color.BlanchedAlmond;
-            marcador.Name = "marcador";
-            marcador.Paint += marcador_Paint;
+            resources.ApplyResources(panel5, "panel5");
+            panel5.BackColor = Color.FromArgb(217, 141, 48);
+            panel5.Controls.Add(label4);
+            panel5.Name = "panel5";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.FromArgb(255, 237, 216);
+            label4.Name = "label4";
             // 
             // btnAlterarLanches
             // 
@@ -186,29 +211,12 @@
             btnLanches.UseVisualStyleBackColor = false;
             btnLanches.Click += btnLanches_Click;
             // 
-            // btnPedidos
+            // marcador
             // 
-            resources.ApplyResources(btnPedidos, "btnPedidos");
-            btnPedidos.BackColor = Color.FromArgb(146, 63, 26);
-            btnPedidos.FlatAppearance.BorderColor = Color.FromArgb(146, 63, 26);
-            btnPedidos.ForeColor = SystemColors.Desktop;
-            btnPedidos.Name = "btnPedidos";
-            btnPedidos.UseVisualStyleBackColor = false;
-            btnPedidos.Click += button2_Click_1;
-            // 
-            // panel5
-            // 
-            resources.ApplyResources(panel5, "panel5");
-            panel5.BackColor = Color.FromArgb(217, 141, 48);
-            panel5.Controls.Add(label4);
-            panel5.Name = "panel5";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(label4, "label4");
-            label4.BackColor = Color.Transparent;
-            label4.ForeColor = Color.FromArgb(255, 237, 216);
-            label4.Name = "label4";
+            resources.ApplyResources(marcador, "marcador");
+            marcador.BackColor = Color.BlanchedAlmond;
+            marcador.Name = "marcador";
+            marcador.Paint += marcador_Paint;
             // 
             // tabControl1
             // 
@@ -337,22 +345,22 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = SystemColors.ButtonFace;
-            dataGridViewCellStyle2.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(191, 100, 36);
-            dataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(255, 237, 180);
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.BackColor = SystemColors.ButtonFace;
+            dataGridViewCellStyle5.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(191, 100, 36);
+            dataGridViewCellStyle5.SelectionForeColor = Color.FromArgb(255, 237, 180);
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle5;
             dgPedidos.RowTemplate.Height = 25;
             // 
             // btn_finalizarPedido
@@ -370,6 +378,7 @@
             tableLayoutPanel7.Controls.Add(label8, 0, 0);
             tableLayoutPanel7.Controls.Add(txt_filtrarPedido, 1, 0);
             tableLayoutPanel7.Name = "tableLayoutPanel7";
+            tableLayoutPanel7.Paint += tableLayoutPanel7_Paint;
             // 
             // label8
             // 
@@ -508,12 +517,12 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.BackColor = SystemColors.ButtonFace;
-            dataGridViewCellStyle3.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(191, 100, 36);
-            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(255, 237, 180);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.BackColor = SystemColors.ButtonFace;
+            dataGridViewCellStyle6.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(191, 100, 36);
+            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(255, 237, 180);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle6;
             dgLanches.RowTemplate.Height = 25;
             dgLanches.CellContentClick += dgLanches_CellContentClick;
             // 
@@ -673,6 +682,7 @@
             Load += FormJanelaPrincipal_Load;
             tableLayoutPanel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
+            tableLayoutPanel11.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             tabControl1.ResumeLayout(false);
@@ -771,5 +781,6 @@
         private Panel panel1;
         private PictureBox pictureBox3;
         private Panel panel5;
+        private TableLayoutPanel tableLayoutPanel11;
     }
 }
