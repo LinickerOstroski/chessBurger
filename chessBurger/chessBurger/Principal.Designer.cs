@@ -30,97 +30,66 @@
         {
             Label label11;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJanelaPrincipal));
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            panel2 = new Panel();
-            tableLayoutPanel11 = new TableLayoutPanel();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             btnPedidos = new Button();
             btnSobre = new Button();
-            panel5 = new Panel();
-            label4 = new Label();
             btnAlterarLanches = new Button();
             btnLanches = new Button();
             marcador = new Panel();
             tabControl1 = new TabControl();
             Pedidos = new TabPage();
-            tableLayoutPanel6 = new TableLayoutPanel();
-            tableLayoutPanel3 = new TableLayoutPanel();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            cob_lancheEscolhido = new ComboBox();
-            label1 = new Label();
-            label2 = new Label();
-            txt_nomeCliente = new TextBox();
-            tableLayoutPanel10 = new TableLayoutPanel();
+            btn_finalizarPedido = new Button();
+            label8 = new Label();
             button3 = new Button();
             button1 = new Button();
             tabControl2 = new TabControl();
             tabPage4 = new TabPage();
             dgPedidos = new DataGridView();
-            btn_finalizarPedido = new Button();
-            tableLayoutPanel7 = new TableLayoutPanel();
-            label8 = new Label();
             txt_filtrarPedido = new TextBox();
+            cob_lancheEscolhido = new ComboBox();
+            label2 = new Label();
+            txt_nomeCliente = new TextBox();
+            label1 = new Label();
             Lanches = new TabPage();
-            tableLayoutPanel4 = new TableLayoutPanel();
-            tableLayoutPanel5 = new TableLayoutPanel();
-            label3 = new Label();
-            label5 = new Label();
-            label7 = new Label();
-            txt_nomeLanche = new TextBox();
-            txt_precoLanche = new TextBox();
-            txt_igredientes = new TextBox();
-            tableLayoutPanel9 = new TableLayoutPanel();
+            button2 = new Button();
             btn_limpar1 = new Button();
-            btn_cadastrarLanche = new Button();
             tabControl3 = new TabControl();
             LanchesCadastrados = new TabPage();
             dgLanches = new DataGridView();
-            tableLayoutPanel8 = new TableLayoutPanel();
-            button2 = new Button();
             btn_removerLanche = new Button();
+            btn_cadastrarLanche = new Button();
+            txt_igredientes = new TextBox();
+            label3 = new Label();
+            txt_nomeLanche = new TextBox();
+            label5 = new Label();
+            label7 = new Label();
+            txt_precoLanche = new TextBox();
             Alterar = new TabPage();
-            panel4 = new Panel();
-            panel3 = new Panel();
-            btn_limpar2 = new Button();
-            btn_confirmaAlteracao = new Button();
-            label6 = new Label();
-            txt_alteraNomeLanche = new TextBox();
-            txt_alteraPrecoLanche = new TextBox();
-            txt_alteraIgredienteLanche = new TextBox();
-            label9 = new Label();
             label10 = new Label();
+            label9 = new Label();
+            label6 = new Label();
+            btn_confirmaAlteracao = new Button();
+            btn_limpar2 = new Button();
+            txt_alteraNomeLanche = new TextBox();
+            txt_alteraIgredienteLanche = new TextBox();
+            txt_alteraPrecoLanche = new TextBox();
             Sobre = new TabPage();
             textBox2 = new TextBox();
             panel1 = new Panel();
             pictureBox3 = new PictureBox();
             label11 = new Label();
-            tableLayoutPanel1.SuspendLayout();
-            panel2.SuspendLayout();
-            tableLayoutPanel11.SuspendLayout();
-            panel5.SuspendLayout();
             tabControl1.SuspendLayout();
             Pedidos.SuspendLayout();
-            tableLayoutPanel6.SuspendLayout();
-            tableLayoutPanel3.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            tableLayoutPanel10.SuspendLayout();
             tabControl2.SuspendLayout();
             tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgPedidos).BeginInit();
-            tableLayoutPanel7.SuspendLayout();
             Lanches.SuspendLayout();
-            tableLayoutPanel4.SuspendLayout();
-            tableLayoutPanel5.SuspendLayout();
-            tableLayoutPanel9.SuspendLayout();
             tabControl3.SuspendLayout();
             LanchesCadastrados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgLanches).BeginInit();
-            tableLayoutPanel8.SuspendLayout();
             Alterar.SuspendLayout();
-            panel4.SuspendLayout();
-            panel3.SuspendLayout();
             Sobre.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -131,34 +100,6 @@
             resources.ApplyResources(label11, "label11");
             label11.BackColor = Color.Transparent;
             label11.Name = "label11";
-            // 
-            // tableLayoutPanel1
-            // 
-            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
-            tableLayoutPanel1.BackColor = Color.FromArgb(142, 63, 26);
-            tableLayoutPanel1.Controls.Add(panel2, 0, 1);
-            tableLayoutPanel1.Controls.Add(tabControl1, 1, 1);
-            tableLayoutPanel1.Controls.Add(panel1, 1, 0);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            // 
-            // panel2
-            // 
-            resources.ApplyResources(panel2, "panel2");
-            panel2.BackColor = Color.FromArgb(142, 63, 26);
-            panel2.Controls.Add(tableLayoutPanel11);
-            panel2.Controls.Add(marcador);
-            panel2.Name = "panel2";
-            panel2.Paint += panel2_Paint;
-            // 
-            // tableLayoutPanel11
-            // 
-            resources.ApplyResources(tableLayoutPanel11, "tableLayoutPanel11");
-            tableLayoutPanel11.Controls.Add(btnPedidos, 0, 0);
-            tableLayoutPanel11.Controls.Add(btnSobre, 0, 3);
-            tableLayoutPanel11.Controls.Add(panel5, 0, 4);
-            tableLayoutPanel11.Controls.Add(btnAlterarLanches, 0, 2);
-            tableLayoutPanel11.Controls.Add(btnLanches, 0, 1);
-            tableLayoutPanel11.Name = "tableLayoutPanel11";
             // 
             // btnPedidos
             // 
@@ -178,20 +119,6 @@
             btnSobre.Name = "btnSobre";
             btnSobre.UseVisualStyleBackColor = false;
             btnSobre.Click += btnSobre_Click;
-            // 
-            // panel5
-            // 
-            resources.ApplyResources(panel5, "panel5");
-            panel5.BackColor = Color.FromArgb(217, 141, 48);
-            panel5.Controls.Add(label4);
-            panel5.Name = "panel5";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(label4, "label4");
-            label4.BackColor = Color.Transparent;
-            label4.ForeColor = Color.FromArgb(255, 237, 216);
-            label4.Name = "label4";
             // 
             // btnAlterarLanches
             // 
@@ -232,73 +159,32 @@
             // 
             resources.ApplyResources(Pedidos, "Pedidos");
             Pedidos.BackColor = Color.White;
-            Pedidos.Controls.Add(tableLayoutPanel6);
+            Pedidos.Controls.Add(btn_finalizarPedido);
+            Pedidos.Controls.Add(label8);
+            Pedidos.Controls.Add(button3);
+            Pedidos.Controls.Add(button1);
+            Pedidos.Controls.Add(tabControl2);
+            Pedidos.Controls.Add(txt_filtrarPedido);
+            Pedidos.Controls.Add(cob_lancheEscolhido);
+            Pedidos.Controls.Add(label2);
+            Pedidos.Controls.Add(txt_nomeCliente);
+            Pedidos.Controls.Add(label1);
             Pedidos.Name = "Pedidos";
             // 
-            // tableLayoutPanel6
+            // btn_finalizarPedido
             // 
-            resources.ApplyResources(tableLayoutPanel6, "tableLayoutPanel6");
-            tableLayoutPanel6.Controls.Add(tableLayoutPanel3, 0, 1);
-            tableLayoutPanel6.Controls.Add(tableLayoutPanel7, 0, 0);
-            tableLayoutPanel6.Name = "tableLayoutPanel6";
+            resources.ApplyResources(btn_finalizarPedido, "btn_finalizarPedido");
+            btn_finalizarPedido.BackColor = Color.FromArgb(21, 126, 44);
+            btn_finalizarPedido.ForeColor = Color.White;
+            btn_finalizarPedido.Name = "btn_finalizarPedido";
+            btn_finalizarPedido.UseVisualStyleBackColor = false;
+            btn_finalizarPedido.Click += btn_finalizarPedido_Click;
             // 
-            // tableLayoutPanel3
+            // label8
             // 
-            resources.ApplyResources(tableLayoutPanel3, "tableLayoutPanel3");
-            tableLayoutPanel3.Controls.Add(tableLayoutPanel2, 0, 0);
-            tableLayoutPanel3.Controls.Add(tabControl2, 1, 0);
-            tableLayoutPanel3.Controls.Add(btn_finalizarPedido, 1, 1);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            // 
-            // tableLayoutPanel2
-            // 
-            resources.ApplyResources(tableLayoutPanel2, "tableLayoutPanel2");
-            tableLayoutPanel2.Controls.Add(cob_lancheEscolhido, 1, 2);
-            tableLayoutPanel2.Controls.Add(label1, 0, 2);
-            tableLayoutPanel2.Controls.Add(label2, 0, 1);
-            tableLayoutPanel2.Controls.Add(txt_nomeCliente, 1, 1);
-            tableLayoutPanel2.Controls.Add(tableLayoutPanel10, 1, 3);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            // 
-            // cob_lancheEscolhido
-            // 
-            resources.ApplyResources(cob_lancheEscolhido, "cob_lancheEscolhido");
-            cob_lancheEscolhido.BackColor = SystemColors.ControlLight;
-            cob_lancheEscolhido.ForeColor = Color.FromArgb(71, 65, 67);
-            cob_lancheEscolhido.FormattingEnabled = true;
-            cob_lancheEscolhido.Name = "cob_lancheEscolhido";
-            cob_lancheEscolhido.SelectedIndexChanged += cob_lancheEscolhido_SelectedIndexChanged;
-            // 
-            // label1
-            // 
-            resources.ApplyResources(label1, "label1");
-            label1.BackColor = Color.Transparent;
-            label1.FlatStyle = FlatStyle.Flat;
-            label1.Name = "label1";
-            label1.Click += label1_Click;
-            // 
-            // label2
-            // 
-            resources.ApplyResources(label2, "label2");
-            label2.BackColor = Color.Transparent;
-            label2.FlatStyle = FlatStyle.Flat;
-            label2.Name = "label2";
-            // 
-            // txt_nomeCliente
-            // 
-            resources.ApplyResources(txt_nomeCliente, "txt_nomeCliente");
-            txt_nomeCliente.BackColor = SystemColors.ControlLight;
-            txt_nomeCliente.BorderStyle = BorderStyle.None;
-            txt_nomeCliente.ForeColor = Color.FromArgb(71, 65, 67);
-            txt_nomeCliente.Name = "txt_nomeCliente";
-            txt_nomeCliente.TextChanged += textBox1_TextChanged;
-            // 
-            // tableLayoutPanel10
-            // 
-            resources.ApplyResources(tableLayoutPanel10, "tableLayoutPanel10");
-            tableLayoutPanel10.Controls.Add(button3, 1, 0);
-            tableLayoutPanel10.Controls.Add(button1, 0, 0);
-            tableLayoutPanel10.Name = "tableLayoutPanel10";
+            resources.ApplyResources(label8, "label8");
+            label8.BackColor = Color.Transparent;
+            label8.Name = "label8";
             // 
             // button3
             // 
@@ -337,7 +223,7 @@
             // 
             resources.ApplyResources(dgPedidos, "dgPedidos");
             dgPedidos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgPedidos.BackgroundColor = Color.FromArgb(255, 237, 216);
+            dgPedidos.BackgroundColor = Color.FromArgb(255, 224, 192);
             dgPedidos.BorderStyle = BorderStyle.None;
             dgPedidos.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgPedidos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -345,132 +231,91 @@
             dgPedidos.MultiSelect = false;
             dgPedidos.Name = "dgPedidos";
             dgPedidos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.BackColor = Color.White;
-            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(192, 192, 255);
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.Desktop;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Desktop;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgPedidos.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgPedidos.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = SystemColors.ButtonFace;
-            dataGridViewCellStyle5.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(191, 100, 36);
-            dataGridViewCellStyle5.SelectionForeColor = Color.FromArgb(255, 237, 180);
-            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.ButtonFace;
+            dataGridViewCellStyle2.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(191, 100, 36);
+            dataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(255, 237, 180);
+            dgPedidos.RowsDefaultCellStyle = dataGridViewCellStyle2;
             dgPedidos.RowTemplate.Height = 25;
-            // 
-            // btn_finalizarPedido
-            // 
-            resources.ApplyResources(btn_finalizarPedido, "btn_finalizarPedido");
-            btn_finalizarPedido.BackColor = Color.FromArgb(191, 100, 50);
-            btn_finalizarPedido.ForeColor = Color.White;
-            btn_finalizarPedido.Name = "btn_finalizarPedido";
-            btn_finalizarPedido.UseVisualStyleBackColor = false;
-            btn_finalizarPedido.Click += btn_finalizarPedido_Click;
-            // 
-            // tableLayoutPanel7
-            // 
-            resources.ApplyResources(tableLayoutPanel7, "tableLayoutPanel7");
-            tableLayoutPanel7.Controls.Add(label8, 0, 0);
-            tableLayoutPanel7.Controls.Add(txt_filtrarPedido, 1, 0);
-            tableLayoutPanel7.Name = "tableLayoutPanel7";
-            tableLayoutPanel7.Paint += tableLayoutPanel7_Paint;
-            // 
-            // label8
-            // 
-            resources.ApplyResources(label8, "label8");
-            label8.BackColor = Color.Transparent;
-            label8.Name = "label8";
             // 
             // txt_filtrarPedido
             // 
             resources.ApplyResources(txt_filtrarPedido, "txt_filtrarPedido");
             txt_filtrarPedido.BackColor = SystemColors.ControlLight;
-            txt_filtrarPedido.BorderStyle = BorderStyle.None;
+            txt_filtrarPedido.BorderStyle = BorderStyle.FixedSingle;
             txt_filtrarPedido.ForeColor = Color.FromArgb(71, 65, 67);
             txt_filtrarPedido.Name = "txt_filtrarPedido";
             txt_filtrarPedido.TextChanged += txt_filtrarPedido_TextChanged;
+            // 
+            // cob_lancheEscolhido
+            // 
+            resources.ApplyResources(cob_lancheEscolhido, "cob_lancheEscolhido");
+            cob_lancheEscolhido.BackColor = SystemColors.ControlLight;
+            cob_lancheEscolhido.ForeColor = Color.FromArgb(71, 65, 67);
+            cob_lancheEscolhido.FormattingEnabled = true;
+            cob_lancheEscolhido.Name = "cob_lancheEscolhido";
+            cob_lancheEscolhido.SelectedIndexChanged += cob_lancheEscolhido_SelectedIndexChanged;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(label2, "label2");
+            label2.BackColor = Color.Transparent;
+            label2.FlatStyle = FlatStyle.Flat;
+            label2.Name = "label2";
+            // 
+            // txt_nomeCliente
+            // 
+            resources.ApplyResources(txt_nomeCliente, "txt_nomeCliente");
+            txt_nomeCliente.BackColor = SystemColors.ControlLight;
+            txt_nomeCliente.BorderStyle = BorderStyle.FixedSingle;
+            txt_nomeCliente.ForeColor = Color.FromArgb(71, 65, 67);
+            txt_nomeCliente.Name = "txt_nomeCliente";
+            txt_nomeCliente.TextChanged += textBox1_TextChanged;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(label1, "label1");
+            label1.BackColor = Color.Transparent;
+            label1.FlatStyle = FlatStyle.Flat;
+            label1.Name = "label1";
+            label1.Click += label1_Click;
             // 
             // Lanches
             // 
             resources.ApplyResources(Lanches, "Lanches");
             Lanches.BackColor = Color.White;
-            Lanches.Controls.Add(tableLayoutPanel4);
+            Lanches.Controls.Add(button2);
+            Lanches.Controls.Add(btn_limpar1);
+            Lanches.Controls.Add(tabControl3);
+            Lanches.Controls.Add(btn_removerLanche);
+            Lanches.Controls.Add(btn_cadastrarLanche);
+            Lanches.Controls.Add(txt_igredientes);
+            Lanches.Controls.Add(label3);
+            Lanches.Controls.Add(txt_nomeLanche);
+            Lanches.Controls.Add(label5);
+            Lanches.Controls.Add(label7);
+            Lanches.Controls.Add(txt_precoLanche);
             Lanches.Name = "Lanches";
             // 
-            // tableLayoutPanel4
+            // button2
             // 
-            resources.ApplyResources(tableLayoutPanel4, "tableLayoutPanel4");
-            tableLayoutPanel4.Controls.Add(tableLayoutPanel5, 0, 0);
-            tableLayoutPanel4.Controls.Add(tabControl3, 1, 0);
-            tableLayoutPanel4.Controls.Add(tableLayoutPanel8, 1, 1);
-            tableLayoutPanel4.Name = "tableLayoutPanel4";
-            // 
-            // tableLayoutPanel5
-            // 
-            resources.ApplyResources(tableLayoutPanel5, "tableLayoutPanel5");
-            tableLayoutPanel5.Controls.Add(label3, 0, 0);
-            tableLayoutPanel5.Controls.Add(label5, 0, 1);
-            tableLayoutPanel5.Controls.Add(label7, 0, 2);
-            tableLayoutPanel5.Controls.Add(txt_nomeLanche, 1, 0);
-            tableLayoutPanel5.Controls.Add(txt_precoLanche, 1, 1);
-            tableLayoutPanel5.Controls.Add(txt_igredientes, 1, 2);
-            tableLayoutPanel5.Controls.Add(tableLayoutPanel9, 1, 3);
-            tableLayoutPanel5.Name = "tableLayoutPanel5";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(label3, "label3");
-            label3.BackColor = Color.Transparent;
-            label3.FlatStyle = FlatStyle.Flat;
-            label3.Name = "label3";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(label5, "label5");
-            label5.BackColor = Color.Transparent;
-            label5.FlatStyle = FlatStyle.Flat;
-            label5.Name = "label5";
-            // 
-            // label7
-            // 
-            resources.ApplyResources(label7, "label7");
-            label7.BackColor = Color.Transparent;
-            label7.FlatStyle = FlatStyle.Flat;
-            label7.Name = "label7";
-            // 
-            // txt_nomeLanche
-            // 
-            resources.ApplyResources(txt_nomeLanche, "txt_nomeLanche");
-            txt_nomeLanche.BackColor = SystemColors.ControlLight;
-            txt_nomeLanche.BorderStyle = BorderStyle.None;
-            txt_nomeLanche.Name = "txt_nomeLanche";
-            // 
-            // txt_precoLanche
-            // 
-            resources.ApplyResources(txt_precoLanche, "txt_precoLanche");
-            txt_precoLanche.BackColor = SystemColors.ControlLight;
-            txt_precoLanche.BorderStyle = BorderStyle.None;
-            txt_precoLanche.Name = "txt_precoLanche";
-            // 
-            // txt_igredientes
-            // 
-            resources.ApplyResources(txt_igredientes, "txt_igredientes");
-            txt_igredientes.BackColor = SystemColors.ControlLight;
-            txt_igredientes.BorderStyle = BorderStyle.None;
-            txt_igredientes.ForeColor = Color.FromArgb(71, 65, 67);
-            txt_igredientes.Name = "txt_igredientes";
-            // 
-            // tableLayoutPanel9
-            // 
-            resources.ApplyResources(tableLayoutPanel9, "tableLayoutPanel9");
-            tableLayoutPanel9.Controls.Add(btn_limpar1, 1, 0);
-            tableLayoutPanel9.Controls.Add(btn_cadastrarLanche, 0, 0);
-            tableLayoutPanel9.Name = "tableLayoutPanel9";
+            resources.ApplyResources(button2, "button2");
+            button2.BackColor = Color.White;
+            button2.ForeColor = Color.FromArgb(71, 65, 67);
+            button2.Name = "button2";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click_2;
             // 
             // btn_limpar1
             // 
@@ -480,15 +325,6 @@
             btn_limpar1.Name = "btn_limpar1";
             btn_limpar1.UseVisualStyleBackColor = false;
             btn_limpar1.Click += btn_limpar1_Click;
-            // 
-            // btn_cadastrarLanche
-            // 
-            resources.ApplyResources(btn_cadastrarLanche, "btn_cadastrarLanche");
-            btn_cadastrarLanche.BackColor = Color.FromArgb(21, 126, 44);
-            btn_cadastrarLanche.ForeColor = Color.White;
-            btn_cadastrarLanche.Name = "btn_cadastrarLanche";
-            btn_cadastrarLanche.UseVisualStyleBackColor = false;
-            btn_cadastrarLanche.Click += button4_Click;
             // 
             // tabControl3
             // 
@@ -509,7 +345,7 @@
             // 
             resources.ApplyResources(dgLanches, "dgLanches");
             dgLanches.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgLanches.BackgroundColor = Color.FromArgb(255, 237, 216);
+            dgLanches.BackgroundColor = Color.FromArgb(255, 224, 192);
             dgLanches.BorderStyle = BorderStyle.None;
             dgLanches.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgLanches.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -517,30 +353,14 @@
             dgLanches.MultiSelect = false;
             dgLanches.Name = "dgLanches";
             dgLanches.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle6.BackColor = SystemColors.ButtonFace;
-            dataGridViewCellStyle6.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(191, 100, 36);
-            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(255, 237, 180);
-            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.BackColor = SystemColors.ButtonFace;
+            dataGridViewCellStyle3.Font = new Font("Trebuchet MS", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(191, 100, 36);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(255, 237, 180);
+            dgLanches.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dgLanches.RowTemplate.Height = 25;
             dgLanches.CellContentClick += dgLanches_CellContentClick;
-            // 
-            // tableLayoutPanel8
-            // 
-            resources.ApplyResources(tableLayoutPanel8, "tableLayoutPanel8");
-            tableLayoutPanel8.Controls.Add(button2, 0, 0);
-            tableLayoutPanel8.Controls.Add(btn_removerLanche, 1, 0);
-            tableLayoutPanel8.Name = "tableLayoutPanel8";
-            // 
-            // button2
-            // 
-            resources.ApplyResources(button2, "button2");
-            button2.BackColor = Color.White;
-            button2.ForeColor = Color.FromArgb(71, 65, 67);
-            button2.Name = "button2";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click_2;
             // 
             // btn_removerLanche
             // 
@@ -551,80 +371,78 @@
             btn_removerLanche.UseVisualStyleBackColor = false;
             btn_removerLanche.Click += button2_Click;
             // 
+            // btn_cadastrarLanche
+            // 
+            resources.ApplyResources(btn_cadastrarLanche, "btn_cadastrarLanche");
+            btn_cadastrarLanche.BackColor = Color.FromArgb(21, 126, 44);
+            btn_cadastrarLanche.ForeColor = Color.White;
+            btn_cadastrarLanche.Name = "btn_cadastrarLanche";
+            btn_cadastrarLanche.UseVisualStyleBackColor = false;
+            btn_cadastrarLanche.Click += button4_Click;
+            // 
+            // txt_igredientes
+            // 
+            resources.ApplyResources(txt_igredientes, "txt_igredientes");
+            txt_igredientes.BackColor = SystemColors.ControlLight;
+            txt_igredientes.BorderStyle = BorderStyle.FixedSingle;
+            txt_igredientes.ForeColor = Color.FromArgb(71, 65, 67);
+            txt_igredientes.Name = "txt_igredientes";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(label3, "label3");
+            label3.BackColor = Color.Transparent;
+            label3.FlatStyle = FlatStyle.Flat;
+            label3.Name = "label3";
+            // 
+            // txt_nomeLanche
+            // 
+            resources.ApplyResources(txt_nomeLanche, "txt_nomeLanche");
+            txt_nomeLanche.BackColor = SystemColors.ControlLight;
+            txt_nomeLanche.BorderStyle = BorderStyle.FixedSingle;
+            txt_nomeLanche.Name = "txt_nomeLanche";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(label5, "label5");
+            label5.BackColor = Color.Transparent;
+            label5.FlatStyle = FlatStyle.Flat;
+            label5.Name = "label5";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(label7, "label7");
+            label7.BackColor = Color.Transparent;
+            label7.FlatStyle = FlatStyle.Flat;
+            label7.Name = "label7";
+            // 
+            // txt_precoLanche
+            // 
+            resources.ApplyResources(txt_precoLanche, "txt_precoLanche");
+            txt_precoLanche.BackColor = SystemColors.ControlLight;
+            txt_precoLanche.BorderStyle = BorderStyle.FixedSingle;
+            txt_precoLanche.Name = "txt_precoLanche";
+            // 
             // Alterar
             // 
             resources.ApplyResources(Alterar, "Alterar");
             Alterar.BackColor = Color.White;
-            Alterar.Controls.Add(panel4);
-            Alterar.Controls.Add(panel3);
+            Alterar.Controls.Add(label11);
+            Alterar.Controls.Add(label10);
+            Alterar.Controls.Add(label9);
+            Alterar.Controls.Add(label6);
+            Alterar.Controls.Add(btn_confirmaAlteracao);
+            Alterar.Controls.Add(btn_limpar2);
+            Alterar.Controls.Add(txt_alteraNomeLanche);
+            Alterar.Controls.Add(txt_alteraIgredienteLanche);
+            Alterar.Controls.Add(txt_alteraPrecoLanche);
             Alterar.Name = "Alterar";
             // 
-            // panel4
+            // label10
             // 
-            resources.ApplyResources(panel4, "panel4");
-            panel4.BackColor = SystemColors.Control;
-            panel4.Controls.Add(label11);
-            panel4.Name = "panel4";
-            // 
-            // panel3
-            // 
-            resources.ApplyResources(panel3, "panel3");
-            panel3.BackColor = Color.White;
-            panel3.Controls.Add(btn_limpar2);
-            panel3.Controls.Add(btn_confirmaAlteracao);
-            panel3.Controls.Add(label6);
-            panel3.Controls.Add(txt_alteraNomeLanche);
-            panel3.Controls.Add(txt_alteraPrecoLanche);
-            panel3.Controls.Add(txt_alteraIgredienteLanche);
-            panel3.Controls.Add(label9);
-            panel3.Controls.Add(label10);
-            panel3.Name = "panel3";
-            // 
-            // btn_limpar2
-            // 
-            resources.ApplyResources(btn_limpar2, "btn_limpar2");
-            btn_limpar2.BackColor = SystemColors.ControlLight;
-            btn_limpar2.Name = "btn_limpar2";
-            btn_limpar2.UseVisualStyleBackColor = false;
-            btn_limpar2.Click += btn_limpar2_Click;
-            // 
-            // btn_confirmaAlteracao
-            // 
-            resources.ApplyResources(btn_confirmaAlteracao, "btn_confirmaAlteracao");
-            btn_confirmaAlteracao.BackColor = SystemColors.Control;
-            btn_confirmaAlteracao.Name = "btn_confirmaAlteracao";
-            btn_confirmaAlteracao.UseVisualStyleBackColor = false;
-            btn_confirmaAlteracao.Click += button3_Click;
-            // 
-            // label6
-            // 
-            resources.ApplyResources(label6, "label6");
-            label6.BackColor = Color.Transparent;
-            label6.Name = "label6";
-            // 
-            // txt_alteraNomeLanche
-            // 
-            resources.ApplyResources(txt_alteraNomeLanche, "txt_alteraNomeLanche");
-            txt_alteraNomeLanche.BackColor = SystemColors.ControlLight;
-            txt_alteraNomeLanche.BorderStyle = BorderStyle.None;
-            txt_alteraNomeLanche.ForeColor = Color.FromArgb(71, 65, 67);
-            txt_alteraNomeLanche.Name = "txt_alteraNomeLanche";
-            // 
-            // txt_alteraPrecoLanche
-            // 
-            resources.ApplyResources(txt_alteraPrecoLanche, "txt_alteraPrecoLanche");
-            txt_alteraPrecoLanche.BackColor = SystemColors.ControlLight;
-            txt_alteraPrecoLanche.BorderStyle = BorderStyle.None;
-            txt_alteraPrecoLanche.ForeColor = Color.FromArgb(71, 65, 67);
-            txt_alteraPrecoLanche.Name = "txt_alteraPrecoLanche";
-            // 
-            // txt_alteraIgredienteLanche
-            // 
-            resources.ApplyResources(txt_alteraIgredienteLanche, "txt_alteraIgredienteLanche");
-            txt_alteraIgredienteLanche.BackColor = SystemColors.ControlLight;
-            txt_alteraIgredienteLanche.BorderStyle = BorderStyle.None;
-            txt_alteraIgredienteLanche.ForeColor = Color.FromArgb(71, 65, 67);
-            txt_alteraIgredienteLanche.Name = "txt_alteraIgredienteLanche";
+            resources.ApplyResources(label10, "label10");
+            label10.BackColor = Color.Transparent;
+            label10.Name = "label10";
             // 
             // label9
             // 
@@ -632,11 +450,53 @@
             label9.BackColor = Color.Transparent;
             label9.Name = "label9";
             // 
-            // label10
+            // label6
             // 
-            resources.ApplyResources(label10, "label10");
-            label10.BackColor = Color.Transparent;
-            label10.Name = "label10";
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = Color.Transparent;
+            label6.Name = "label6";
+            // 
+            // btn_confirmaAlteracao
+            // 
+            resources.ApplyResources(btn_confirmaAlteracao, "btn_confirmaAlteracao");
+            btn_confirmaAlteracao.BackColor = Color.FromArgb(21, 126, 44);
+            btn_confirmaAlteracao.ForeColor = SystemColors.Control;
+            btn_confirmaAlteracao.Name = "btn_confirmaAlteracao";
+            btn_confirmaAlteracao.UseVisualStyleBackColor = false;
+            btn_confirmaAlteracao.Click += button3_Click;
+            // 
+            // btn_limpar2
+            // 
+            resources.ApplyResources(btn_limpar2, "btn_limpar2");
+            btn_limpar2.BackColor = Color.FromArgb(71, 65, 67);
+            btn_limpar2.ForeColor = SystemColors.Control;
+            btn_limpar2.Name = "btn_limpar2";
+            btn_limpar2.UseVisualStyleBackColor = false;
+            btn_limpar2.Click += btn_limpar2_Click;
+            // 
+            // txt_alteraNomeLanche
+            // 
+            resources.ApplyResources(txt_alteraNomeLanche, "txt_alteraNomeLanche");
+            txt_alteraNomeLanche.BackColor = SystemColors.ControlLight;
+            txt_alteraNomeLanche.BorderStyle = BorderStyle.FixedSingle;
+            txt_alteraNomeLanche.ForeColor = Color.FromArgb(71, 65, 67);
+            txt_alteraNomeLanche.Name = "txt_alteraNomeLanche";
+            // 
+            // txt_alteraIgredienteLanche
+            // 
+            resources.ApplyResources(txt_alteraIgredienteLanche, "txt_alteraIgredienteLanche");
+            txt_alteraIgredienteLanche.BackColor = SystemColors.ControlLight;
+            txt_alteraIgredienteLanche.BorderStyle = BorderStyle.FixedSingle;
+            txt_alteraIgredienteLanche.ForeColor = Color.FromArgb(71, 65, 67);
+            txt_alteraIgredienteLanche.Name = "txt_alteraIgredienteLanche";
+            // 
+            // txt_alteraPrecoLanche
+            // 
+            resources.ApplyResources(txt_alteraPrecoLanche, "txt_alteraPrecoLanche");
+            txt_alteraPrecoLanche.BackColor = SystemColors.ControlLight;
+            txt_alteraPrecoLanche.BorderStyle = BorderStyle.FixedSingle;
+            txt_alteraPrecoLanche.ForeColor = Color.FromArgb(71, 65, 67);
+            txt_alteraPrecoLanche.Name = "txt_alteraPrecoLanche";
             // 
             // Sobre
             // 
@@ -651,6 +511,7 @@
             textBox2.AccessibleRole = AccessibleRole.OutlineButton;
             textBox2.BackColor = SystemColors.Window;
             textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Cursor = Cursors.IBeam;
             textBox2.ForeColor = Color.FromArgb(64, 64, 64);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
@@ -674,43 +535,31 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(208, 221, 255);
-            Controls.Add(tableLayoutPanel1);
+            BackColor = Color.FromArgb(146, 63, 26);
+            Controls.Add(tabControl1);
+            Controls.Add(btnSobre);
+            Controls.Add(marcador);
+            Controls.Add(btnPedidos);
+            Controls.Add(btnAlterarLanches);
+            Controls.Add(btnLanches);
+            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "FormJanelaPrincipal";
             WindowState = FormWindowState.Maximized;
             Load += FormJanelaPrincipal_Load;
-            tableLayoutPanel1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            tableLayoutPanel11.ResumeLayout(false);
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
             tabControl1.ResumeLayout(false);
             Pedidos.ResumeLayout(false);
-            tableLayoutPanel6.ResumeLayout(false);
-            tableLayoutPanel3.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
-            tableLayoutPanel2.PerformLayout();
-            tableLayoutPanel10.ResumeLayout(false);
+            Pedidos.PerformLayout();
             tabControl2.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgPedidos).EndInit();
-            tableLayoutPanel7.ResumeLayout(false);
-            tableLayoutPanel7.PerformLayout();
             Lanches.ResumeLayout(false);
-            tableLayoutPanel4.ResumeLayout(false);
-            tableLayoutPanel5.ResumeLayout(false);
-            tableLayoutPanel5.PerformLayout();
-            tableLayoutPanel9.ResumeLayout(false);
+            Lanches.PerformLayout();
             tabControl3.ResumeLayout(false);
             LanchesCadastrados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgLanches).EndInit();
-            tableLayoutPanel8.ResumeLayout(false);
             Alterar.ResumeLayout(false);
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
+            Alterar.PerformLayout();
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
             panel1.ResumeLayout(false);
@@ -720,54 +569,40 @@
 
         #endregion
         private Label lbl_mensagem;
-        private TableLayoutPanel tableLayoutPanel1;
-        private Panel panel2;
         private Button btnSobre;
         private Panel marcador;
         private Button btnAlterarLanches;
         private Button btnLanches;
         private Button btnPedidos;
-        private Label label4;
         private TabControl tabControl1;
         private TabPage Pedidos;
-        private TableLayoutPanel tableLayoutPanel6;
-        private TableLayoutPanel tableLayoutPanel3;
-        private TableLayoutPanel tableLayoutPanel2;
         private ComboBox cob_lancheEscolhido;
         private Label label1;
         private Label label2;
         private TextBox txt_nomeCliente;
-        private TableLayoutPanel tableLayoutPanel10;
         private Button button3;
         private Button button1;
         private TabControl tabControl2;
         private TabPage tabPage4;
         private DataGridView dgPedidos;
         private Button btn_finalizarPedido;
-        private TableLayoutPanel tableLayoutPanel7;
         private Label label8;
         private TextBox txt_filtrarPedido;
         private TabPage Lanches;
-        private TableLayoutPanel tableLayoutPanel4;
-        private TableLayoutPanel tableLayoutPanel5;
         private Label label3;
         private Label label5;
         private Label label7;
         private TextBox txt_nomeLanche;
         private TextBox txt_precoLanche;
         private TextBox txt_igredientes;
-        private TableLayoutPanel tableLayoutPanel9;
         private Button btn_limpar1;
         private Button btn_cadastrarLanche;
         private TabControl tabControl3;
         private TabPage LanchesCadastrados;
         private DataGridView dgLanches;
-        private TableLayoutPanel tableLayoutPanel8;
         private Button button2;
         private Button btn_removerLanche;
         private TabPage Alterar;
-        private Panel panel4;
-        private Panel panel3;
         private Button btn_limpar2;
         private Button btn_confirmaAlteracao;
         private Label label6;
@@ -780,7 +615,5 @@
         private TextBox textBox2;
         private Panel panel1;
         private PictureBox pictureBox3;
-        private Panel panel5;
-        private TableLayoutPanel tableLayoutPanel11;
     }
 }
