@@ -854,7 +854,7 @@
     <value>NoControl</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 163</value>
+    <value>447, 159</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 22</value>
@@ -878,7 +878,7 @@
     <value>NoControl</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 108</value>
+    <value>447, 106</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 22</value>
@@ -899,7 +899,7 @@
     <value>NoControl</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 53</value>
+    <value>447, 53</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 22</value>
@@ -925,7 +925,7 @@
   <data name="btn_confirmaAlteracao.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAU1JREFUOE+dkz1ug0AQhTlCbpAcIUfIEbiBfQPz0+EGiZbChVsrVLS0dIgSSlos
+        DAAACwwBP0AiyAAAAU1JREFUOE+dkz1ug0AQhTlCbpAcIUfIEbiBfQPz0+EGiZbChVsrVLS0dIgSSlos
         uaFFHIHMt1oCyGBCnvS03nmeNzM7trEHlmV9Oo6TyGnq0H5IcpQkSX8+nzsMdXiEBN+E4HuNtm0/yrLs
         m6Z5NhLx5HleR5WiKF4SA8ApeRh90MExCIK+bVsl7sHtdusl38ckq+taBXGP4/gl7/e7+m6apnTyUJ3w
         YegiDEOcwXGFGW8yM9Dv8Wsi79Kr4AokKaLQzADIxUegVUQdXgSJQjoyyeOuJSUSBF/CUViA6GoRjMRJ
@@ -967,7 +967,7 @@
   <data name="btn_limpar2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAKxJREFUKFOVkQENhDAQBHHySKgEpFRCJeCAOvh3gAQkIAEJSCi7ZI9cGvqETSZ/
+        DAAACwwBP0AiyAAAAKxJREFUKFOVkQENhDAQBHHySKgEpFRCJeCAOvh3gAQkIAEJSCi7ZI9cGvqETSZ/
         vdulB9/VKqUMwCto1BZMDG2g1++gUVsWUn0fQjOC0fEFPsSzn0cbLIBDY1IoV336NgtFmp5Enw/VN7W4
         buIK1J3JMwNqZIhfa9cGf0Uf/SwSWNQMYD4dEs685aN6BcmaWc3rPzLxDCz0A5kFXy6p+RTiVisL7vlG
         uz39BSUc2d629WKQp6IAAAAASUVORK5CYII=
@@ -1001,7 +1001,7 @@
     <value>Trebuchet MS, 11.25pt</value>
   </data>
   <data name="txt_alteraNomeLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 75</value>
+    <value>382, 78</value>
   </data>
   <data name="txt_alteraNomeLanche.MaxLength" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1016,7 +1016,7 @@
     <value>Trebuchet MS, 11.25pt</value>
   </data>
   <data name="txt_alteraIgredienteLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 188</value>
+    <value>383, 184</value>
   </data>
   <data name="txt_alteraIgredienteLanche.MaxLength" type="System.Int32, mscorlib">
     <value>243</value>
@@ -1025,7 +1025,7 @@
     <value>True</value>
   </data>
   <data name="txt_alteraIgredienteLanche.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 98</value>
+    <value>308, 57</value>
   </data>
   <data name="txt_alteraPrecoLanche.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -1034,7 +1034,7 @@
     <value>Trebuchet MS, 11.25pt</value>
   </data>
   <data name="txt_alteraPrecoLanche.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 130</value>
+    <value>382, 131</value>
   </data>
   <data name="txt_alteraPrecoLanche.MaxLength" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1078,6 +1078,7 @@ Desenvolvedores:
 
 Línicker Ostroski Mota
 Yago Aguiar
+Otávio Goulart
 </value>
   </data>
   <data name="Sobre.Size" type="System.Drawing.Size, System.Drawing">
