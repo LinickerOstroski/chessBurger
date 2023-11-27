@@ -24,7 +24,9 @@ namespace chessBurger
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txt_usuario.Text.Equals("adm") && txt_senha.Text.Equals("123"))
+
+            ConectaBanco conecta = new ConectaBanco();
+            if (conecta.verifica(txt_usuario.Text,txt_senha.Text)==true)
             {
                 FormJanelaPrincipal principal = new FormJanelaPrincipal();
                 this.Hide();
@@ -33,7 +35,8 @@ namespace chessBurger
             }
             else
             {
-                MessageBox.Show("Usuário ou senha incorretos", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                //MessageBox.Show("Usuário ou senha incorretos", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                MessageBox.Show("Usuario ou senha incorreta" + conecta.mensagem);
                 txt_usuario.Focus();
                 txt_usuario.Clear();
                 txt_senha.Clear();

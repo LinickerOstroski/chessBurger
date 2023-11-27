@@ -45,6 +45,7 @@
             txt_usuario.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txt_usuario.ForeColor = Color.FromArgb(71, 65, 67);
             txt_usuario.Location = new Point(24, 173);
+            txt_usuario.MaxLength = 24;
             txt_usuario.Name = "txt_usuario";
             txt_usuario.Size = new Size(269, 26);
             txt_usuario.TabIndex = 0;
@@ -63,10 +64,13 @@
             // txt_senha
             // 
             txt_senha.BackColor = SystemColors.ControlLight;
+            txt_senha.BorderStyle = BorderStyle.FixedSingle;
             txt_senha.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txt_senha.ForeColor = Color.FromArgb(71, 65, 67);
             txt_senha.Location = new Point(24, 229);
+            txt_senha.MaxLength = 24;
             txt_senha.Name = "txt_senha";
+            txt_senha.PasswordChar = '*';
             txt_senha.Size = new Size(269, 26);
             txt_senha.TabIndex = 2;
             // 
