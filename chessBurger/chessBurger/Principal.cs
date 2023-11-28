@@ -229,7 +229,16 @@ namespace chessBurger
         {
             marcador.Height = btnAlterarLanches.Height;
             marcador.Top = btnAlterarLanches.Top;
-            tabControl1.SelectedTab = tabControl1.TabPages[2];
+            DialogResult respos = MessageBox.Show("Para alterar um lanche, selecione um lanche e clique em alterar", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            if (respos == DialogResult.OK)
+            {
+
+                tabControl1.SelectedTab = tabControl1.TabPages[1];
+                marcador.Height = btnLanches.Height;
+                marcador.Top = btnLanches.Top;
+            }
+
         }
 
         private void btnSobre_Click(object sender, EventArgs e)
@@ -288,10 +297,24 @@ namespace chessBurger
 
         private void btn_limpar2_Click(object sender, EventArgs e)
         {
-            txt_alteraNomeLanche.Clear();
-            txt_alteraPrecoLanche.Clear();
-            txt_alteraIgredienteLanche.Clear();
-            txt_alteraNomeLanche.Focus();
+            
+
+            DialogResult resutado = MessageBox.Show("Deseja cancelar a operação?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if(resutado == DialogResult.Yes)
+            {
+                tabControl1.SelectedTab = Lanches;
+                marcador.Height = btnLanches.Height;
+                marcador.Top = btnLanches.Top;
+                txt_alteraNomeLanche.Clear();
+                txt_alteraPrecoLanche.Clear();
+                txt_alteraIgredienteLanche.Clear();
+            }
+            else
+            {
+                txt_alteraNomeLanche.Focus();
+            }
+            
         }
 
         private void btn_limpar1_Click(object sender, EventArgs e)

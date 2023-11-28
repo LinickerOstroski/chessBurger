@@ -67,9 +67,10 @@
             label7 = new Label();
             txt_precoLanche = new TextBox();
             Alterar = new TabPage();
-            label10 = new Label();
-            label9 = new Label();
+            panel2 = new Panel();
             label6 = new Label();
+            label9 = new Label();
+            label10 = new Label();
             btn_confirmaAlteracao = new Button();
             btn_limpar2 = new Button();
             txt_alteraNomeLanche = new TextBox();
@@ -90,6 +91,7 @@
             LanchesCadastrados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgLanches).BeginInit();
             Alterar.SuspendLayout();
+            panel2.SuspendLayout();
             Sobre.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -427,10 +429,8 @@
             // 
             resources.ApplyResources(Alterar, "Alterar");
             Alterar.BackColor = Color.White;
+            Alterar.Controls.Add(panel2);
             Alterar.Controls.Add(label11);
-            Alterar.Controls.Add(label10);
-            Alterar.Controls.Add(label9);
-            Alterar.Controls.Add(label6);
             Alterar.Controls.Add(btn_confirmaAlteracao);
             Alterar.Controls.Add(btn_limpar2);
             Alterar.Controls.Add(txt_alteraNomeLanche);
@@ -438,11 +438,20 @@
             Alterar.Controls.Add(txt_alteraPrecoLanche);
             Alterar.Name = "Alterar";
             // 
-            // label10
+            // panel2
             // 
-            resources.ApplyResources(label10, "label10");
-            label10.BackColor = Color.Transparent;
-            label10.Name = "label10";
+            resources.ApplyResources(panel2, "panel2");
+            panel2.BackColor = Color.FromArgb(255, 224, 192);
+            panel2.Controls.Add(label6);
+            panel2.Controls.Add(label9);
+            panel2.Controls.Add(label10);
+            panel2.Name = "panel2";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(label6, "label6");
+            label6.BackColor = Color.Transparent;
+            label6.Name = "label6";
             // 
             // label9
             // 
@@ -450,11 +459,11 @@
             label9.BackColor = Color.Transparent;
             label9.Name = "label9";
             // 
-            // label6
+            // label10
             // 
-            resources.ApplyResources(label6, "label6");
-            label6.BackColor = Color.Transparent;
-            label6.Name = "label6";
+            resources.ApplyResources(label10, "label10");
+            label10.BackColor = Color.Transparent;
+            label10.Name = "label10";
             // 
             // btn_confirmaAlteracao
             // 
@@ -468,7 +477,7 @@
             // btn_limpar2
             // 
             resources.ApplyResources(btn_limpar2, "btn_limpar2");
-            btn_limpar2.BackColor = Color.FromArgb(71, 65, 67);
+            btn_limpar2.BackColor = Color.FromArgb(191, 15, 15);
             btn_limpar2.ForeColor = SystemColors.Control;
             btn_limpar2.Name = "btn_limpar2";
             btn_limpar2.UseVisualStyleBackColor = false;
@@ -560,6 +569,8 @@
             ((System.ComponentModel.ISupportInitialize)dgLanches).EndInit();
             Alterar.ResumeLayout(false);
             Alterar.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             Sobre.ResumeLayout(false);
             Sobre.PerformLayout();
             panel1.ResumeLayout(false);
@@ -615,5 +626,6 @@
         private TextBox textBox2;
         private Panel panel1;
         private PictureBox pictureBox3;
+        private Panel panel2;
     }
 }

@@ -44,7 +44,7 @@
             txt_usuario.BorderStyle = BorderStyle.FixedSingle;
             txt_usuario.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txt_usuario.ForeColor = Color.FromArgb(71, 65, 67);
-            txt_usuario.Location = new Point(24, 173);
+            txt_usuario.Location = new Point(24, 164);
             txt_usuario.MaxLength = 24;
             txt_usuario.Name = "txt_usuario";
             txt_usuario.Size = new Size(269, 26);
@@ -53,10 +53,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(46, 148);
+            label1.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(32, 139);
             label1.Name = "label1";
-            label1.Size = new Size(74, 22);
+            label1.Size = new Size(68, 22);
             label1.TabIndex = 1;
             label1.Text = "Usuário:";
             label1.Click += label1_Click;
@@ -67,7 +67,7 @@
             txt_senha.BorderStyle = BorderStyle.FixedSingle;
             txt_senha.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txt_senha.ForeColor = Color.FromArgb(71, 65, 67);
-            txt_senha.Location = new Point(24, 229);
+            txt_senha.Location = new Point(24, 220);
             txt_senha.MaxLength = 24;
             txt_senha.Name = "txt_senha";
             txt_senha.PasswordChar = '*';
@@ -77,19 +77,20 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(46, 204);
+            label2.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(32, 195);
             label2.Name = "label2";
-            label2.Size = new Size(60, 22);
+            label2.Size = new Size(58, 22);
             label2.TabIndex = 3;
             label2.Text = "Senha:";
             // 
             // btn_entrar
             // 
             btn_entrar.BackColor = Color.White;
+            btn_entrar.Cursor = Cursors.Hand;
             btn_entrar.FlatStyle = FlatStyle.Flat;
             btn_entrar.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_entrar.Location = new Point(110, 270);
+            btn_entrar.Location = new Point(107, 259);
             btn_entrar.Name = "btn_entrar";
             btn_entrar.Size = new Size(91, 29);
             btn_entrar.TabIndex = 4;
@@ -100,7 +101,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(94, 17);
+            pictureBox1.Location = new Point(94, 13);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(119, 112);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -112,7 +113,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(315, 312);
+            ClientSize = new Size(314, 296);
             Controls.Add(pictureBox1);
             Controls.Add(btn_entrar);
             Controls.Add(label2);
@@ -120,6 +121,7 @@
             Controls.Add(label1);
             Controls.Add(txt_usuario);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Login";
