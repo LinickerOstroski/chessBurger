@@ -53,10 +53,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(46, 148);
             label1.Name = "label1";
-            label1.Size = new Size(68, 22);
+            label1.Size = new Size(74, 22);
             label1.TabIndex = 1;
             label1.Text = "Usuário:";
             label1.Click += label1_Click;
@@ -77,29 +77,30 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(46, 204);
             label2.Name = "label2";
-            label2.Size = new Size(58, 22);
+            label2.Size = new Size(60, 22);
             label2.TabIndex = 3;
             label2.Text = "Senha:";
             // 
             // btn_entrar
             // 
+            btn_entrar.BackColor = Color.White;
             btn_entrar.FlatStyle = FlatStyle.Flat;
             btn_entrar.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_entrar.Location = new Point(202, 271);
+            btn_entrar.Location = new Point(110, 270);
             btn_entrar.Name = "btn_entrar";
             btn_entrar.Size = new Size(91, 29);
             btn_entrar.TabIndex = 4;
             btn_entrar.Text = "Entrar";
-            btn_entrar.UseVisualStyleBackColor = true;
+            btn_entrar.UseVisualStyleBackColor = false;
             btn_entrar.Click += button1_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(94, 24);
+            pictureBox1.Location = new Point(94, 17);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(119, 112);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;

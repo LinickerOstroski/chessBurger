@@ -26,7 +26,7 @@ namespace chessBurger
         {
 
             ConectaBanco conecta = new ConectaBanco();
-            if (conecta.verifica(txt_usuario.Text,txt_senha.Text)==true)
+            if (conecta.verifica(txt_usuario.Text, txt_senha.Text) == true)
             {
                 FormJanelaPrincipal principal = new FormJanelaPrincipal();
                 this.Hide();

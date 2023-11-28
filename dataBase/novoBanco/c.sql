@@ -64,7 +64,7 @@ DELIMITER ;
 DELIMITER //
 CREATE PROCEDURE `sp_insereLanche`(nomeLanche varchar(45),ingredientes varchar(255),precoLanche float)
 BEGIN
-INSERT INTO `chessburger`.`lanche`
+INSERT INTO `lanche`
 (
 `nomeLanche`,
 `ingredientes`,
@@ -97,7 +97,7 @@ DELIMITER ;
 DELIMITER //
 CREATE PROCEDURE `sp_lanche`(nomeLanche varchar(45),ingredientes varchar(255),precoLanche float)
 BEGIN
-INSERT INTO `chessburger`.`lanche`
+INSERT INTO `lanche`
 (
 `nomeLanche`,
 `ingredientes`,

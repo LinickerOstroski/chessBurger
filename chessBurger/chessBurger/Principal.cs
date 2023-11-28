@@ -157,6 +157,9 @@ namespace chessBurger
                 novoLanche.Preco = float.Parse(txt_precoLanche.Text);
                 retorno = con.insereLanche(novoLanche);
                 MessageBox.Show("Lanche registrado com sucesso!");
+                listaCOBLanches();
+                listaGridPedidos();
+                listaGridLanches();
                 txt_nomeLanche.Focus();
             }
             else
