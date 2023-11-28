@@ -11,7 +11,7 @@ namespace chessBurger
 {
     internal class ConectaBanco
     {
-        MySqlConnection conexao = new MySqlConnection("server=localhost;user id=root;password=;database=chessburger");
+        MySqlConnection conexao = new MySqlConnection("server=sql10.freemysqlhosting.net;user id=sql10665628;password=h5ZXxAuI5g;database=sql10665628");
         public string mensagem;
 
            //Comunicação com as stored procedures ***

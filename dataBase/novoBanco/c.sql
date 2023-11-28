@@ -1,9 +1,3 @@
--- --------------------------------------------------------
--- Servidor:                     127.0.0.1
--- Versão do servidor:           10.4.27-MariaDB - mariadb.org binary distribution
--- OS do Servidor:               Win64
--- HeidiSQL Versão:              12.3.0.6589
--- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8 */;
@@ -29,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `lanche` (
   `ingredientes` varchar(255) NOT NULL,
   `precoLanche` float NOT NULL,
   PRIMARY KEY (`idLanche`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4;
 
 -- Copiando dados para a tabela chessburger.lanche: ~2 rows (aproximadamente)
 INSERT INTO `lanche` (`idLanche`, `nomeLanche`, `ingredientes`, `precoLanche`) VALUES
@@ -44,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `pedido` (
   PRIMARY KEY (`idPedido`),
   KEY `idLanche` (`idLanche`),
   CONSTRAINT `pedido_ibfk_1` FOREIGN KEY (`idLanche`) REFERENCES `lanche` (`idLanche`)
-) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=utf8mb4;
 
 -- Copiando dados para a tabela chessburger.pedido: ~3 rows (aproximadamente)
 INSERT INTO `pedido` (`idPedido`, `nomeCliente`, `idLanche`) VALUES
@@ -174,7 +168,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `nome` varchar(24) NOT NULL,
   `senha` varchar(244) NOT NULL,
   PRIMARY KEY (`idUsuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
 
 -- Copiando dados para a tabela chessburger.usuarios: ~0 rows (aproximadamente)
 INSERT INTO `usuarios` (`idUsuario`, `nome`, `senha`) VALUES
