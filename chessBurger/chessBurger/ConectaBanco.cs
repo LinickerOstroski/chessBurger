@@ -13,9 +13,9 @@ namespace chessBurger
     {
         MySqlConnection conexao = new MySqlConnection("server=sql10.freemysqlhosting.net;user id=sql10665628;password=h5ZXxAuI5g;database=sql10665628");
         public string mensagem;
-
+        public int IDusuario;
            //Comunicação com as stored procedures ***
-        public bool inserePedido(Pedido novoPedido)
+        public bool inserePedido(Pedido novoPedido, int ID)
         {
             try
             {
@@ -25,6 +25,7 @@ namespace chessBurger
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("nomeCliente", novoPedido.NomeCliente);
                 cmd.Parameters.AddWithValue("idLanche", novoPedido.LancheEscolhido);
+                cmd.Parameters.AddWithValue("idUsuario", ID);
                 cmd.ExecuteNonQuery();//executar no banco
                 return true;
             }
@@ -35,7 +36,7 @@ namespace chessBurger
             }
         }//fim insere pedido
 
-        public bool insereLanche(Lanche novoLanche)
+        public bool insereLanche(Lanche novoLanche, int ID)
         {
             try
             {
@@ -46,6 +47,7 @@ namespace chessBurger
                 cmd.Parameters.AddWithValue("nomeLanche", novoLanche.NomeLanche); //Entre aspas = parametros da stored procedure
                 cmd.Parameters.AddWithValue("ingredientes", novoLanche.Ingredientes);
                 cmd.Parameters.AddWithValue("precoLanche", novoLanche.Preco);
+                cmd.Parameters.AddWithValue("idUsuario", ID);
                 cmd.ExecuteNonQuery();//executar no banco
                 return true;
             }
@@ -55,11 +57,14 @@ namespace chessBurger
                 return false;
             }
         }// fim insere lanche
-        public DataTable listaLanches()
+        public DataTable listaLanches(int Idusuario)
         {
             // comentario
             MySqlCommand cmd = new MySqlCommand("sp_listaLanches", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("IDusuario", Idusuario);
+
             try
             {
                 conexao.Open();
@@ -80,10 +85,13 @@ namespace chessBurger
 
         }// fim lista lanches
 
-        public DataTable listaPedidos()
+        public DataTable listaPedidos(int Idusuario)
         {
             MySqlCommand cmd = new MySqlCommand("sp_listaPedidos", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("IDusuario", Idusuario);
+
             try
             {
                 conexao.Open();
@@ -204,6 +212,37 @@ namespace chessBurger
             }
         }
 
+        public int verificaID(string user, string pass)
+        {
+            int idUsuario = -5; // Valor padrão caso não haja correspondência no banco de dados
+
+            string connectionString = "server=sql10.freemysqlhosting.net;user id=sql10665628;password=h5ZXxAuI5g;database=sql10665628";
+
+            using (MySqlConnection conexao = new MySqlConnection(connectionString))
+            {
+                conexao.Open();
+
+                using (MySqlCommand command = new MySqlCommand("sp_verificaID", conexao))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    // Adicione parâmetros à stored procedure
+                    command.Parameters.AddWithValue("nomeUsuario", user);
+                    command.Parameters.AddWithValue("senhaUsuario", pass);
+
+                    // Execute a stored procedure e obtenha o resultado do SELECT
+                    object result = command.ExecuteScalar();
+
+                    // Verifique se o resultado não é nulo antes de converter
+                    if (result != null)
+                    {
+                        idUsuario = Convert.ToInt32(result);
+                    }
+                }
+            }
+
+            return idUsuario;
+        }
 
 
     }// fim classe

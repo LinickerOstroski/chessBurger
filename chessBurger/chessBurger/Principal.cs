@@ -8,11 +8,13 @@ namespace chessBurger
     public partial class FormJanelaPrincipal : Form
     {
         int idAlterar;
-        public FormJanelaPrincipal()
+        public int IDUsuario;
+        public FormJanelaPrincipal(int idUsuario)
         {
             InitializeComponent();
             marcador.BringToFront();
             tabControl1.ItemSize = new System.Drawing.Size(0, 01); // deixando os botões invisíveis
+            this.IDUsuario = idUsuario;
         }
         private void label5_Click(object sender, EventArgs e)
         {
@@ -56,7 +58,7 @@ namespace chessBurger
 
             if (txt_nomeCliente.Text != "" && cob_lancheEscolhido.Text != "")
             {
-                retorno = con.inserePedido(novoPedido);
+                retorno = con.inserePedido(novoPedido, IDUsuario);
                 MessageBox.Show("Pedido registrado!");
                 txt_nomeCliente.Focus();
             }
@@ -78,8 +80,8 @@ namespace chessBurger
             int id = Convert.ToInt32(
                     dgPedidos.Rows[linha].Cells["idpedido"].Value.ToString());
             DialogResult resp = MessageBox.Show("O pedido foi entregue?",
-                "Finalizar Pedido", MessageBoxButtons.OKCancel);
-            if (resp == DialogResult.OK)
+                "Finalizar Pedido", MessageBoxButtons.YesNo);
+            if (resp == DialogResult.Yes)
             {
                 ConectaBanco con = new ConectaBanco();
                 bool retorno = con.deletaPedidos(id);
@@ -92,7 +94,7 @@ namespace chessBurger
                     MessageBox.Show(con.mensagem);
             }// fim if Ok Cancela
             else
-                MessageBox.Show("Operação cancelada");
+                MessageBox.Show("Operação cancelada!");
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -117,7 +119,7 @@ namespace chessBurger
         {
             ConectaBanco con = new ConectaBanco();
             DataTable tabelaDados = new DataTable();
-            tabelaDados = con.listaLanches(); ;
+            tabelaDados = con.listaLanches(IDUsuario); ;
             cob_lancheEscolhido.DataSource = tabelaDados;
             cob_lancheEscolhido.DisplayMember = "nomeLanche"; //O que vai mostrar
             cob_lancheEscolhido.ValueMember = "idLanche"; //O que vai buscar do Banco
@@ -126,15 +128,16 @@ namespace chessBurger
         public void listaGridPedidos()
         {
             ConectaBanco con = new ConectaBanco();
-            dgPedidos.DataSource = con.listaPedidos();
+            dgPedidos.DataSource = con.listaPedidos(IDUsuario);
             dgPedidos.Columns["idPedido"].Visible = false;
         }
 
         public void listaGridLanches()
         {
             ConectaBanco con = new ConectaBanco();
-            dgLanches.DataSource = con.listaLanches();
+            dgLanches.DataSource = con.listaLanches(IDUsuario);
             dgLanches.Columns["idLanche"].Visible = false;
+            dgLanches.Columns["idUsuarioLanche"].Visible = false;
         }
 
         private void txt_filtrarPedido_TextChanged(object sender, EventArgs e)
@@ -155,7 +158,7 @@ namespace chessBurger
                 novoLanche.NomeLanche = txt_nomeLanche.Text;
                 novoLanche.Ingredientes = txt_igredientes.Text;
                 novoLanche.Preco = float.Parse(txt_precoLanche.Text);
-                retorno = con.insereLanche(novoLanche);
+                retorno = con.insereLanche(novoLanche, IDUsuario);
                 MessageBox.Show("Lanche registrado com sucesso!");
                 listaCOBLanches();
                 listaGridPedidos();
@@ -297,11 +300,11 @@ namespace chessBurger
 
         private void btn_limpar2_Click(object sender, EventArgs e)
         {
-            
+
 
             DialogResult resutado = MessageBox.Show("Deseja cancelar a operação?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            if(resutado == DialogResult.Yes)
+            if (resutado == DialogResult.Yes)
             {
                 tabControl1.SelectedTab = Lanches;
                 marcador.Height = btnLanches.Height;
@@ -314,7 +317,7 @@ namespace chessBurger
             {
                 txt_alteraNomeLanche.Focus();
             }
-            
+
         }
 
         private void btn_limpar1_Click(object sender, EventArgs e)
@@ -348,6 +351,11 @@ namespace chessBurger
         }
 
         private void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lbl_teste_Click(object sender, EventArgs e)
         {
 
         }

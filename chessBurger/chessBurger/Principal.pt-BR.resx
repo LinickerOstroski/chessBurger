@@ -362,6 +362,15 @@
   <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 138</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 403</value>
+  </data>
+  <data name="Pedidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1075, 370</value>
+  </data>
   <data name="btn_finalizarPedido.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -491,15 +500,6 @@
   <data name="tabControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="dgPedidos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>780, 240</value>
-  </data>
-  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 246</value>
-  </data>
   <data name="tabControl2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 11.25pt</value>
   </data>
@@ -508,6 +508,15 @@
   </data>
   <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
     <value>794, 279</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 246</value>
+  </data>
+  <data name="dgPedidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 240</value>
   </data>
   <data name="txt_filtrarPedido.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -581,7 +590,7 @@
   <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="Pedidos.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Lanches.Size" type="System.Drawing.Size, System.Drawing">
     <value>1075, 370</value>
   </data>
   <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -668,18 +677,6 @@
   <data name="tabControl3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="dgLanches.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Both</value>
-  </data>
-  <data name="dgLanches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>739, 277</value>
-  </data>
-  <data name="LanchesCadastrados.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="LanchesCadastrados.Size" type="System.Drawing.Size, System.Drawing">
-    <value>745, 283</value>
-  </data>
   <data name="tabControl3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Trebuchet MS, 11.25pt</value>
   </data>
@@ -688,6 +685,18 @@
   </data>
   <data name="tabControl3.Size" type="System.Drawing.Size, System.Drawing">
     <value>753, 316</value>
+  </data>
+  <data name="LanchesCadastrados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="LanchesCadastrados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>745, 283</value>
+  </data>
+  <data name="dgLanches.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="dgLanches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>739, 277</value>
   </data>
   <data name="btn_removerLanche.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -838,11 +847,23 @@
   <data name="txt_precoLanche.Text" xml:space="preserve">
     <value>0,00</value>
   </data>
-  <data name="Lanches.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Alterar.Size" type="System.Drawing.Size, System.Drawing">
     <value>1075, 370</value>
   </data>
   <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 364</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
   <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -915,18 +936,6 @@
   </data>
   <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 364</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
   </data>
   <data name="btn_confirmaAlteracao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -1057,7 +1066,7 @@
   <data name="txt_alteraPrecoLanche.Size" type="System.Drawing.Size, System.Drawing">
     <value>308, 25</value>
   </data>
-  <data name="Alterar.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Sobre.Size" type="System.Drawing.Size, System.Drawing">
     <value>1075, 370</value>
   </data>
   <data name="textBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -1095,15 +1104,6 @@ Línicker Ostroski Mota
 Yago Aguiar
 Otávio Goulart
 </value>
-  </data>
-  <data name="Sobre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1075, 370</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 138</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1083, 403</value>
   </data>
   <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>

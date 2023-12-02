@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace chessBurger
 {
@@ -16,7 +17,6 @@ namespace chessBurger
         {
             InitializeComponent();
         }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -24,11 +24,16 @@ namespace chessBurger
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             ConectaBanco conecta = new ConectaBanco();
+            string senha = txt_senha.Text;
+            string senhaHashed = Biblioteca.makeHash(senha);
+
+            int idUsuario = conecta.verificaID(txt_usuario.Text, senhaHashed);
+
+
             if (conecta.verifica(txt_usuario.Text, txt_senha.Text) == true)
             {
-                FormJanelaPrincipal principal = new FormJanelaPrincipal();
+                FormJanelaPrincipal principal = new FormJanelaPrincipal(idUsuario);
                 this.Hide();
                 principal.ShowDialog();
                 this.Close();
@@ -42,5 +47,6 @@ namespace chessBurger
                 txt_senha.Clear();
             }
         }
+
     }
 }
