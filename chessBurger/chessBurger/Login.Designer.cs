@@ -217,10 +217,10 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Trebuchet MS", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Trebuchet MS", 36F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(6, 35);
             label4.Name = "label4";
-            label4.Size = new Size(141, 61);
+            label4.Size = new Size(147, 61);
             label4.TabIndex = 8;
             label4.Text = "Login";
             // 
@@ -239,7 +239,7 @@
             RegisterPage.Location = new Point(4, 4);
             RegisterPage.Name = "RegisterPage";
             RegisterPage.Padding = new Padding(3);
-            RegisterPage.Size = new Size(570, 436);
+            RegisterPage.Size = new Size(570, 431);
             RegisterPage.TabIndex = 1;
             RegisterPage.UseVisualStyleBackColor = true;
             // 
@@ -383,7 +383,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(550, 420);
+            ClientSize = new Size(550, 435);
             Controls.Add(tab_login);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -391,7 +391,7 @@
             MinimizeBox = false;
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Login";
+            Text = "ChessBurger - Login";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
