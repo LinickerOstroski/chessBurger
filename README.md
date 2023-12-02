@@ -2,7 +2,20 @@
 
 > Gestor de pedidos para hamburgueria ChessBurger
 
-<img src="chessBurger/assets/screenshot/foto4.png" alt="Exemplo imagem" width="1024px">
+### Tela de login 
+<img src="chessBurger/assets/screenshot/telaLogin.png" alt="Exemplo imagem" width="512px">
+
+### Tela de registro
+<img src="chessBurger/assets/screenshot/telaRegistrar.png" alt="Exemplo imagem" width="512px">
+
+### Tela dos Pedidos
+<img src="chessBurger/assets/screenshot/foto4.png" alt="Exemplo imagem" width="512px">
+
+### Tela dos lanches
+<img src="chessBurger/assets/screenshot/tabelaLanches.png" alt="Exemplo imagem" width="512px">
+
+### Tela de alteração
+<img src="chessBurger/assets/screenshot/tabelaAlterar.png" alt="Exemplo imagem" width="512px">
 
 ### O que há nessa versão?
 
@@ -13,14 +26,6 @@ O projeto atualmente é funcional, permite que você cadastre clientes e lanches
 - [X] Interface funcional
 - [X] Remoção de lanches
 - [X] Finalização de pedidos
-
-### Em desenvolvimento
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Interface amigavél
-- [ ] Apresentar o preço na tabela pedidos
-- [ ] Apresentar o tempo que o cliente solicitou o pedido
 
 ## 💻 Pré-requisitos
 
