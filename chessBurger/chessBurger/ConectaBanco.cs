@@ -244,6 +244,26 @@ namespace chessBurger
             return idUsuario;
         }
 
+        public bool novoUsuario(string usuario, string senha)
+        {
+            try
+            {
+                conexao.Open();
+                MySqlCommand cmd =
+                    new MySqlCommand("sp_insereUsuario", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("UsuarioNome", usuario);
+                cmd.Parameters.AddWithValue("UsuarioSenha", senha);
+                cmd.ExecuteNonQuery();//executar no banco
+                return true;
+            }
+            catch (MySqlException erro)
+            {
+                mensagem = erro.Message;
+                return false;
+            }
+        }//fim novo usuario 
+
 
     }// fim classe
 }
