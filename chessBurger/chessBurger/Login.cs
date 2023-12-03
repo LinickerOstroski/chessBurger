@@ -16,6 +16,7 @@ namespace chessBurger
         public Login()
         {
             InitializeComponent();
+
             tab_login.ItemSize = new System.Drawing.Size(0, 01); // deixando os botões invisíveis
         }
         private void label1_Click(object sender, EventArgs e)
@@ -61,6 +62,7 @@ namespace chessBurger
             txt_registrarSenha.Clear();
             txt_confirmarSenha.Clear();
             tab_login.SelectedTab = tab_login.TabPages[0];
+            txt_usuario.Focus();
         }
 
         private void btn_Registrar_Click(object sender, EventArgs e)
@@ -86,6 +88,9 @@ namespace chessBurger
             {
                 MessageBox.Show("Digite os dados corretamente!");
                 txt_registrarUsuario.Focus();
+                txt_registrarSenha.Clear();
+                txt_confirmarSenha.Clear();
+
             }
         }
     }
