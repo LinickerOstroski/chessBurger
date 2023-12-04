@@ -11,7 +11,7 @@ namespace chessBurger
 {
     internal class ConectaBanco
     {
-        MySqlConnection conexao = new MySqlConnection("server=sql10.freemysqlhosting.net;user id=sql10665628;password=h5ZXxAuI5g;database=sql10665628");
+        MySqlConnection conexao = new MySqlConnection("server=sql10.freemysqlhosting.net;user id=sql10667482;password=9nRLGb8p5A;database=sql10667482");
         public string mensagem;
         public int IDusuario;
            //Comunicação com as stored procedures ***
@@ -216,7 +216,7 @@ namespace chessBurger
         {
             int idUsuario = -5; // Valor padrão caso não haja correspondência no banco de dados
 
-            string connectionString = "server=sql10.freemysqlhosting.net;user id=sql10665628;password=h5ZXxAuI5g;database=sql10665628";
+            string connectionString = "server=sql10.freemysqlhosting.net;user id=sql10667482;password=9nRLGb8p5A;database=sql10667482";
 
             using (MySqlConnection conexao = new MySqlConnection(connectionString))
             {
